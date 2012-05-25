@@ -1,0 +1,295 @@
+[
+    [
+        "study", 
+        "76-SoudanMineMetagenome", 
+        {
+            "PI_organization_address": "San Diego, CA", 
+            "PI_organization_url": "http://sdsu.edu", 
+            "PI_lastname": "Edwards", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Soudan Mine Metagenome", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "17635", 
+            "project_description": "Contrasting biological, chemical and hydrogeological analyses highlights the fundamental processes that shape different environments. Generating and interpreting the biological sequence data was a costly and time-consuming process in defining an environment. Here we have used pyrosequencing, a rapid and relatively inexpensive sequencing technology, to generate environmental genome sequences from two sites in the Soudan Mine, Minnesota, USA. These sites were adjacent to each other, but differed significantly in chemistry and hydrogeology.", 
+            "PI_email": "redwards@cs.sdsu.edu", 
+            "PI_organization": "San Diego State University", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "NSF Biocomplexity program", 
+            "PI_firstname": "Robert"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "77.1-mgs17583", 
+                {
+                    "biome": "mine drainage", 
+                    "samp_collect_device": "Samples were collected from several sites in the Soudan Mine. This analysis concerns the sample collection at two sites on Level 27 (714 m below the surface; Figure 1). Water and sediments were sampled from the two locations shown in Figure 1 giving the \"Black\" (reduced) sample and \"Red\" (oxidized) sample. Microbes were concentrated from these samples by filtration with 0.22 &#956;m Sterivex units. Microbial counts were enumerated by staining the samples with SYBR-Gold (Invitrogen, Carlsbad, CA) and visualization with an epifluorescent microscope [21]. DNA was extracted from the microbial sample using either the Ultra Clean Soil DNA Kit or Power Soil Kit (MolBio, Boulder, CO)", 
+                    "env_package": "sediment", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-03-31", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "DNA extraction", 
+                    "material": "mine drainage", 
+                    "feature": "mine drainage", 
+                    "longitude": "-92.242595", 
+                    "isol_growth_condt": "16549033", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "714", 
+                    "location": "Soudan Underground Mine, on the south shore of Lake Vermilion, MN", 
+                    "sample_name": "mgs17583", 
+                    "latitude": "47.819307", 
+                    "ph": "6.70", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5' TACGGYTACCTTGTTACGACTT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Black Soudan Mine - Microbial Sample", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1492R", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "27F", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5' AGAGTTTGATCMTGGCTCAG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "77.1-mgs17594", 
+                {
+                    "samp_collect_device": "Samples were collected from several sites in the Soudan Mine. This analysis concerns the sample collection at two sites on Level 27 (714 m below the surface; Figure 1). Water and sediments were sampled from the two locations shown in Figure 1 giving the \"Black\" (reduced) sample and \"Red\" (oxidized) sample. Microbes were concentrated from these samples by filtration with 0.22 &#956;m Sterivex units. Microbial counts were enumerated by staining the samples with SYBR-Gold (Invitrogen, Carlsbad, CA) and visualization with an epifluorescent microscope [21]. DNA was extracted from the microbial sample using either the Ultra Clean Soil DNA Kit or Power Soil Kit (MolBio, Boulder, CO)", 
+                    "biome": "mine drainage", 
+                    "samp_mat_process": "DNA extraction", 
+                    "material": "mine drainage", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2005-03-31", 
+                    "country": "United States of America", 
+                    "env_package": "sediment", 
+                    "feature": "mine drainage", 
+                    "longitude": "-92.242595", 
+                    "isol_growth_condt": "16549033", 
+                    "depth": "714", 
+                    "location": "Soudan Underground Mine, on the south shore of Lake Vermilion, MN", 
+                    "sample_name": "mgs17594", 
+                    "latitude": "47.819307", 
+                    "collection_timezone": "UTC", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5' TACGGYTACCTTGTTACGACTT, 5-TGATCCTTCTGCAGGTTCACCTAC, 5", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Red Soudan Mine - Microbial Sample", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1492R", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "27F", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5' AGAGTTTGATCMTGGCTCAG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

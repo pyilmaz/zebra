@@ -1,0 +1,134 @@
+[
+    [
+        "study", 
+        "60-OralMetagenomeHuman", 
+        {
+            "PI_organization_address": "Rue Gabrielle-Perret-Gentil 4, CH-1211 Geneva 14", 
+            "PI_organization_url": "www.genomic.ch", 
+            "PI_lastname": "Lazarevic", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Oral Metagenome - Human", 
+            "PI_organization_country": "Switzerland", 
+            "project_description": "To date, metagenomic studies have relied on the utilization and analysis of reads obtained using 454 pyrosequencing to replace conventional Sanger sequencing. After extensively scanning the 16S ribosomal RNA (rRNA) gene, we identi&#9251;ed the V5 hypervariable region as a short region providing reliable identi&#9251;cation of bacterial sequences available in public databases such as the Human Oral Microbiome Database. We ampli&#9251;ed samples from the oral cavity of three healthy individuals using primers covering an ~82-base segment of the V5 loop, and sequenced using the Illumina technology in a single orientation. We identi&#9251;ed 135 genera or higher taxonomic ranks from the resulting 1,373,824 sequences. While the abundances of the most common phyla (Firmicutes, Proteobacteria, Actinobacteria, Fusobacteria and TM7) are largely comparable to previous studies, Bacteroidetes were less present. Potential sources for this difference include classi&#9251;cation bias in this region of the 16S rRNA gene, human sample variation, sample preparation and primer bias. Using an Illumina sequencing approach, we achieved a much greater depth of coverage than previous oral microbiota studies, allowing us to identify several taxa not yet discovered in these types of samples, and to assess that at least 30,000 additional reads would be required to identify only one additional phylotype. The evolution of high-throughput sequencing technologies, and their subsequent improvements in read length enable the utilization of different platforms for studying communities of complex &#9251;ora. Access to large amounts of data is already leading to a better representation of sample diversity at a reasonable cost.", 
+            "PI_email": "vladimir.lazarevic@genomic.ch", 
+            "PI_organization": "Genomic Research Laboratory, Geneva University Hospitals", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "wiss National Science Foundation, NIH", 
+            "PI_firstname": "Vladimir"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "61.1-mgs17448", 
+                {
+                    "biome": "animal-associated habitat", 
+                    "samp_collect_device": "We collected saliva and oropharyngeal samples over a one-week period from three adult individuals with informed consent. Saliva samples were collected by expectoration into a sterile plastic 50-ml tube and kept frozen at &#9251; 20 \u00b0C until processing. We mixed 100 &#956;L of each saliva sample with the same volume of 2\u00d7 lysis buffer [Tris 20 mM, EDTA 2 mM (pH 8), Tween 1%, proteinase K (Fermentas) 400 &#9251;g/ml] and incubated them for 2 h at 55 \u00b0C (Faveri et al., 2008). Proteinase K was inactivated by a 10 min incubation at 95 \u00b0C and the samples were frozen at &#9251;20 \u00b0C. Dry cotton swabs (Copan) were used to gently swab the poste- rior wall of the oropharynx. They were directly suspended in a microtube containing 200 &#9251;L of lysis buffer and processed in the same way as the saliva samples. The saliva and oropharyngeal lys- ates from all three subjects were mixed in a 1:10 ratio with roughly equal contributions from the two sampling sites according to PCR yield.", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "100 &#956;L saliva sample, swab of poste- rior wall of the oropharynx in 200&#956;L of lysis buffer", 
+                    "geodetic_system": "wgs_84", 
+                    "country": "Switzerland", 
+                    "env_package": "human-oral", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "6.1400", 
+                    "isol_growth_condt": "19796657", 
+                    "location": "Geneva", 
+                    "sample_name": "mgs17448", 
+                    "latitude": "46.2038", 
+                    "collection_timezone": "UTC", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Oral Metagenome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "880RDEG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "illumina", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "784DEG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "denaturation_duration_initial": {
+                                "definition": "Initial denaturation time in seconds", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "000000", 
+                                "type": "float", 
+                                "unit": "second", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_denaturation_duration_initial", 
+                                    "pcr_cond"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

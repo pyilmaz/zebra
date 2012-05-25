@@ -1,0 +1,1121 @@
+[
+    [
+        "study", 
+        "79-MarinePhages", 
+        {
+            "PI_organization_address": "San Diego, CA", 
+            "PI_organization_url": "http://sdsu.edu", 
+            "PI_lastname": "Rohwer", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Marine Phages", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "17769", 
+            "project_description": "Viruses are the most common biological entities in the marine environment. There has not been a global survey of these viruses, and consequently, it is not known what types of viruses are in Earth's oceans or how they are distributed. Metagenomic analyses of 184 viral assemblages collected over a decade and representing 68 sites in four major oceanic regions showed that most of the viral sequences were not similar to those in the current databases. There was a distinct \"marine-ness\" quality to the viral assemblages. Global diversity was very high, presumably several hundred thousand of species, and regional richness varied on a North-South latitudinal gradient. The marine regions had different assemblages of viruses. Cyanophages and a newly discovered clade of single-stranded DNA phages dominated the Sargasso Sea sample, whereas prophage-like sequences were most common in the Arctic. However most viral species were found to be widespread. With a majority of shared species between oceanic regions, most of the differences between viral assemblages seemed to be explained by variation in the occurrence of the most common viral species and not by exclusion of different viral genomes. ", 
+            "PI_email": "forest@sunstroke.sdsu.edu", 
+            "PI_organization": "San Diego State University", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "NSERC, Gordon and Betty Moore Foundation, ONR and NSF", 
+            "PI_firstname": "Forest"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "80.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "samp_collect_device": {
+                        "definition": "The method or device employed for isolating/collecting the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "Seawater samples (10 to 200 liters) were prefiltered through 142 mm-diameter glass fiber filters (1.2 &#956;m nominal pore-size: type GC50, Advantec MFS, Dublin, CA, or 0.7 &#956;m nominal pore-size: type GF/F, Whatman, Clifton, NJ) followed by either 0.45-&#956;m-pore-size (type GVWP, Millipore, Bedford, MA) or 0.2 &#956;mpore- size (Gelman, East Hills, NY) membrane filters. Virus-sized particles in the filtrate were concentrated ca. 50- to 700-fold by ultrafiltration using a 10 or 30 kDa-cutoff Amicon/Millipore (S1Y10/S1Y30/S10Y30) spiral cartridge and then stored at 4\u00b0C in the 2 dark. One milliliter of each virus concentrate (VC) was combined into a mix. The Gulf of Mexico mix consisted of 41 different virus communities (3.65 x 1010 vlps per ml).", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_description"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "water", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "samp_size": {
+                        "definition": "Amount or size of sample (volume, mass or area) that was collected, along with the unit used", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "10-200 L", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_size"
+                        ]
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "western GOM = 20.2 to 30.5, Eastern GOM =21.6 to 30.0, Northeastern GOM = 18.7 to 30.0,  Texas Coast = 14.7 to 30.5", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "samp_mat_process": {
+                        "definition": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v1.0) terms please see http://bioportal.bioontology.org/visualize/40832", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "filtering", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_biomaterial_treatment"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "isol_growth_condt": {
+                        "definition": "Publication reference in the form of pubmed ID (pmid), digital object identifier (doi) or url for isolation of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "17090214", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_reference"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "western GOM = surface to 164, Eastern GOM =3 to 90, Northeastern GOM = 1 to 120,  Texas Coast = 1 to 120", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Gulf of Mexico", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "na", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Gulf of Mexico Viral Survey 1994-2001", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "80.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "samp_collect_device": {
+                        "definition": "The method or device employed for isolating/collecting the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "Seawater samples (10 to 200 liters) were prefiltered through 142 mm-diameter glass fiber filters (1.2 &#956;m nominal pore-size: type GC50, Advantec MFS, Dublin, CA, or 0.7 &#956;m nominal pore-size: type GF/F, Whatman, Clifton, NJ) followed by either 0.45-&#956;m-pore-size (type GVWP, Millipore, Bedford, MA) or 0.2 &#956;mpore- size (Gelman, East Hills, NY) membrane filters. Virus-sized particles in the filtrate were concentrated ca. 50- to 700-fold by ultrafiltration using a 10 or 30 kDa-cutoff Amicon/Millipore (S1Y10/S1Y30/S10Y30) spiral cartridge and then stored at 4\u00b0C in the 2 dark. One milliliter of each virus concentrate (VC) was combined into a mix. The British Columbia mix consisted of 85 different communities (3.4 x 1010 vlps per ml).", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_description"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "water", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "samp_size": {
+                        "definition": "Amount or size of sample (volume, mass or area) that was collected, along with the unit used", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "10-200 L", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_size"
+                        ]
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "7.0 to 22.6", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "samp_mat_process": {
+                        "definition": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v1.0) terms please see http://bioportal.bioontology.org/visualize/40832", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "filtering", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_biomaterial_treatment"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "isol_growth_condt": {
+                        "definition": "Publication reference in the form of pubmed ID (pmid), digital object identifier (doi) or url for isolation of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "17090214", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_reference"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "surface to 245", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Strait of Georgia and adjacent inlets, Barclay Sound", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "na", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Bay of British Columbia Viral Survey 1996-2004", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "80.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "samp_collect_device": {
+                        "definition": "The method or device employed for isolating/collecting the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "Samples were collected on June 30, 2005 from Hydrostation S (32\u00b0 10' N, 64\u00b0 30' W) located in the northwestern Sargasso Sea approximately 26 km southeast of the island of Bermuda, essentially the same spot the Surge Samples were collected. Water from 80 m was retrieved via the R.V. Weatherbird II's CTD rosette equipped with 12 liter Niskin bottles. This depth was targeted because summer subsurface maximum in viral like particles (VLP) is historically located between 80 and 100 m. Upon recovery of CTD, seawater was transferred to a precleaned 150 L polypropylene carboy via acid washed silicone tubing. Viruses were concentrated using a Pelicon II tangential flow filtration system (Millipore Corporation; Bedford, MA) equipped with a 30 kd Biomax cassette filter (0.5 m2; modified polyethersulfone). Prior to collection the filter was cleaned with 0.1 N H3P04 recirculated for 45 minutes followed by 0.1N NaOH recirculated for 45 minutes. One-hundred and fifty liters of seawater was recirculated over the 30 kD filter until the retentate volume was ~150 ml. This concentration step took ~3 hours to complete. The final concentrate was distributed into four 45 ml aliquots in sterile Falcon tubes. Five ml of chloroform was added to each tube, stored and shipped at 4\u00b0 C until arrival at SDSU.", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_description"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "water", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "samp_size": {
+                        "definition": "Amount or size of sample (volume, mass or area) that was collected, along with the unit used", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "12 L", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_size"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "2005-06-30", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "samp_mat_process": {
+                        "definition": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v1.0) terms please see http://bioportal.bioontology.org/visualize/40832", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "filtering", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_biomaterial_treatment"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-64.5", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "isol_growth_condt": {
+                        "definition": "Publication reference in the form of pubmed ID (pmid), digital object identifier (doi) or url for isolation of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "17090214", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_reference"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "80", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Sargasso Sea, Hydrostation S", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "32.1667", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "na", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Sargasso Sea Viral Survey 6/30/2005", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "80.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "samp_collect_device": {
+                        "definition": "The method or device employed for isolating/collecting the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "Seawater samples (10 to 200 liters) were prefiltered through 142 mm-diameter glass fiber filters (1.2 &#956;m nominal pore-size: type GC50, Advantec MFS, Dublin, CA, or 0.7 &#956;m nominal pore-size: type GF/F, Whatman, Clifton, NJ) followed by either 0.45-&#956;m-pore-size (type GVWP, Millipore, Bedford, MA) or 0.2 &#956;mpore- size (Gelman, East Hills, NY) membrane filters. Virus-sized particles in the filtrate were concentrated ca. 50- to 700-fold by ultrafiltration using a 10 or 30 kDa-cutoff Amicon/Millipore (S1Y10/S1Y30/S10Y30) spiral cartridge and then stored at 4\u00b0C in the 2 dark. One milliliter of each virus concentrate (VC) was combined into a mix. The Arctic mix consisted of 56 different virus communities (1.11 x 1010 vlps per ml)", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_description"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "water", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "samp_size": {
+                        "definition": "Amount or size of sample (volume, mass or area) that was collected, along with the unit used", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "10-200 L", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_size"
+                        ]
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-1.5 to 1.5", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "samp_mat_process": {
+                        "definition": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v1.0) terms please see http://bioportal.bioontology.org/visualize/40832", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "filtering", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_biomaterial_treatment"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "isol_growth_condt": {
+                        "definition": "Publication reference in the form of pubmed ID (pmid), digital object identifier (doi) or url for isolation of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "17090214", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_reference"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "2 to 968", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "the Arctic Ocean, the Strait of Georgia,", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "na", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Candian Arctic Mix Viral Survey 2002", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

@@ -1,0 +1,566 @@
+[
+    [
+        "study", 
+        "44-HumanLungHealthyvsCysticFibrosisMetagenome", 
+        {
+            "PI_organization_address": "San Diego, CA", 
+            "PI_organization_url": "http://sdsu.edu", 
+            "PI_lastname": "Willner", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Human Lung Healthy vs Cystic Fibrosis Metagenome", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "28593,  28441, 39545", 
+            "project_description": "The human respiratory tract is constantly exposed to a wide variety of viruses, microbes and inorganic particulates from environmental air, water and food. Physical characteristics of inhaled particles and airway mucosal immunity determine which viruses and microbes will persist in the airways. Here we present the first metagenomic study of DNA viral communities in the airways of diseased and non-diseased individuals. We obtained sequences from sputum DNA viral communities in 5 individuals with cystic fibrosis (CF) and 5 individuals without the disease.These results have important clinical implications for CF, indicating that therapeutic measures may be more effective if used to change the respiratory environment, as opposed to shifting the taxonomic composition of resident microbiota.", 
+            "PI_email": "willner9@aol.com", 
+            "PI_organization": "San Diego State University", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "Cystic Foundation Research Inc. (www.cfri.org) ", 
+            "PI_firstname": "Dana"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "45.1-mgs12104", 
+                {
+                    "biome": "animal-associated habitat", 
+                    "samp_collect_device": "Sputum samples of approximately 10 ml were obtained from CF patients at the Adult cystic fibrosis Clinic by expectoration into a sterile cup, as directed by clinic staff. Since sputum expectoration is difficult in general for Non-CF individuals, all Non-CF subjects were first required to do an oral rinse with water to prevent excessive salivary contamination and then take five deep breaths to loosen lung secretions. Subjects were then instructed to cough deeply into a sterile cup. The deep breathing and coughing procedures were repeated until at least 1 ml of sputum was obtained.", 
+                    "material": "animal-associated habitat", 
+                    "elevation": "na", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2009-07-01", 
+                    "country": "United States of America", 
+                    "altitude": "na", 
+                    "env_package": "human-associated", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "-117.2256", 
+                    "isol_growth_condt": "19816605", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "na", 
+                    "location": "Adult cystic fibrosis Clinic at the University of California San Diego Medical Center", 
+                    "sample_name": "mgs12104", 
+                    "latitude": "32.8781", 
+                    "samp_size": "1 ml of sputum", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Healthy Sputum (3) San Diego Virome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00090", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "19816605, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "45.1-mgs12215", 
+                {
+                    "biome": "animal-associated habitat", 
+                    "samp_collect_device": "Sputum samples of approximately 10 ml were obtained from CF patients at the Adult cystic fibrosis Clinic by expectoration into a sterile cup, as directed by clinic staff. Since sputum expectoration is difficult in general for Non-CF individuals, all Non-CF subjects were first required to do an oral rinse with water to prevent excessive salivary contamination and then take five deep breaths to loosen lung secretions. Subjects were then instructed to cough deeply into a sterile cup. The deep breathing and coughing procedures were repeated until at least 1 ml of sputum was obtained.", 
+                    "material": "animal-associated habitat", 
+                    "elevation": "na", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2009-07-01", 
+                    "country": "United States of America", 
+                    "altitude": "na", 
+                    "env_package": "human-associated", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "-117.2256", 
+                    "isol_growth_condt": "19816605", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "na", 
+                    "location": "Adult cystic fibrosis Clinic at the University of California San Diego Medical Center", 
+                    "sample_name": "mgs12215", 
+                    "latitude": "32.8781", 
+                    "samp_size": "1 ml of sputum", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Healthy Sputum (2) San Diego Virome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00009", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "19816605, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "45.1-mgs12326", 
+                {
+                    "biome": "animal-associated habitat", 
+                    "samp_collect_device": "Sputum samples of approximately 10 ml were obtained from CF patients at the Adult cystic fibrosis Clinic by expectoration into a sterile cup, as directed by clinic staff. Since sputum expectoration is difficult in general for Non-CF individuals, all Non-CF subjects were first required to do an oral rinse with water to prevent excessive salivary contamination and then take five deep breaths to loosen lung secretions. Subjects were then instructed to cough deeply into a sterile cup. The deep breathing and coughing procedures were repeated until at least 1 ml of sputum was obtained.", 
+                    "material": "animal-associated habitat", 
+                    "elevation": "na ; Meter", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2009-07-01", 
+                    "country": "United States of America", 
+                    "altitude": "na ; Meter", 
+                    "env_package": "human-associated", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "-117.1072", 
+                    "isol_growth_condt": "19816605", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "na ; Meter", 
+                    "location": "Adult cystic fibrosis Clinic at the University of California San Diego Medical Center", 
+                    "sample_name": "mgs12326", 
+                    "latitude": "32.8781", 
+                    "samp_size": "10 ml of sputum", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "CF Lung Sputum (1) San Diego Virome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00009", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "19816605, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "45.1-mgs12438", 
+                {
+                    "biome": "animal-associated habitat", 
+                    "samp_collect_device": "Sputum samples of approximately 10 ml were obtained from CF patients at the Adult cystic fibrosis Clinic by expectoration into a sterile cup, as directed by clinic staff. Since sputum expectoration is difficult in general for Non-CF individuals, all Non-CF subjects were first required to do an oral rinse with water to prevent excessive salivary contamination and then take five deep breaths to loosen lung secretions. Subjects were then instructed to cough deeply into a sterile cup. The deep breathing and coughing procedures were repeated until at least 1 ml of sputum was obtained.", 
+                    "material": "animal-associated habitat", 
+                    "elevation": "na", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2009-07-01", 
+                    "country": "United States of America", 
+                    "altitude": "na", 
+                    "env_package": "human-associated", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "-117.1072", 
+                    "isol_growth_condt": "19816605", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "na", 
+                    "location": "Adult cystic fibrosis Clinic at the University of California San Diego Medical Center", 
+                    "sample_name": "mgs12438", 
+                    "latitude": "32.8781", 
+                    "samp_size": "10 ml of sputum", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "CF Lung Sputum (2) San Diego Virome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00009", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "19816605, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "45.1-mgs12549", 
+                {
+                    "biome": "animal-associated habitat", 
+                    "samp_collect_device": "Sputum samples of approximately 10 ml were obtained from CF patients at the Adult cystic fibrosis Clinic by expectoration into a sterile cup, as directed by clinic staff. Since sputum expectoration is difficult in general for Non-CF individuals, all Non-CF subjects were first required to do an oral rinse with water to prevent excessive salivary contamination and then take five deep breaths to loosen lung secretions. Subjects were then instructed to cough deeply into a sterile cup. The deep breathing and coughing procedures were repeated until at least 1 ml of sputum was obtained.", 
+                    "material": "animal-associated habitat", 
+                    "elevation": "na", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2009-07-01", 
+                    "country": "United States of America", 
+                    "altitude": "na", 
+                    "env_package": "human-associated", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "117.1072", 
+                    "isol_growth_condt": "19816605", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "na", 
+                    "location": "Adult cystic fibrosis Clinic at the University of California San Diego Medical Center", 
+                    "sample_name": "mgs12549", 
+                    "latitude": "32.8781", 
+                    "samp_size": "10 ml of sputum", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "CF Lung Sputum (3) San Diego Virome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00009", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "19816605, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

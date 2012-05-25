@@ -1,0 +1,600 @@
+[
+    [
+        "study", 
+        "45-HumanOropharyngealMetagenome", 
+        {
+            "PI_organization_address": "San Diego, CA", 
+            "PI_organization_url": "http://www.sci.sdsu.edu/cos/index.php", 
+            "PI_lastname": "Willner", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Human Oropharyngeal Metagenome", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "43627", 
+            "project_description": "We conducted a metagenomic study to determine the composition of oropharyngeal DNA viral communities (both phage and eukaryotic viruses) in healthy individ- uals and to evaluate oropharyngeal swabs as a rapid method for viral detection. Viral DNA was extracted from 19 pooled oropharyngeal swabs and sequenced. Viral communities consisted almost exclu- sively of phage, and complete genomes of several phage were recovered, including Escherichia coli phage T3, Propionibacterium acnes phage PA6, and Streptococcus mitis phage SM1.", 
+            "PI_email": "willner9@aol.com", 
+            "PI_organization": "Department of Biology, bComputational Science Research Center, and fCenter for Microbial Sciences, San Diego State University", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "Robert Wood Johnson Foundation, the United Negro Col- lege Fund\u0096Merck Science Initiative, and the Burroughs Wellcome Fund (to D.T.P.); the National Institutes of Health Director's Pioneer Award DP1OD- 000964 (to D.A.R.); and a grant from Cystic Fibrosis Research Inc. (to F.L.R.).", 
+            "PI_firstname": "Dana"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "46.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "animal-associated habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "samp_collect_device": {
+                        "definition": "The method or device employed for isolating/collecting the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "Samples were obtained by swabbing the area posterior and superior to the palatopharyngeal arch (lower border of the nasopharynx) on both the right and left sides with a sterile swab. Swabs were replaced into their original self-sealing specimen containers and transported to the laboratory. Viral concentrates from 19 individual samples were comb xined to form a pooled sample. Half of the pooled sample was filtered with a 0.22-&#956;m Millex-HV filter to remove cellular material. DNase I was added to the sample to a final concentration of 10 &#956;g\u00b7mL&#8722;1, followed by incubation at 37 \u00b0C for 1 h to degrade free DNA. The other half of the pooled sample was treated with chloroform but not filtered. Twenty microliters of chlorofrom was added per milliliter of viral concentrate, and the sample was then incubated at 4 \u00b0C for 2 h and centrifuged at 2155 \u00d7 g for 15 min. The supernatant containing the viral concentrate was col- lected and treated with DNase I as described above. DNA was extracted from the filtered and chloroformed samples using a cetyltrimethylammonium bromide (CTAB)/formamide protocol", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_description"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "human-oral", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "samp_size": {
+                        "definition": "Amount or size of sample (volume, mass or area) that was collected, along with the unit used", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "oropharangeal swab samples pooled from 19 individuals", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_size"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "2007-07-01", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "United States of America", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "samp_mat_process": {
+                        "definition": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v1.0) terms please see http://bioportal.bioontology.org/visualize/40832", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "DNA extraction", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_biomaterial_treatment"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "animal-associated habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "animal-associated habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-117.0717", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "isol_growth_condt": {
+                        "definition": "Publication reference in the form of pubmed ID (pmid), digital object identifier (doi) or url for isolation of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "19300441, 20547834", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_reference"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "San Diego University, San Diego, California", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "32.7729", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "north_america", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "206", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Oropharangeal \"FYGT\"", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00246", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "215,281", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "20547834", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "46.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "animal-associated habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "samp_collect_device": {
+                        "definition": "The method or device employed for isolating/collecting the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "Samples were obtained by swabbing the area posterior and superior to the palatopharyngeal arch (lower border of the nasopharynx) on both the right and left sides with a sterile swab. Swabs were replaced into their original self-sealing specimen containers and transported to the laboratory. Viral concentrates from 19 individual samples were comb xined to form a pooled sample. Half of the pooled sample was filtered with a 0.22-&#956;m Millex-HV filter to remove cellular material. DNase I was added to the sample to a final concentration of 10 &#956;g\u00b7mL&#8722;1, followed by incubation at 37 \u00b0C for 1 h to degrade free DNA. The other half of the pooled sample was treated with chloroform but not filtered. Twenty microliters of chlorofrom was added per milliliter of viral concentrate, and the sample was then incubated at 4 \u00b0C for 2 h and centrifuged at 2155 \u00d7 g for 15 min. The supernatant containing the viral concentrate was col- lected and treated with DNase I as described above. DNA was extracted from the filtered and chloroformed samples using a cetyltrimethylammonium bromide (CTAB)/formamide protocol", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_description"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "human-oral", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "samp_size": {
+                        "definition": "Amount or size of sample (volume, mass or area) that was collected, along with the unit used", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "oropharangeal swab samples pooled from 19 individuals", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_size"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "1996-07-01", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "United States of America", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "samp_mat_process": {
+                        "definition": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v1.0) terms please see http://bioportal.bioontology.org/visualize/40832", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "DNA extraction", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_biomaterial_treatment"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "animal-associated habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "animal-associated habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-117.0717", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "isol_growth_condt": {
+                        "definition": "Publication reference in the form of pubmed ID (pmid), digital object identifier (doi) or url for isolation of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "19300441, 20547834", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_reference"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "San Diego University, San Diego, California", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "32.7729", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "north_america", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "206", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Oropharangeal \"FXPY\"", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00246", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "215,281", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "20547834", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

@@ -1,0 +1,2633 @@
+[
+    [
+        "study", 
+        "05-WesternEnglishChannelTimeSeries", 
+        {
+            "organization_address": "9700 S Cass Avenue, Lemont IL, 60439", 
+            "PI_organization_address": "9700 S Cass Avenue, Lemont IL, 60439", 
+            "PI_organization_url": "www.anl.gov", 
+            "PI_organization": "Argonne National Laboratory", 
+            "firstname": "Jack", 
+            "project_description": "This project contains 6 years (2003-2008) of monthly 16S rRNA V6 data. Also diel and seasonal bacterial and archaeal 16S rRNA, metagenomic and metatranscriptomic data from 2008. This data has been published in the following papers:\r\nhttp://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0015545\r\nhttp://www.nature.com/ismej/journal/vaop/ncurrent/full/ismej2011162a.html\r\nhttp://www.nature.com/ismej/journal/vaop/ncurrent/full/ismej2011107a.html\r\nhttp://www.microbialinformaticsj.com/content/1/1/4/abstract", 
+            "lastname": "Gilbert", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "46599", 
+            "project_name": "Western English Channel Time Series", 
+            "PI_email": "gilbertjack@gmail.com", 
+            "PI_lastname": "Gilbert", 
+            "organization": "Argonne National Laboratory", 
+            "organization_country": "USA", 
+            "organization_url": "www.anl.gov", 
+            "email": "gilbertjack@gmail.com", 
+            "project_funding": "NERC, ICoMM", 
+            "PI_firstname": "Jack"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "06.1-mgs15882", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "10.05", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-01-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.2436", 
+                    "salinity": "3.42", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs15882", 
+                    "latitude": "50.2611", 
+                    "continent": "na", 
+                    "collection_time": "10:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Jan 2008 - Night - Prefilter repeats removed", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs15993", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "10.01", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-01-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.2089", 
+                    "salinity": "3.33", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs15993", 
+                    "latitude": "50.25166", 
+                    "continent": "na", 
+                    "collection_time": "10:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Jan 2008 - Day - Prefilter repeats removed", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs16104", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "9.7", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-04-22", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.2089", 
+                    "salinity": "3.512", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs16104", 
+                    "latitude": "50.25166", 
+                    "continent": "na", 
+                    "collection_time": "10:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "April 2008 - Day - Repeats removed", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs16215", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "9.7", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-04-22", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.2089", 
+                    "salinity": "3.512", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs16215", 
+                    "latitude": "50.25166", 
+                    "continent": "na", 
+                    "collection_time": "10:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3', 5' - gccttgccagcccgctcagCGRCRGCCATGYACCWC-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "April 2008 - Day - Prefilter repeats removed", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs16326", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "9.6", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-04-23", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.1875", 
+                    "salinity": "3.5", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs16326", 
+                    "latitude": "50.253", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "April 2008 - Night - Prefilter repeats removed", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs16437", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "15.8", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-08-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.1988", 
+                    "salinity": "3.3", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs16437", 
+                    "latitude": "50.254", 
+                    "continent": "na", 
+                    "collection_time": "22:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "August 2008 - 10pm - Prefilter repeats removed", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs16548", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "15.9", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-08-29", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.20167", 
+                    "salinity": "3.21", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs16548", 
+                    "latitude": "50.253", 
+                    "continent": "na", 
+                    "collection_time": "16:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "August 2008 - 4pm - Prefilter repeats removed", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs16659", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "15.8", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-08-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.1486", 
+                    "salinity": "3.32", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs16659", 
+                    "latitude": "50.2664", 
+                    "continent": "na", 
+                    "collection_time": "10:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "August 2008 - 10am - Prefilter repeats removed", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs16770", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "15.7", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-08-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.1486", 
+                    "salinity": "3.33", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs16770", 
+                    "latitude": "50.2664", 
+                    "continent": "na", 
+                    "collection_time": "04:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "August 2008 - 4am - Prefilter repeats removed", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs16993", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "9.6", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-04-23", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.8719", 
+                    "salinity": "3.5", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs16993", 
+                    "latitude": "50.253", 
+                    "continent": "na", 
+                    "collection_time": "22:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3', 5' - gccttgccagcccgctcagCGRCRGCCATGYACCWC-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "April 2008 - Night", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs17049", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "15.8", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-08-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "4.1988", 
+                    "salinity": "3.3", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs17049", 
+                    "latitude": "50.254", 
+                    "continent": "na", 
+                    "collection_time": "22:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3', 5' - gccttgccagcccgctcagCGRCRGCCATGYACCWC-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "August 2008 - 10pm - Prefiltered", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs17060", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "15.7", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-08-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "4.1486", 
+                    "salinity": "3.33", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs17060", 
+                    "latitude": "50.2664", 
+                    "continent": "na", 
+                    "collection_time": "04:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3', 5' - gccttgccagcccgctcagCGRCRGCCATGYACCWC-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "August 2008 - 4am - Prefiltered", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs17071", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "15.9", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-08-29", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.20167", 
+                    "salinity": "3.21", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "~10", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs17071", 
+                    "latitude": "50.253", 
+                    "continent": "na", 
+                    "collection_time": "16:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "August 2008 - 4pm - Prefiltered", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs17082", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "samp_size": "10 L", 
+                    "geodetic_system": "wgs_84", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "country": "United Kingdom", 
+                    "env_package": "water", 
+                    "feature": "marine habitat", 
+                    "isol_growth_condt": "19659500", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs17082", 
+                    "collection_timezone": "UTC", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3', 5' - gccttgccagcccgctcagCGRCRGCCATGYACCWC-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "April 2008 - Day - Prefiltered", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs17093", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "15.8", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-08-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.1486", 
+                    "salinity": "3.32", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs17093", 
+                    "latitude": "50.2664", 
+                    "continent": "na", 
+                    "collection_time": "10:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "August 2008 - 10am - Prefiltered", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs17104", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "10.01", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-01-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.2089", 
+                    "salinity": "3.33", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs17104", 
+                    "latitude": "50.25166", 
+                    "continent": "na", 
+                    "collection_time": "10:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3', 5' - gccttgccagcccgctcagCGRCRGCCATGYACCWC-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Jan 2008 - Day", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs17115", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "10.05", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-01-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "4.2436", 
+                    "salinity": "3.42", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs17115", 
+                    "latitude": "50.2611", 
+                    "continent": "na", 
+                    "collection_time": "22:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Jan 2008 - Night - Prefiltered", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1-mgs17126", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "Nucleic acid was extracted from seawater, collected from the surface and filtered immediately through a 0.22 &#956;m Sterivex cartridge (Millipore), which was stored at &#8722;80\u00b0C. DNA was isolated from each sample (Neufeld et al., 2007) and then stored at &#8722;20\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "10 L", 
+                    "temperature": "10.01", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-01-28", 
+                    "country": "United Kingdom", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-4.2089", 
+                    "salinity": "3.33", 
+                    "isol_growth_condt": "19659500", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "2", 
+                    "location": "L4 sampling site, Western Channel Obersvatory", 
+                    "sample_name": "mgs17126", 
+                    "latitude": "50.2611", 
+                    "continent": "na", 
+                    "collection_time": "10:00:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gccttgccagcccgctcagCGACAGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACAACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGGCCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGACGACCATGCANCACCT-3', 5'-gccttgccagcccgctcagCGRCGGCCATGCACCWC-3', 5' - gccttgccagcccgctcagCGRCRGCCATGYACCWC-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Jan 2008 - Day - Prefiltered", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1046R, 1046R-PP, 1046R-AQ1, 1046R-AQ2, 1048arcR- major, 1048arcR-minor", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "967F-PP, 967F-UC1, 967F-UC2, 967F-UC3, 967F-AQ, 958arcF", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "NERC-funded University of Liverpool 454 Sequencing Facility", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-gcctccctcgcgccatcagCNACGCGAAGAACCTTANC-3', 5'-gcctccctcgcgccatcagCAACGCGAAAAACCTTACC-3', 5'-gcctccctcgcgccatcagCAACGCGCAGAACCTTACC-3', 5'-gcctccctcgcgccatcagATACGCGARGAACCTTACC-3', 5'-gcctccctcgcgccatcagCTAACCGANGAACCTYACC-3', 5'-gcctccctcgcgccatcagAATTGGANTCAACGCCGG-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "06.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "marine habitat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {}
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

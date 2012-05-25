@@ -1,0 +1,1385 @@
+[
+    [
+        "study", 
+        "04-PeruMarginSubseafloorBiosphere", 
+        {
+            "organization_address": " - ", 
+            "PI_organization_address": "University Park, PA 16802", 
+            "PI_organization_url": "http://php.scripts.psu.edu/dept/psarc/index.php", 
+            "PI_organization": "Astrobiology Research Center, Pennsylvania State University", 
+            "firstname": " - ", 
+            "project_description": "The subseafloor marine biosphere may be one of the largest reservoirs of microbial biomass on Earth and has recently been the subject of debate in terms of the composition of its microbial inhabitants, particularly on sediments from the Peru Margin. A metagenomic analysis was made by using whole-genome amplification and pyrosequencing of sediments from Ocean Drilling Program Site 1229 on the Peru Margin to further explore the microbial diversity and overall community composition within this environment. A total of 61.9 Mb of genetic material was sequenced from sediments at horizons 1, 16, 32, and 50 m below the seafloor. These depths include sediments from both primarily sulfate-reducing methane-generating regions of the sediment column. Many genes of the annotated genes, including those encoding ribosomal proteins, corresponded to those from the Chloroflexi and Euryarchaeota. However, analysis of the 16S small-subunit ribosomal genes suggests that Crenarchaeota are the abundant microbial member. Quantitative PCR confirms that uncultivated Crenarchaeota are indeed a major microbial group in these subsurface samples. These findings show that the marine subsurface is a distinct microbial habitat and is different from environments studied by metagenomics, especially because of the predominance of uncultivated archaeal groups. ", 
+            "lastname": " - ", 
+            "project-description_internal_project_ID": "SRX000334", 
+            "administrative-contact_PI_organization": "University of Delaware, Delaware Biotechnology Institute", 
+            "PI_organization_country": "USA", 
+            "project_name": "Peru Margin Subseafloor Biosphere", 
+            "PI_email": "jfbiddle@email.unc.edu", 
+            "PI_lastname": "Biddle", 
+            "administrative-contact_PI_lastname": "Biddle", 
+            "administrative-contact_PI_firstname": "Jennifer", 
+            "organization": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "This work was supported by NSF Grants OCE 05-50601 (to J.F.B., C.H.H., S.T.F., and S.C.S.) and MO-0347475 (to J.E.B and J.F.B.); Department of Energy Grant DE-FG02-93ER20117 (to J.E.B. and J.F.B.); and by the National Aeronautics and Space Administration (NASA) Astrobiology Institute under NASA\u0096Ames Cooperative Agreement NNA04CC06A (J.F.B., C.H.H., and J.E.B.). The GS20 facility at the Pennsylvania State University Center for Genome Analysis is funded, in part, by a grant from the Pennsylvania Department of Health using Tobacco Settlement Funds appropriated by the legislature. J.F.B. was also supported by a NASA Postdoctoral Program Fellowship administered by Oak Ridge Associated Universities (ORAU). ", 
+            "PI_firstname": "Jennifer"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "05.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "elevation": {
+                        "definition": "The elevation of the sampling site in meters as measured by the vertical distance from mean sea level.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-152 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_altitude"
+                        ]
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "15 ; Celsius", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC-6", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "2002-03-06", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Peru", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "altitude": {
+                        "definition": "The altitude of the sample is the vertical distance in meters between Earth's surface above Sea Level and the sampled position in the air.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-152 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_altitude"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-77.95765", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "32 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Ocean Drilling Program leg 201, site 1229", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-10.9762017", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "13:30:00", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00321", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 GS-20", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18650394", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "05.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "elevation": {
+                        "definition": "The elevation of the sampling site in meters as measured by the vertical distance from mean sea level.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-152 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_altitude"
+                        ]
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "15 ; Celsius", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "2002-03-06", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Peru", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "altitude": {
+                        "definition": "The altitude of the sample is the vertical distance in meters between Earth's surface above Sea Level and the sampled position in the air.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-152 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_altitude"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "77.95765", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "16 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Ocean Drilling Program leg 201, site 1229", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "10.9762017", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "south_america", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "13:30:00", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00321", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18650394", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "05.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "elevation": {
+                        "definition": "The elevation of the sampling site in meters as measured by the vertical distance from mean sea level.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-152 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_altitude"
+                        ]
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "15 ; Celsius", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "2002-3-06", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Peru", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "altitude": {
+                        "definition": "The altitude of the sample is the vertical distance in meters between Earth's surface above Sea Level and the sampled position in the air.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-152 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_altitude"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-77.95765", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "50 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Ocean Drilling Program leg 201, site 1229", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-10.9762017", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "south_america", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "13:30:00", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00321", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 GS-20", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18650394", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "05.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "elevation": {
+                        "definition": "The elevation of the sampling site in meters as measured by the vertical distance from mean sea level.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-152 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_altitude"
+                        ]
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "15 ; Celsius", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC-6", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "2002-03-06", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Peru", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "altitude": {
+                        "definition": "The altitude of the sample is the vertical distance in meters between Earth's surface above Sea Level and the sampled position in the air.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-152 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_altitude"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-77.95765", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "1 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Ocean Drilling Program leg 201, site 1229", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-10.9762017", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "south_america", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "13:30:00", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 GS-20", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_model": {
+                                "definition": "Model of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 GS-20", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_model", 
+                                    "PLATFORM"
+                                ]
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18650394", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00321", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "05.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "elevation": {
+                        "definition": "The elevation of the sampling site in meters as measured by the vertical distance from mean sea level.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-152 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_altitude"
+                        ]
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "15 ; Celsius", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC-6", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "2002-03-06", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Peru", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "altitude": {
+                        "definition": "The altitude of the sample is the vertical distance in meters between Earth's surface above Sea Level and the sampled position in the air.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "-152 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_altitude"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "sediment", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-77.95765", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "1 ; Meter", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Ocean Drilling Program leg 201, site 1229", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-10.9762017", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "south_america", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "13:30:00", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00321", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18650394", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

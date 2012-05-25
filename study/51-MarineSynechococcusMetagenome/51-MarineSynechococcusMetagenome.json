@@ -1,0 +1,250 @@
+[
+    [
+        "study", 
+        "51-MarineSynechococcusMetagenome", 
+        {
+            "PI_organization_address": "San Diego, CA", 
+            "PI_organization_url": "http://sdsu.edu", 
+            "PI_lastname": "Palenik", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Marine Synechococcus Metagenome", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "19301", 
+            "project_description": "The extent to which cultured strains represent the genetic diversity of a population of microorganisms is poorly understood. Because they do not require culturing, metagenomic approaches have the potential to reveal the genetic diversity of the microbes actually present in an environment. From coastal California seawater, a complex and diverse environment, the marine cyanobacteria of the genus Synechococcus were enriched by flow cytometry-based sorting and the population metagenome was analysed with 454 sequencing technology. The sequence data were compared with model Synechococcus genomes, including those of two coastal strains, one isolated from the same and one from a very similar environment. ", 
+            "PI_email": "bpalenik@ucsd.edu", 
+            "PI_organization": "\t University of California, San Diego", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "National Science Foundation", 
+            "PI_firstname": "Brian"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "52.1-mgs17605", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "n 10 October, 2006, coastal surface water was collected from the end of the pier located at the Scripps Institution of Oceanography, La Jolla, CA. The sampled water was processed for chlorophyll, nutrient and flow cytometry analysis. Chlorophyll measurements were obtained from unfiltered seawater and seawater filtered through a 2.0 &#956;m polycarbonate filter (GE Osmonics, Minnetonka, MN). Five hundred millilitres were passed through GF/F filters (Whatman, Florham Park, NJ) and stored at &#8722;80\u00b0C. Within 2 weeks, chlorophyll was extracted from the filters with 90% acetone in dark at &#8722;20\u00b0C overnight. Samples for flow cytometry were preserved with 0.25% gluteraldehyde and stored at &#8722;80\u00b0C. The samples were analysed at the highest flow rate using a Becton-Dickinson FACSort flow cytometer as described by Collier and Palenik (2003), but without applying a compensation matrix.  A concentrated picoplankton sample was obtained for flow cytometry sorting as follows: Three litres were filtered through 2.0 &#956;m polycarbonate filters (GE Osmonics) to remove zooplankton and large phytoplankton. The < 2.0 &#956;m picoplankton, including Synechococcus, were captured onto 0.45 &#956;m Supor 200 filters (Pall Corporation, Ann Arbor, MI) and re-suspended by repetitively flushing the filters with 1 ml of seawater using a pipettor. In total, 8 ml of concentrated and re-suspended picoplankton was obtained.  Using flow cytometry, Synechococcus cells are distinguished from other picoplankton by the fluorescence of their phycoerythrin pigments. From the picoplankton concentrate, Synechococcus cells were sorted using a FACS Vantage DiVa instrument (BD Biosciences, San Jose, CA). The sorted cells were collected onto a 0.2 &#956;m Supor 200 filter (Pall) and stored at &#8722;80\u00b0C.", 
+                    "env_package": "water", 
+                    "elevation": "12.19200", 
+                    "temperature": "17.8", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-10-10", 
+                    "country": "United States of America", 
+                    "altitude": "12.19200", 
+                    "samp_mat_process": "DNA extraction", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-117.2522", 
+                    "isol_growth_condt": "19196269", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Scripps Institution of Oceanography, La Jolla, CA", 
+                    "sample_name": "mgs17605", 
+                    "latitude": "32.8664", 
+                    "samp_size": "3 litres", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "103", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Surface Water - La Jolla Sample 1", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "lib_size": {
+                                "definition": "Total number of clones in the library prepared for the project", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5178-", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "117 890 reads into 32 674 contigs spanning 3 636 518 bp. The largest contig included 847 reads", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "19196269", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "52.1-mgs17616", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "n 10 October, 2006, coastal surface water was collected from the end of the pier located at the Scripps Institution of Oceanography, La Jolla, CA. The sampled water was processed for chlorophyll, nutrient and flow cytometry analysis. Chlorophyll measurements were obtained from unfiltered seawater and seawater filtered through a 2.0 &#956;m polycarbonate filter (GE Osmonics, Minnetonka, MN). Five hundred millilitres were passed through GF/F filters (Whatman, Florham Park, NJ) and stored at &#8722;80\u00b0C. Within 2 weeks, chlorophyll was extracted from the filters with 90% acetone in dark at &#8722;20\u00b0C overnight. Samples for flow cytometry were preserved with 0.25% gluteraldehyde and stored at &#8722;80\u00b0C. The samples were analysed at the highest flow rate using a Becton-Dickinson FACSort flow cytometer as described by Collier and Palenik (2003), but without applying a compensation matrix.  A concentrated picoplankton sample was obtained for flow cytometry sorting as follows: Three litres were filtered through 2.0 &#956;m polycarbonate filters (GE Osmonics) to remove zooplankton and large phytoplankton. The < 2.0 &#956;m picoplankton, including Synechococcus, were captured onto 0.45 &#956;m Supor 200 filters (Pall Corporation, Ann Arbor, MI) and re-suspended by repetitively flushing the filters with 1 ml of seawater using a pipettor. In total, 8 ml of concentrated and re-suspended picoplankton was obtained.  Using flow cytometry, Synechococcus cells are distinguished from other picoplankton by the fluorescence of their phycoerythrin pigments. From the picoplankton concentrate, Synechococcus cells were sorted using a FACS Vantage DiVa instrument (BD Biosciences, San Jose, CA). The sorted cells were collected onto a 0.2 &#956;m Supor 200 filter (Pall) and stored at &#8722;80\u00b0C.", 
+                    "env_package": "water", 
+                    "elevation": "12.19200", 
+                    "temperature": "17.8", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-10-10", 
+                    "country": "United States of America", 
+                    "altitude": "12.19200", 
+                    "samp_mat_process": "DNA extraction", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-117.2522", 
+                    "isol_growth_condt": "19196269", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Scripps Institution of Oceanography, La Jolla, CA", 
+                    "sample_name": "mgs17616", 
+                    "latitude": "32.8664", 
+                    "samp_size": "3 litres", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Surface Water - La Jolla Sample 2", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

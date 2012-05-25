@@ -1,0 +1,612 @@
+[
+    [
+        "study", 
+        "36-CowRumen", 
+        {
+            "PI_organization_address": "Urbana, IL", 
+            "PI_organization_url": "http://illinois.edu", 
+            "PI_lastname": "White", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Cow Rumen", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "28609", 
+            "project_description": "To gain a greater understanding of the ecology and metabolic potential of this microbiome, we used comparative metagenomics (phylotype analysis and SEED subsystems-based annotations) to examine randomly sampled pyrosequence data from 3 fiber-adherent microbiomes and 1 pooled liquid sample (a mixture of the liquid microbiome fractions from the same bovine rumens). Even though the 3 animals were fed the same diet, the community structure, predicted phylotype, and metabolic potentials in the rumen were markedly different with respect to nutrient utilization.", 
+            "PI_email": "bwhite44@illinois.edu", 
+            "PI_organization": "University of Illinois", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "United States Department of Agriculture (USDA) Cooperative State Research, Education, and Extension Service National Research Initiative, and he Finnish Cultural Foundation", 
+            "PI_firstname": "Bryan A."
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "37.1-mgs17382", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Approximately 3 liters of whole rumen digesta (fiber- adherent (FA) and liquid associated microbes), was collected from the dorsal third rumen 6 weeks after the beginning of the study, 1 hour after the morning feeding. Samples were then partitioned into FA fractions and liquid fractions before DNA extraction (2, 3). The pooled sample (PL) (derived from a mixture of liquid fractions from each of the three steers) was thoroughly mixed before the DNA extraction (2, 4). Samples were stored at -80 \u00b0C until DNA extraction.", 
+                    "env_package": "host-associated", 
+                    "elevation": "79", 
+                    "biome": "animal-associated habitat", 
+                    "country": "United States of America", 
+                    "altitude": "79", 
+                    "samp_mat_process": "DNA extraction", 
+                    "material": "animal-associated habitat", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "-88.9916", 
+                    "isol_growth_condt": "19181843", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Bloomington, IL", 
+                    "sample_name": "mgs17382", 
+                    "latitude": "40.5109", 
+                    "samp_size": "3 litres", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "GGYTACCTTGTTACGACTT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Cow rumen - Steer 71", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1492RPL", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "8FPL", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "denaturation_duration_initial": {
+                                "definition": "Initial denaturation time in seconds", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "000500", 
+                                "type": "float", 
+                                "unit": "second", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_denaturation_duration_initial", 
+                                    "pcr_cond"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "AGTTTGATCCTGGCTCAG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "37.1-mgs17393", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Approximately 3 liters of whole rumen digesta (fiber- adherent (FA) and liquid associated microbes), was collected from the dorsal third rumen 6 weeks after the beginning of the study, 1 hour after the morning feeding. Samples were then partitioned into FA fractions and liquid fractions before DNA extraction (2, 3). The pooled sample (PL) (derived from a mixture of liquid fractions from each of the three steers) was thoroughly mixed before the DNA extraction (2, 4). Samples were stored at -80 \u00b0C until DNA extraction.", 
+                    "env_package": "host-associated", 
+                    "elevation": "79", 
+                    "biome": "animal-associated habitat", 
+                    "country": "United States of America", 
+                    "altitude": "79", 
+                    "samp_mat_process": "DNA extraction", 
+                    "material": "animal-associated habitat", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "-88.9916", 
+                    "isol_growth_condt": "19181843", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Bloomington, IL", 
+                    "sample_name": "mgs17393", 
+                    "latitude": "40.5109", 
+                    "samp_size": "3 litres", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "GGYTACCTTGTTACGACTT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Cow rumen - Pooled Planktonic", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1492RPL", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "8FPL", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "denaturation_duration_initial": {
+                                "definition": "Initial denaturation time in seconds", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "000500", 
+                                "type": "float", 
+                                "unit": "second", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_denaturation_duration_initial", 
+                                    "pcr_cond"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "AGTTTGATCCTGGCTCAG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "37.1-mgs17404", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Approximately 3 liters of whole rumen digesta (fiber- adherent (FA) and liquid associated microbes), was collected from the dorsal third rumen 6 weeks after the beginning of the study, 1 hour after the morning feeding. Samples were then partitioned into FA fractions and liquid fractions before DNA extraction (2, 3). The pooled sample (PL) (derived from a mixture of liquid fractions from each of the three steers) was thoroughly mixed before the DNA extraction (2, 4). Samples were stored at -80 \u00b0C until DNA extraction.", 
+                    "env_package": "host-associated", 
+                    "elevation": "79", 
+                    "biome": "animal-associated habitat", 
+                    "country": "United States of America", 
+                    "altitude": "79", 
+                    "samp_mat_process": "DNA extraction", 
+                    "material": "animal-associated habitat", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "-88.9916", 
+                    "isol_growth_condt": "19181843", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Bloomington, IL", 
+                    "sample_name": "mgs17404", 
+                    "latitude": "40.5109", 
+                    "samp_size": "3 litres", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "GGYTACCTTGTTACGACTT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Cow rumen - Steer 64", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1492RPL", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "8FPL", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "denaturation_duration_initial": {
+                                "definition": "Initial denaturation time in seconds", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "000500", 
+                                "type": "float", 
+                                "unit": "second", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_denaturation_duration_initial", 
+                                    "pcr_cond"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "AGTTTGATCCTGGCTCAG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "37.1-mgs17415", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Approximately 3 liters of whole rumen digesta (fiber- adherent (FA) and liquid associated microbes), was collected from the dorsal third rumen 6 weeks after the beginning of the study, 1 hour after the morning feeding. Samples were then partitioned into FA fractions and liquid fractions before DNA extraction (2, 3). The pooled sample (PL) (derived from a mixture of liquid fractions from each of the three steers) was thoroughly mixed before the DNA extraction (2, 4). Samples were stored at -80 \u00b0C until DNA extraction.", 
+                    "env_package": "host-associated", 
+                    "elevation": "79", 
+                    "biome": "animal-associated habitat", 
+                    "country": "United States of America", 
+                    "altitude": "79", 
+                    "samp_mat_process": "DNA extraction", 
+                    "material": "animal-associated habitat", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "-88.9916", 
+                    "isol_growth_condt": "19181843", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Bloomington, IL", 
+                    "sample_name": "mgs17415", 
+                    "latitude": "40.5109", 
+                    "samp_size": "3 litres", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "GGYTACCTTGTTACGACTT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Cow rumen - Steer 80", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1492R", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "8FPL", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "denaturation_duration_initial": {
+                                "definition": "Initial denaturation time in seconds", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "000500", 
+                                "type": "float", 
+                                "unit": "second", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_denaturation_duration_initial", 
+                                    "pcr_cond"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "AGTTTGATCCTGGCTCAG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

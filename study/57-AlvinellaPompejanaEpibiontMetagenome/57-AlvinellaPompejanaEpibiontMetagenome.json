@@ -1,0 +1,611 @@
+[
+    [
+        "study", 
+        "57-AlvinellaPompejanaEpibiontMetagenome", 
+        {
+            "PI_organization_address": "2215 Raggio Parkway, Reno, NV 89512", 
+            "PI_organization_url": "www.dri.edu/dees", 
+            "PI_lastname": "Cary", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Alvinella Pompejana Epibiont Metagenome", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "17241", 
+            "project_description": "The polychaete Alvinella pompejana is an endemic inhabitant of deep-sea hydrothermal vents located from 21\u00b0N to 32\u00b0S latitude on the East Pacific Rise. This tube-dwelling polychaete forms dense colonies exclusively on the walls of high-temperature black smoker chimneys, which are characterized by extreme physicochemical gradients and dynamic in thermal emission rates and intensive mineral precipitation.\r\n\r\nWe performed an environmental genomic analysis of the A. pompejana episymbiont community in an effort to define the basic metabolic strategy of the association and elucidate why Epsilonproteobacteria are so successful in this environment. We hypothesized that under extreme constraints imposed by the local geochemical environment, the Epsilonproteobacteria episymbiotic consortium employs a core metabolic strategy shared by most members of the community and that geochemical and thermal fluctuations impose significant selection pressures on the community. Identification of the metabolic and cellular features of this microbial community have provided details regarding the relationships between the symbionts and their host as well as the nature of epibiont adaptation in a dynamic physiochemical environment", 
+            "PI_email": "caryc@udel.edu", 
+            "PI_organization": "aDivision of Earth and Ecosystem Sciences, Desert Research Institute", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "Desert Research Institute and NSF", 
+            "PI_firstname": "Stephen"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "58.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "hydrothermal vent", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "samp_collect_device": {
+                        "definition": "The method or device employed for isolating/collecting the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "A. pompejana specimens in their associated tubes were collected at the East Pacific Rise by the deep submergence research vehicle Alvin in 1994 (13\u00b0N), 1999 (9\u00b0N), 2001 (9\u00b0N), and 2002 (9\u00b0N). Before collection, the temperature of the worms' immediate environment was measured and discrete water samples were taken from within the tubes for geochemical analysis (3). Individual alvinellids were collected, transported to the surface, and frozen.", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_description"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "water", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "20-80", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "samp_mat_process": {
+                        "definition": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v1.0) terms please see http://bioportal.bioontology.org/visualize/40832", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "DNA extraction", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_biomaterial_treatment"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "hydrothermal vent", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "hydrothermal vent", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-104.28", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "isol_growth_condt": {
+                        "definition": "Publication reference in the form of pubmed ID (pmid), digital object identifier (doi) or url for isolation of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "18987310", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_reference"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "2500", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Black smoker chimneys on East Pacific Rise", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "9.84", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "ph": {
+                        "definition": "pH measurement of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "5.33-6.40", 
+                        "type": "float", 
+                        "unit": "pH", 
+                        "aliases": [
+                            "sample-origin_ph"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "na", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Alvinella pompejana Epibiont Metagenome - REPEAT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00023", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18987310", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "58.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "hydrothermal vent", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "samp_collect_device": {
+                        "definition": "The method or device employed for isolating/collecting the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "A. pompejana specimens in their associated tubes were collected at the East Pacific Rise by the deep submergence research vehicle Alvin in 1994 (13\u00b0N), 1999 (9\u00b0N), 2001 (9\u00b0N), and 2002 (9\u00b0N). Before collection, the temperature of the worms' immediate environment was measured and discrete water samples were taken from within the tubes for geochemical analysis (3). Individual alvinellids were collected, transported to the surface, and frozen.", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_description"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "water", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "20-80", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "samp_mat_process": {
+                        "definition": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v1.0) terms please see http://bioportal.bioontology.org/visualize/40832", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "DNA extraction", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_biomaterial_treatment"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "hydrothermal vent", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "hydrothermal vent", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-104.28", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "isol_growth_condt": {
+                        "definition": "Publication reference in the form of pubmed ID (pmid), digital object identifier (doi) or url for isolation of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "18987310", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_reference"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "2500", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Black smoker chimneys on East Pacific Rise", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "9.84", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "ph": {
+                        "definition": "pH measurement of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "5.33-6.40", 
+                        "type": "float", 
+                        "unit": "pH", 
+                        "aliases": [
+                            "sample-origin_ph"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "na", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Alvinella pompejana Epibiont Metagenome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "lib_size": {
+                                "definition": "Total number of clones in the library prepared for the project", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "-", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00023", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18987310", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

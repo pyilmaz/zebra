@@ -1,0 +1,157 @@
+[
+    [
+        "study", 
+        "83-SkanBayAlaskaOceanViruses", 
+        {
+            "PI_organization_address": "Portland, Oregon", 
+            "PI_organization_url": "www.biology.pdx.edu", 
+            "PI_lastname": "Kendall", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Skan Bay, Alaska Ocean Viruses", 
+            "PI_organization_country": "USA", 
+            "project_description": "We employed a multidisciplinary approach that combined culture-dependent and -independent analyses with geochemical measurements in the sediments of Skan Bay, Alaska (53\u00b0N, 167\u00b0W), to investigate methanogenesis there.Previous analyses of Skan Bay sediments have shown that microbes mediate important geochemical processes, including sulfate reduction, methane production, and the anaerobic oxidation of methane (AOM) (66). The specific aim of this study was to identify and cultivate Archaea involved in methane cycling at Skan Bay. ", 
+            "PI_email": "melissa.kendall@utsouthwestern.edu", 
+            "PI_organization": "Biology Department, Portland State University", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": " NSF", 
+            "PI_firstname": "Melissa"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "84.1-mgs17483", 
+                {
+                    "isol_growth_condt": "10.1128/AEM.01154-06", 
+                    "longitude_direction": "W", 
+                    "continent": "north_america", 
+                    "biome": "sediment", 
+                    "samp_collect_device": "Sediment was collected using a box corer or gravity corer at the deepest part of the Bay (65 m). Box cores were subcored as described by Alperin and Reeburgh (4). Sediment samples were collected from discrete depths from the sediment- water interface to the bottom of each core by inserting the barrel of a syringe into predrilled holes in polycarbonate core tubes. The sediment samples were imme- diately sealed in cans (while excluding air and gas) and stored at 4\u00b0C during transport to the laboratory.", 
+                    "temperature": "1-6", 
+                    "latitude_value": "57", 
+                    "samplingtime_minute": "mm", 
+                    "feature": "sediment", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Skan Bay, Alaska", 
+                    "sample_name": "mgs17483", 
+                    "latitude": "57", 
+                    "samp_size": "0-50 cm", 
+                    "longitude_value": "167", 
+                    "material": "sediment", 
+                    "samp_mat_process": "DNA extraction", 
+                    "collection_timezone": "UTC", 
+                    "country": "United States of America", 
+                    "env_package": "sediment", 
+                    "longitude": "-167", 
+                    "samplingtime_second": "ss", 
+                    "collection_date": "2006-09-27", 
+                    "depth": "65", 
+                    "latitude_direction": "N", 
+                    "samplingtime_hour": "hh"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "5'-GGTTACCTTGTTGTTACGACTT-3', '-CCGTCAATTCCTTTRAGTTT-3', 5'-CCCCGTAGGGCCYGG-3'&#65279;", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Composite Sample of Skan Bay, Alaska Sediment Virual metagenome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1492R, 340RA, 907R", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "4F, 515F, 1100F,", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "&#65279;&#65279;5'-TCCGGTTGATCCTGCCRG-3', 5'-GTGCCAGCMGCCGCGGTAA-3', 5'-CCGTCAATTCCTTRAGTTT-3'", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

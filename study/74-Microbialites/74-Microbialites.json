@@ -1,0 +1,536 @@
+[
+    [
+        "study", 
+        "74-Microbialites", 
+        {
+            "PI_organization_address": "St. Petersburg, FL", 
+            "PI_organization_url": "www.usf.edu", 
+            "PI_lastname": "Breitbart", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Microbialites", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "28355", 
+            "project_description": "Here we address this cosmopolitan distribution through the analysis of phage communities in modern microbialites, the living representatives of one of the most ancient life forms on Earth. On the basis of a comparative metagenomic analysis of viral communities associated with marine (Highborne Cay, Bahamas) and freshwater (Pozas Azules II and Rio Mesquites, Mexico) microbialites, we show that some phage genotypes are geographically restricted.", 
+            "PI_email": " mya@marine.usf.edu", 
+            "PI_organization": "University of South Florida", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "National Geographic Society, University of South Florida Internal Awards Program, Alfred P. Sloan Foundation, National Science Foundation, NASA Astrobiology", 
+            "PI_firstname": "Mya"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "75.1-mgs17193", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "DNA was extracted from approximately 5 g of the oncolite using the Mo Bio SOIL DNA extraction kit (Mo Bio; Solano Beach, CA) according to the manufacturer's instructions", 
+                    "material": "marine habitat", 
+                    "samp_size": "5 g", 
+                    "temperature": "27-30", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-07-22", 
+                    "country": "Mexico", 
+                    "samp_mat_process": "DNA extraction", 
+                    "feature": "marine habitat", 
+                    "longitude": "-102.115", 
+                    "isol_growth_condt": "18764874", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Rio Mesquites", 
+                    "sample_name": "mgs17193", 
+                    "latitude": "26.9125", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Rio Mesquites Bacteria", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "75.1-mgs17204", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_mat_process": "filtering", 
+                    "samp_collect_device": "Microbialites were collected in November 2005 from the Highborne Cay Island in the Bahamas. Multiple subsamples were combined from the Highborne Cay stromatolites (Highborne Cay, site 3) and used as one sample.", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2005-11-01", 
+                    "country": "Bahamas", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-76.8188", 
+                    "isol_growth_condt": "18311127", 
+                    "location": "Highborne Cay Island", 
+                    "sample_name": "mgs17204", 
+                    "latitude": "24.7257", 
+                    "collection_timezone": "UTC", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "104", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Highborne Cay Island - Microbial Metagenome 11/2005", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00199", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "781,866", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18311127, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "75.1-mgs17215", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "DNA was extracted from approximately 5 g of the oncolite using the Mo Bio SOIL DNA extraction kit (Mo Bio; Solano Beach, CA) according to the manufacturer's instructions", 
+                    "material": "marine habitat", 
+                    "samp_size": "5 g", 
+                    "temperature": "27-30", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-07-22", 
+                    "country": "Mexico", 
+                    "samp_mat_process": "DNA extraction", 
+                    "feature": "marine habitat", 
+                    "longitude": "-102.115", 
+                    "isol_growth_condt": "18764874", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Rio Mesquites", 
+                    "sample_name": "mgs17215", 
+                    "latitude": "26.9125", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Rio Mesquites (Cuatro Ci\u00e9negas, Mexico) - Viral metagenome - 7/2005", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "75.1-mgs17226", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "DNA was extracted from approximately 5 g of the oncolite using the Mo Bio SOIL DNA extraction kit (Mo Bio; Solano Beach, CA) according to the manufacturer's instructions", 
+                    "material": "marine habitat", 
+                    "samp_size": "5 g", 
+                    "temperature": "27-30", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-07-22", 
+                    "country": "Mexico", 
+                    "samp_mat_process": "DNA extraction", 
+                    "feature": "marine habitat", 
+                    "longitude": "-102.0773", 
+                    "isol_growth_condt": "18764874", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Pozas Azules II", 
+                    "sample_name": "mgs17226", 
+                    "latitude": "26.872", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Pozas Azules II - Microbial Genome - 7/2005", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "75.1-mgs17237", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_mat_process": "filtering", 
+                    "samp_collect_device": "Microbialites were collected in November 2005 from the Highborne Cay Island in the Bahamas. Multiple subsamples were combined from the Highborne Cay stromatolites (Highborne Cay, site 3) and used as one sample.", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2005-11-01", 
+                    "country": "Bahamas", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-76.8188", 
+                    "isol_growth_condt": "18311127", 
+                    "location": "Highborne Cay Island", 
+                    "sample_name": "mgs17237", 
+                    "latitude": "24.7257", 
+                    "collection_timezone": "UTC", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Highborne Cay Island - Viral Metagenome 11/2005", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "75.1-mgs17249", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "DNA was extracted from approximately 5 g of the oncolite using the Mo Bio SOIL DNA extraction kit (Mo Bio; Solano Beach, CA) according to the manufacturer's instructions", 
+                    "material": "marine habitat", 
+                    "samp_size": "5 g", 
+                    "temperature": "27-30", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-07-22", 
+                    "country": "Mexico", 
+                    "samp_mat_process": "DNA extraction", 
+                    "feature": "marine habitat", 
+                    "longitude": "-102.0773", 
+                    "isol_growth_condt": "18764874", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Pozas Azules II", 
+                    "sample_name": "mgs17249", 
+                    "latitude": "26.872", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Pozas Azules II - Viral Genome - 7/2005", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

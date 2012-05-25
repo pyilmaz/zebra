@@ -1,0 +1,964 @@
+[
+    [
+        "study", 
+        "93-ramirez_voc", 
+        {
+            "project_name": "ramirez_voc", 
+            "experimental_factor": "EFO:nutrient", 
+            "metadata_complete": "y", 
+            "sample_count": "12", 
+            "study_type": "metagenome", 
+            "study_description": "targeted gene survey", 
+            "center_name": "CCME", 
+            "miens_compliant": "y", 
+            "study_id": "qiime:214", 
+            "sample_collection_id": "1050", 
+            "center_project_name": "Microbial_consumption_and_production_of_volatile_organic_compounds_at_the_soil_litter_interface", 
+            "sff_complete": "y", 
+            "submit_to_insdc": "n", 
+            "study_abstract": "Substantial amounts of volatile organic compounds (VOCs) can be released during decomposition and these compounds can affect atmospheric chemistry, belowground processes, and the structure of microbial communities in litter and soil. However, we have a limited understanding of the types, quantities and ecological impacts of VOCs emitted from litter. Here we used a closed flow-through system and proton transfer reaction mass spectrometry (PTR-MS) to characterize VOC emissions from soil and two litter types (Pinus taeda and Acer rubrum) over a 72-day incubation period. Microbial respiration rates were measured throughout the incubation, and the soils were harvested at the end of the incubation to determine how litter VOCs influenced soil C dynamics, N mineralization rates, and bacterial communities. Using the PTR-MS we identified over 100 VOCs, with 10 VOCs making up the majority of emissions. VOCs accounted for up to 2.5% of the C flux from litter. Soil was a net sink of litter VOCs, absorbing up to 80% of VOCs released by litter, and exposure of soil to litter VOCs increased microbial respiration rates in soil by up to 15%. However, we observed negligible impacts of litter VOCs on soil nutrient levels and bacterial community structure, suggesting that soils must be exposed to higher concentrations of VOCs than observed in our study, to cause effects on these soil characteristics. Overall, VOCs appear to have an important influence on C dynamics at the soil-litter interface and VOC emissions from decomposing litter may represent an understudied component of biosphere???atmosphere interactions.", 
+            "study_title": "Microbial_consumption_and_production_of_volatile_organic_compounds_at_the_soil_litter_interface", 
+            "investigation_type": "mimarks-survey", 
+            "id": "qiime:214", 
+            "study_alias": "ramirez_voc"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "94.1-KR21", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR21", 
+                    "sample_id": "qiime:146441", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR21", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "pine", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR21"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR21", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR24", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR24", 
+                    "sample_id": "qiime:146442", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR24", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "pine", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR24"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR24", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR27", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR27", 
+                    "sample_id": "qiime:146443", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR27", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "maple", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR27"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR27", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR19", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR19", 
+                    "sample_id": "qiime:146444", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR19", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "none", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR19"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR19", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR18", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR18", 
+                    "sample_id": "qiime:146445", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR18", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "none", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR18"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR18", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR25", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR25", 
+                    "sample_id": "qiime:146446", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR25", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "maple", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR25"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR25", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR22", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR22", 
+                    "sample_id": "qiime:146447", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR22", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "pine", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR22"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR22", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR20", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR20", 
+                    "sample_id": "qiime:146448", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR20", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "none", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR20"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR20", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR26", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR26", 
+                    "sample_id": "qiime:146449", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR26", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "maple", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR26"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR26", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR28", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR28", 
+                    "sample_id": "qiime:146450", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR28", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "maple", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR28"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR28", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR17", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR17", 
+                    "sample_id": "qiime:146451", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR17", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "none", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR17"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR17", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "94.1-KR23", 
+                {
+                    "biome": "Temperate coniferous forest biome", 
+                    "material": "soil", 
+                    "env_package": "plant-associated", 
+                    "elevation": "127.7879868", 
+                    "DESCRIPTION": "soil", 
+                    "TITLE": "KR23", 
+                    "sample_id": "qiime:146452", 
+                    "country": "United States of America", 
+                    "altitude": "0.0", 
+                    "sample_name": "KR23", 
+                    "COMMON_NAME": "soil", 
+                    "feature": "soil", 
+                    "longitude": "-81.6734357", 
+                    "samp_size": "5", 
+                    "latitude": "34.6281898", 
+                    "depth": "5", 
+                    "litter_voc_type": "pine", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "KR23"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "KR23", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

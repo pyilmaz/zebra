@@ -1,0 +1,430 @@
+[
+    [
+        "study", 
+        "75-SaltonSea", 
+        {
+            "PI_organization_address": " Santa Barbara, CA", 
+            "PI_organization_url": " www.ucsb.edu", 
+            "PI_lastname": "Valentine", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Salton Sea ", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "28613", 
+            "project_description": "Sulfidic, anoxic sediments of the moderately hypersaline Salton Sea contain gradients in salinity and carbon that potentially structure the sedimentary microbial community. We investigated the abundance, community structure, and diversity of Bacteria and Archaea along these gradients to further distinguish the ecologies of these domains outside their established physiological range.", 
+            "PI_email": "valentine@geol.ucsb.edu", 
+            "PI_organization": "University of California ", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "NSF, CMIS California NASA and Philip and Aida Siff Education Foundation", 
+            "PI_firstname": "David"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "76.1-mgs17260", 
+                {
+                    "biome": "extreme habitat ; hypersaline", 
+                    "samp_collect_device": "Bulk sediment was collected using a modified Ekman box corer (15 x 15 x 50 cm) and subsampled using polycarbonate cylinders (7.5 x 50 cm). This method yielded sediment cores with an average length of 35 cm. Sediment from one core was extruded at 1-cm intervals, and the sediment from each interval was then split. Following the method of Wardlaw and Valentine, pore water was extracted from one-half of the sediment by centrifugation (12,000 x g, 15 min) and filtered through a 0.2-\u00b5m filter. The remaining sediment was stored at -80\u00b0C for subsequent molecular analyses. Sediment from a second core was extruded at 1-cm intervals, placed in acid-washed (20% HCl), precombusted (450\u00b0C, 4 h) glass vials, and stored at -20\u00b0C prior to analysis of bulk sediment chemical properties.", 
+                    "material": "extreme habitat ; hypersaline", 
+                    "samp_size": "11.25 L", 
+                    "temperature": "30-34", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-08-23", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "DNA extraction", 
+                    "feature": "extreme habitat ; hypersaline", 
+                    "longitude": "-115.9167", 
+                    "isol_growth_condt": "19948847", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "14", 
+                    "location": "Salton Sea, California", 
+                    "sample_name": "mgs17260", 
+                    "latitude": "33.4167", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "ACGGGCGGTGTGTRC", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Sediment Cores - Microbial - 8/23/2006", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1392R", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "27F", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "denaturation_duration_initial": {
+                                "definition": "Initial denaturation time in seconds", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "000200", 
+                                "type": "float", 
+                                "unit": "second", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_denaturation_duration_initial", 
+                                    "pcr_cond"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "AGAGTTTGATCMTGGCTCAG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "76.1-mgs17271", 
+                {
+                    "biome": "extreme habitat ; hypersaline", 
+                    "samp_collect_device": "Bulk sediment was collected using a modified Ekman box corer (15 x 15 x 50 cm) and subsampled using polycarbonate cylinders (7.5 x 50 cm). This method yielded sediment cores with an average length of 35 cm. Sediment from one core was extruded at 1-cm intervals, and the sediment from each interval was then split. Following the method of Wardlaw and Valentine, pore water was extracted from one-half of the sediment by centrifugation (12,000 x g, 15 min) and filtered through a 0.2-\u00b5m filter. The remaining sediment was stored at -80\u00b0C for subsequent molecular analyses. Sediment from a second core was extruded at 1-cm intervals, placed in acid-washed (20% HCl), precombusted (450\u00b0C, 4 h) glass vials, and stored at -20\u00b0C prior to analysis of bulk sediment chemical properties.", 
+                    "material": "extreme habitat ; hypersaline", 
+                    "samp_size": "11.25 L", 
+                    "temperature": "30-34", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-08-23", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "DNA extraction", 
+                    "feature": "extreme habitat ; hypersaline", 
+                    "longitude": "-115.9167", 
+                    "isol_growth_condt": "19948847", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "14", 
+                    "location": "Salton Sea, California", 
+                    "sample_name": "mgs17271", 
+                    "latitude": "33.4167", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "ACGGGCGGTGTGTRC", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Sediment Cores - Viral2 - 8/23/2006", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1392R", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "27F", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "denaturation_duration_initial": {
+                                "definition": "Initial denaturation time in seconds", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "000200", 
+                                "type": "float", 
+                                "unit": "second", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_denaturation_duration_initial", 
+                                    "pcr_cond"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "AGAGTTTGATCMTGGCTCAG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "76.1-mgs17282", 
+                {
+                    "biome": "extreme habitat ; hypersaline", 
+                    "samp_collect_device": "Bulk sediment was collected using a modified Ekman box corer (15 x 15 x 50 cm) and subsampled using polycarbonate cylinders (7.5 x 50 cm). This method yielded sediment cores with an average length of 35 cm. Sediment from one core was extruded at 1-cm intervals, and the sediment from each interval was then split. Following the method of Wardlaw and Valentine, pore water was extracted from one-half of the sediment by centrifugation (12,000 x g, 15 min) and filtered through a 0.2-\u00b5m filter. The remaining sediment was stored at -80\u00b0C for subsequent molecular analyses. Sediment from a second core was extruded at 1-cm intervals, placed in acid-washed (20% HCl), precombusted (450\u00b0C, 4 h) glass vials, and stored at -20\u00b0C prior to analysis of bulk sediment chemical properties.", 
+                    "material": "extreme habitat ; hypersaline", 
+                    "samp_size": "11.25 L", 
+                    "temperature": "30-34", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-08-23", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "DNA extraction", 
+                    "feature": "extreme habitat ; hypersaline", 
+                    "longitude": "-115.9167", 
+                    "isol_growth_condt": "19948847", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "14", 
+                    "location": "Salton Sea, California", 
+                    "sample_name": "mgs17282", 
+                    "latitude": "33.4167", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "reverse_primers": {
+                                "definition": "List of reverse PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "ACGGGCGGTGTGTRC", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_primer", 
+                                    "pcr_primers"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Sediment Cores - Viral1 - 8/23/2006", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "reverse_barcodes": {
+                                "definition": "List of barcodes attached to reverse primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1392R", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_reverse_barcodes"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "forward_barcodes": {
+                                "definition": "List of barcodes attached to forward primers", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "27F", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_barcodes", 
+                                    "BARCODE"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "denaturation_duration_initial": {
+                                "definition": "Initial denaturation time in seconds", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "000200", 
+                                "type": "float", 
+                                "unit": "second", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_denaturation_duration_initial", 
+                                    "pcr_cond"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "forward_primers": {
+                                "definition": "List of forward PCR primers that were used to amplify the sequence of the targeted gene, locus or subfragment", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "AGAGTTTGATCMTGGCTCAG", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction-16s-rrna-based_forward_primer", 
+                                    "pcr_primers"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

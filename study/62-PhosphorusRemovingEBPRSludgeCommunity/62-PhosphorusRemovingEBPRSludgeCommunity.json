@@ -1,0 +1,247 @@
+[
+    [
+        "study", 
+        "62-PhosphorusRemovingEBPRSludgeCommunity", 
+        {
+            "PI_organization_address": "Cambridge, MA", 
+            "PI_organization_url": "http://web.mit.edu/", 
+            "PI_lastname": "DeLong", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Phosphorus Removing (EBPR) Sludge Community", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "29435", 
+            "project_description": "Enhanced biological phosphorus removal (EBPR) is one of the best-studied microbially mediated industrial processes because of its ecological and economic relevance. Despite this, it is not well understood at the metabolic level. Here we present a metagenomic analysis of two lab-scale EBPR sludges dominated by the uncultured bacterium, \u0091\u0091Candidatus Accumulibacter phosphatis.\u0092\u0092 The analysis sheds light on several controversies in EBPR metabolic models and provides hypotheses explaining the dominance of A. phosphatis in this habitat, its lifestyle outside EBPR and probable cultivation requirements. Comparison of the same species from different EBPR sludges highlights recent evolutionary dynamics in the A. phosphatis genome that could be linked to mechanisms for environmental adaptation.", 
+            "PI_email": "delong@mit.edu", 
+            "PI_organization": "Massachusetts Institute of Technology", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "\t Doe Joint Genome Institute ", 
+            "PI_firstname": "Edward"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "63.1-mgs17426", 
+                {
+                    "biome": "sludge", 
+                    "samp_collect_device": "Both Sequence Batch Reactors (SBRs) were seeded from local wastewater treatment plants (Nine Springs Wastewater Treatment Plant in Madison, Wisconsin, and Thornside Sewage Treatment Plant in Queensland, Australia). The SBRs were operated in four cycles of 6 h and the hydraulic residence time and solids residence time were 12 h and 4 d, respectively, for the US SBR and 24 h and 8 days, respectively, for the OZ SBR. DNA was extracted at the end of the anaerobic period. Sludge biomass was collected directly from the US and OZ SBRs at the end of the anaerobic period when polyphosphate inclusions were at their lowest, since polyphosphate interferes with DNA extraction. Frozen sludge was thawed on ice, and 0.25 g (wet weight) aliquots were transferred to 2 mL tubes. Bulk genomic DNA was extracted from the aliquots using a series of enzymatic digestions, followed by phenol-chloroform extraction, essentially as described previously5. Extracts were then suspended in TE (10 mM Tris, 1 mM EDTA, pH 7.6) and digested with RNase A (10 mg L-1 final concentration) at 37 oC for 30 min. The final concentration and purity of DNA were estimated by spectrophotometry at 260 nm and 280 nm. The integrity of extracted DNA was evaluated by agarose gel electrophoresis using standard methods6.", 
+                    "material": "sludge", 
+                    "elevation": "323", 
+                    "temperature": "20-24", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2004-07-03", 
+                    "country": "United States of America", 
+                    "altitude": "323", 
+                    "samp_mat_process": "DNA extraction", 
+                    "feature": "sludge", 
+                    "longitude": "-89.4", 
+                    "salinity": "7-7.3", 
+                    "isol_growth_condt": "16998472", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Nine Springs Wastwater Treatment Plant, Madison, WI", 
+                    "sample_name": "mgs17426", 
+                    "latitude": "43.0667", 
+                    "samp_size": "2 liters", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Plasmid", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "US Phosphorus Removing (EBPR) Sludge", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gc01096", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "16998472", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "63.1-mgs17437", 
+                {
+                    "biome": "sludge", 
+                    "samp_collect_device": "The OZ SBR was inoculated with activated sudge from Thornside Sewage Treatment Plant in Queensland, Australia. It had a working volume of 8 liters, was operated in four cycles of 6 h. per day. Each cycle consisted of 150 min anaerobic period, 180 min anerobic period, 30 min. settling and, in 5 min of effluent withdrawing (900 ml).  The HRT was 24 h. and SRT was kept at 8 days by sludge wastage during the aerobic phase. The pH was kept at 7.0 and the SBR operating temperature was 23-24oC during all stages. To achieve anaerobic and aerobic conditions, nitrogen gas and air was bubbled through the liquid respectively. The SBR was fed with propionate and a synthetic feed. Sludge biomass was collected directly from the US and OZ SBRs at the end of the anaerobic period when polyphosphate inclusions were at their lowest, since polyphosphate interferes with DNA extraction.DNA was extracted from frozen sludge aliquots (2 ml) using the FastDNA SPIN kit (Qbiogene), following the manufacturer's instructions, and quantified by spectrophotometric analysis at 260 nm.", 
+                    "material": "sludge", 
+                    "elevation": "24", 
+                    "temperature": "23-24", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2004-08-18", 
+                    "country": "Australia", 
+                    "altitude": "24", 
+                    "samp_mat_process": "DNA extraction", 
+                    "feature": "sludge", 
+                    "longitude": "153.01667", 
+                    "isol_growth_condt": "16820057", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Thornside Sewage Treatment Plant", 
+                    "sample_name": "mgs17437", 
+                    "latitude": "-27.467", 
+                    "samp_size": "8 liters", 
+                    "continent": "australia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Plasmid", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Australian Phosphorus Removing (EBPR) Sludge", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gc01096", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "16998472", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

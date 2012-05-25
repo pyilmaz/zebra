@@ -1,0 +1,849 @@
+[
+    [
+        "study", 
+        "81-YellowstoneNationalParkOctopusMushroomHotSpringsMetagenom", 
+        {
+            "PI_organization_address": "Stanford, CA", 
+            "PI_organization_url": "www-ciwdpb.stanford.edu", 
+            "PI_lastname": "Bhaya", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Yellowstone National Park Octopus/Mushroom Hot Springs Metagenom", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "20721", 
+            "project_description": "In microbial mat communities of Yellowstone hot springs, ribosomal RNA (rRNA) sequence diversity patterns indicate the presence of closely related bacterial populations along environmental gradients of temperature and light. To identify the functional bases for adaptation, we sequenced the genomes of two cyanobacterial (Synechococcus OS-A and OS-B') isolates representing ecologically distinct populations that dominate at different temperatures and are major primary producers in the mat.\r\n\r\nWe also generated metagenomic sequences from recombinant libraries from total DNA isolated from the top green layer (upper approx1 mm) of the microbial mats in Octopus Spring and from Mushroom Spring, a nearby spring with similar physicochemical characteristics.", 
+            "PI_email": "dbhaya@stanford.edu", 
+            "PI_organization": "Stanford University", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "NSF", 
+            "PI_firstname": "Devaki"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "82.1-mgs17138", 
+                {
+                    "biome": "hot spring ; microbial mat", 
+                    "samp_collect_device": "Synechococcus JA-2-3Aa {genotype designation A-NACy05a} (hereafter Synechococcus OS-A) was isolated by filter cultivation from samples derived from a region of the mat in Octopus Spring exposed to temperatures ranging from 58\u00b0C to 65\u00b0C; Synechococcus JA-2-3B'a(2-13) {genotype designation B'NACy10o} (hereafter Synechococcus OS-B') was isolated from Octopus Spring mat samples collected at temperatures ranging from 51 to 61\u00b0C (Allewalt et al., 2006)", 
+                    "material": "hot spring ; microbial mat", 
+                    "temperature": "60", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2003-10-03", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "feature": "hot spring ; microbial mat", 
+                    "longitude": "-110.690", 
+                    "isol_growth_condt": "18059494", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": ".001", 
+                    "location": "Yellowstone Natl Park Hot Springs, Moran, WY", 
+                    "sample_name": "mgs17138", 
+                    "latitude": "44.376", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Plasmid", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Mushroom Springs Mat Core A", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00125", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18059494", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "82.1-mgs17149", 
+                {
+                    "biome": "hot spring ; microbial mat", 
+                    "samp_collect_device": "Synechococcus JA-2-3Aa {genotype designation A-NACy05a} (hereafter Synechococcus OS-A) was isolated by filter cultivation from samples derived from a region of the mat in Octopus Spring exposed to temperatures ranging from 58\u00b0C to 65\u00b0C; Synechococcus JA-2-3B'a(2-13) {genotype designation B'NACy10o} (hereafter Synechococcus OS-B') was isolated from Octopus Spring mat samples collected at temperatures ranging from 51 to 61\u00b0C (Allewalt et al., 2006)", 
+                    "material": "hot spring ; microbial mat", 
+                    "temperature": "60", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2003-10-03", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "feature": "hot spring ; microbial mat", 
+                    "longitude": "110.690", 
+                    "isol_growth_condt": "18059494", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": ".001", 
+                    "location": "Yellowstone Natl Park Hot Springs, Moran, WY", 
+                    "sample_name": "mgs17149", 
+                    "latitude": "44.376", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Plasmid", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Mushroom Springs Mat Core B", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00125", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18059494", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "82.1-mgs17160", 
+                {
+                    "biome": "hot spring ; microbial mat", 
+                    "samp_collect_device": "Synechococcus JA-2-3Aa {genotype designation A-NACy05a} (hereafter Synechococcus OS-A) was isolated by filter cultivation from samples derived from a region of the mat in Octopus Spring exposed to temperatures ranging from 58\u00b0C to 65\u00b0C; Synechococcus JA-2-3B'a(2-13) {genotype designation B'NACy10o} (hereafter Synechococcus OS-B') was isolated from Octopus Spring mat samples collected at temperatures ranging from 51 to 61\u00b0C (Allewalt et al., 2006)", 
+                    "material": "hot spring ; microbial mat", 
+                    "temperature": "65", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2003-10-03", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "feature": "hot spring ; microbial mat", 
+                    "longitude": "-110.690", 
+                    "isol_growth_condt": "18059494", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": ".001", 
+                    "location": "Yellowstone Natl Park Hot Springs, Moran, WY", 
+                    "sample_name": "mgs17160", 
+                    "latitude": "44.376", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Plasmid", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Mushroom Springs Mat Core F", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00125", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18059494", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "82.1-mgs17171", 
+                {
+                    "biome": "hot spring ; microbial mat", 
+                    "samp_collect_device": "Synechococcus JA-2-3Aa {genotype designation A-NACy05a} (hereafter Synechococcus OS-A) was isolated by filter cultivation from samples derived from a region of the mat in Octopus Spring exposed to temperatures ranging from 58\u00b0C to 65\u00b0C; Synechococcus JA-2-3B'a(2-13) {genotype designation B'NACy10o} (hereafter Synechococcus OS-B') was isolated from Octopus Spring mat samples collected at temperatures ranging from 51 to 61\u00b0C (Allewalt et al., 2006)", 
+                    "material": "hot spring ; microbial mat", 
+                    "temperature": "58-67", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2004-11-05", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "feature": "hot spring ; microbial mat", 
+                    "longitude": "-110.690", 
+                    "isol_growth_condt": "18059494", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": ".001", 
+                    "location": "Yellowstone Natl Park Hot Springs, Moran, WY", 
+                    "sample_name": "mgs17171", 
+                    "latitude": "44.376", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Plasmid", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Octopus Springs Mat Core F", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00125", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18059494", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "82.1-mgs17182", 
+                {
+                    "biome": "hot spring ; microbial mat", 
+                    "samp_collect_device": "Synechococcus JA-2-3Aa {genotype designation A-NACy05a} (hereafter Synechococcus OS-A) was isolated by filter cultivation from samples derived from a region of the mat in Octopus Spring exposed to temperatures ranging from 58\u00b0C to 65\u00b0C; Synechococcus JA-2-3B'a(2-13) {genotype designation B'NACy10o} (hereafter Synechococcus OS-B') was isolated from Octopus Spring mat samples collected at temperatures ranging from 51 to 61\u00b0C (Allewalt et al., 2006)", 
+                    "material": "hot spring ; microbial mat", 
+                    "temperature": "58-67", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2004-11-05", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "feature": "hot spring ; microbial mat", 
+                    "longitude": "-110.690", 
+                    "isol_growth_condt": "18059494", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": ".001", 
+                    "location": "Yellowstone Natl Park Hot Springs, Moran, WY", 
+                    "sample_name": "mgs17182", 
+                    "latitude": "44.376", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Plasmid", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Octopus Springs Mat Core R", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00125", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18059494", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "82.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "hot spring ; microbial mat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "samp_collect_device": {
+                        "definition": "The method or device employed for isolating/collecting the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "Synechococcus JA-2-3Aa {genotype designation A-NACy05a} (hereafter Synechococcus OS-A) was isolated by filter cultivation from samples derived from a region of the mat in Octopus Spring exposed to temperatures ranging from 58\u00b0C to 65\u00b0C; Synechococcus JA-2-3B'a(2-13) {genotype designation B'NACy10o} (hereafter Synechococcus OS-B') was isolated from Octopus Spring mat samples collected at temperatures ranging from 51 to 61\u00b0C (Allewalt et al., 2006)", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_description"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "temperature": {
+                        "definition": "Temperature of the sample in celsius at time of sampling", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "65", 
+                        "type": "float", 
+                        "unit": "celsius", 
+                        "aliases": [
+                            "sample-origin_temperature"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "UTC", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "2003-10-03", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "United States of America", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "samp_mat_process": {
+                        "definition": "Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v1.0) terms please see http://bioportal.bioontology.org/visualize/40832", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "filtering", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_biomaterial_treatment"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "hot spring ; microbial mat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "hot spring ; microbial mat", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "-110.690", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "isol_growth_condt": {
+                        "definition": "Publication reference in the form of pubmed ID (pmid), digital object identifier (doi) or url for isolation of the sample", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": "18059494", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-isolation-and-treatment_sample_isolation_reference"
+                        ]
+                    }, 
+                    "depth": {
+                        "definition": "Depth is defined as the vertical distance in meters below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly.", 
+                        "mixs": "1", 
+                        "required": "0", 
+                        "value": ".001", 
+                        "type": "float", 
+                        "unit": "meter", 
+                        "aliases": [
+                            "sample-origin_depth"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "Yellowstone Natl Park Hot Springs, Moran, WY", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "44.376", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "continent": {
+                        "definition": "The geographical origin of the sample as defined by continent.  Use one of: Africa, Antarctica, Asia, Australia, Europe, North America, South America", 
+                        "mixs": "0", 
+                        "required": "0", 
+                        "value": "north_america", 
+                        "type": "select", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_continent"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Plasmid", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Mushroom Springs Mat Core D", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00125", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18059494", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

@@ -1,0 +1,163 @@
+[
+    [
+        "study", 
+        "40-GutMicrobiomeofTermites", 
+        {
+            "PI_organization_address": "San Diego, CA", 
+            "PI_organization_url": "http://www.caltech.edu/", 
+            "PI_lastname": "Leadbetter", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Gut Microbiome of Termites", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "19107", 
+            "project_description": "We use a metagenomic analysis of the bacterial community resident in the hindgut paunch of a wood-feeding \u0091higher\u0092 Nasutitermes species (which do not contain cellulose-fermenting protozoa) to show the presence of a large, diverse set of bacterial genes for cellulose and xylan hydrolysis.", 
+            "PI_email": " jleadbetter@caltech.edu", 
+            "PI_organization": "Caltech", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "National Science Foundation, the National Institutes of Health, Caltech, and the Lawrence Berkeley National Laboratory", 
+            "PI_firstname": "Jared"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "41.1-mgs11993", 
+                {
+                    "isol_growth_condt": "18033299", 
+                    "samp_size": "165 worker specimens", 
+                    "continent": "south_america", 
+                    "biome": "animal-associated habitat", 
+                    "samp_collect_device": "The nest was cut into pieces with a machete and returned to InBio's laboratory in Heredia, where all dissections were performed within the first 36&#8201;h of collection.", 
+                    "temperature": "28", 
+                    "collection_date": "2005-05-24", 
+                    "altitude": "1&#8201;", 
+                    "feature": "animal-associated habitat", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "the secondary forest of Bosque Lluvioso, an INBio private reserve near the town of Gu\u00e1piles, Costa Rica", 
+                    "sample_name": "mgs11993", 
+                    "latitude": "10.11", 
+                    "elevation": "1&#8201;", 
+                    "material": "animal-associated habitat", 
+                    "samp_mat_process": "DNA extraction", 
+                    "collection_timezone": "UTC-6", 
+                    "country": "Costa Rica", 
+                    "env_package": "host-associated", 
+                    "longitude": "-83.51", 
+                    "depth": "na", 
+                    "collection_time": "10:30:00"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "fosmid", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Termite Gut Metagenome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "lib_size": {
+                                "definition": "Total number of clones in the library prepared for the project", 
+                                "mixs": "1", 
+                                "required": "0", 
+                                "value": "2,910,000-68,470,000", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00013", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18033299", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

@@ -1,0 +1,28 @@
+[
+    [
+        "study", 
+        "104-costello_whole_body_transplant", 
+        {
+            "project_name": "costello_whole_body_transplant", 
+            "experimental_factor": "EFO:sampling site", 
+            "metadata_complete": "y", 
+            "sample_count": "263", 
+            "pmid": "19892944", 
+            "study_type": "metagenome", 
+            "study_description": "Sampling of multiple human body sites after transplant", 
+            "center_name": "CCME", 
+            "miens_compliant": "y", 
+            "study_id": "qiime:450", 
+            "sample_collection_id": "2407", 
+            "center_project_name": "CostelloWholeBodyTransplants", 
+            "sff_complete": "y", 
+            "submit_to_insdc": "n", 
+            "study_abstract": "Elucidating the biogeography of bacterial communities on the human body is critical for establishing healthy baselines from which to detect differences associated with diseases. To obtain an integrated view of the spatial and temporal distribution of the human microbiota, we surveyed bacteria from up to 27 sites in seven to nine healthy adults on four occasions. We found that community composition was determined primarily by body habitat. Within habitats, interpersonal variability was high, whereas individuals exhibited minimal temporal variability. Several skin locations harbored more diverse communities than the gut and mouth, and skin locations differed in their community assembly patterns. These results indicate that our microbiota, although personalized, varies systematically across body habitats and time; such trends may ultimately reveal how microbiome changes cause or prevent disease.", 
+            "study_title": "Bacterial community variation in human body habitats across space and time", 
+            "investigation_type": "mimarks-survey", 
+            "id": "qiime:450", 
+            "study_alias": "CostelloWholeBodyTransplants"
+        }
+    ], 
+    []
+]

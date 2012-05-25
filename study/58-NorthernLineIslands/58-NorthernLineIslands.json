@@ -1,0 +1,1032 @@
+[
+    [
+        "study", 
+        "58-NorthernLineIslands", 
+        {
+            "PI_organization_address": "San Diego, CA", 
+            "PI_organization_url": "http://www.sdsu.edu/", 
+            "PI_lastname": "Dinsdale", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Northern Line Islands ", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "28367", 
+            "project_description": "Microbes are key players in both healthy and degraded coral reefs. A combination of metagenomics, microscopy, culturing, and water chemistry were used to characterize microbial communities on four coral atolls in the Northern Line Islands, central Pacific. Kingman, a small uninhabited atoll which lies most northerly in the chain, had microbial and water chemistry characteristic of an open ocean ecosystem.Obtaining the microbial data set, from atolls is particularly important given the association of microbes in the ongoing degradation of coral reef ecosystems worldwide.", 
+            "PI_email": "Elizabeth_dinsdale@hotmail.com", 
+            "PI_organization": "San Diego State University", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "\t Gordon and Betty Moore Foundation", 
+            "PI_firstname": "Elizabeth"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "59.1-mgs14993", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "The water for the metagenomes was collected from below the boundary layer (in crevices and against the benthos) to avoid confounding problems with the water column. The sampling was conducted at the same time of day to help minimize diurnal effects. The water was collected from over ~20 m2 of reef using a modified bilge pump connected to low density polyethylene (LDPE) collapsible bags (19 l; Cole-Parmer, Vernon Hills, IL; Figure S1). 1) A large fraction containing mostly microbes, some small eukaryotes (such as dinoflagellates and protists), and a few VLPs, and 2) a small fraction containing mostly VLPs and some small microbes. To obtain these fractions the seawater was processed through a series of filters. The large eukaryotes were removed by filtering the entire sample through 100 \u00b5m Nitex, into a barrel lined with a clean, high-density polyethylene bag. The filtrate was then concentrated to ~500 ml on a 100 kDa tangential flow filter (TFF), which captured the unicellular eukaryotes, microbes and VLPs (i.e., the water was removed). During the filtration, pressures were kept below 0.6 bar (10 psi) to ensure that the viruses were not destroyed. The concentrated sample was then passed through 0.45 \u00b5m Sterivex filters (Millipore, Inc) using a 50 ml syringe. In this step, the large metagenomic fraction consisting of microbial cells was caught on the filter (microbiomes) and the filtrate was the small metagenomic fraction (viromes). All filtrations were performed on the research vessel, and the samples were stored for further processing in the laboratory at SDSU. The Sterivex filters were frozen at &#8722;80\u00b0C. The 0.45 \u00b5m filtrates (i.e., the virome) were extracted with chloroform to kill any residual cells (10% vol:vol; most viruses are resistant to chloroform) and stored at 4\u00b0C.  The DNA for the microbiomes was isolated from the Sterivex filters by removing the filter membranes and performing DNA extractions using a bead-beating protocol (MoBio, Carlsbad CA).", 
+                    "env_package": "water", 
+                    "samp_size": "150 litres", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-08-18", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-162.1278", 
+                    "isol_growth_condt": "18301735", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "~10", 
+                    "location": "Palmyra Atoll", 
+                    "sample_name": "mgs14993", 
+                    "latitude": "5.866944", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Palmyra Island Microbial Metagenome - 8/18/05", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00083", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "289723", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18301735, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "59.1-mgs15104", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "The water for the metagenomes was collected from below the boundary layer (in crevices and against the benthos) to avoid confounding problems with the water column. The sampling was conducted at the same time of day to help minimize diurnal effects. The water was collected from over ~20 m2 of reef using a modified bilge pump connected to low density polyethylene (LDPE) collapsible bags (19 l; Cole-Parmer, Vernon Hills, IL; Figure S1). 1) A large fraction containing mostly microbes, some small eukaryotes (such as dinoflagellates and protists), and a few VLPs, and 2) a small fraction containing mostly VLPs and some small microbes. To obtain these fractions the seawater was processed through a series of filters. The large eukaryotes were removed by filtering the entire sample through 100 \u00b5m Nitex, into a barrel lined with a clean, high-density polyethylene bag. The filtrate was then concentrated to ~500 ml on a 100 kDa tangential flow filter (TFF), which captured the unicellular eukaryotes, microbes and VLPs (i.e., the water was removed). During the filtration, pressures were kept below 0.6 bar (10 psi) to ensure that the viruses were not destroyed. The concentrated sample was then passed through 0.45 \u00b5m Sterivex filters (Millipore, Inc) using a 50 ml syringe. In this step, the large metagenomic fraction consisting of microbial cells was caught on the filter (microbiomes) and the filtrate was the small metagenomic fraction (viromes). All filtrations were performed on the research vessel, and the samples were stored for further processing in the laboratory at SDSU. The Sterivex filters were frozen at &#8722;80\u00b0C. The 0.45 \u00b5m filtrates (i.e., the virome) were extracted with chloroform to kill any residual cells (10% vol:vol; most viruses are resistant to chloroform) and stored at 4\u00b0C.  The viruses in the small metagenomic fractions (i.e., 0.45 \u00b5m filtrate treated with chloroform) were purified using cesium chloride (CsCl) step gradients to remove free DNA and any cellular material [29], [30]. Viral DNA was isolated using CTAB/phenol:chloroform extractions and amplified in six to eight 18-hour Genomiphi reactions. These reactions were pooled and purified using silica columns (Qiagen Inc, Valencia, CA). The DNA was then precipitated with ethanol and re-suspended in water at a concentration of approximately 300 ng \u00b5l&#8722;1.", 
+                    "env_package": "water", 
+                    "samp_size": "150 litres", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-08-18", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-162.1278", 
+                    "isol_growth_condt": "18301735", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "~10", 
+                    "location": "Palmyra Atoll", 
+                    "sample_name": "mgs15104", 
+                    "latitude": "5.866944", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Virome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Palmyra Island Viral Metagenome - 8/18/05", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00083", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "320397", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18301735, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "59.1-mgs15215", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "The water for the metagenomes was collected from below the boundary layer (in crevices and against the benthos) to avoid confounding problems with the water column. The sampling was conducted at the same time of day to help minimize diurnal effects. The water was collected from over ~20 m2 of reef using a modified bilge pump connected to low density polyethylene (LDPE) collapsible bags (19 l; Cole-Parmer, Vernon Hills, IL; Figure S1). 1) A large fraction containing mostly microbes, some small eukaryotes (such as dinoflagellates and protists), and a few VLPs, and 2) a small fraction containing mostly VLPs and some small microbes. To obtain these fractions the seawater was processed through a series of filters. The large eukaryotes were removed by filtering the entire sample through 100 \u00b5m Nitex, into a barrel lined with a clean, high-density polyethylene bag. The filtrate was then concentrated to ~500 ml on a 100 kDa tangential flow filter (TFF), which captured the unicellular eukaryotes, microbes and VLPs (i.e., the water was removed). During the filtration, pressures were kept below 0.6 bar (10 psi) to ensure that the viruses were not destroyed. The concentrated sample was then passed through 0.45 \u00b5m Sterivex filters (Millipore, Inc) using a 50 ml syringe. In this step, the large metagenomic fraction consisting of microbial cells was caught on the filter (microbiomes) and the filtrate was the small metagenomic fraction (viromes). All filtrations were performed on the research vessel, and the samples were stored for further processing in the laboratory at SDSU. The Sterivex filters were frozen at &#8722;80\u00b0C. The 0.45 \u00b5m filtrates (i.e., the virome) were extracted with chloroform to kill any residual cells (10% vol:vol; most viruses are resistant to chloroform) and stored at 4\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "150 litres", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-08-21", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-162.334722", 
+                    "isol_growth_condt": "18301735", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "~10", 
+                    "location": "Kingman Atoll", 
+                    "sample_name": "mgs15215", 
+                    "latitude": "6.3856", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Virome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Kingman Viral Metagenome - 8/21/05", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00083", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "94915", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18301735, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "59.1-mgs15326", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "The water for the metagenomes was collected from below the boundary layer (in crevices and against the benthos) to avoid confounding problems with the water column. The sampling was conducted at the same time of day to help minimize diurnal effects. The water was collected from over ~20 m2 of reef using a modified bilge pump connected to low density polyethylene (LDPE) collapsible bags (19 l; Cole-Parmer, Vernon Hills, IL; Figure S1). 1) A large fraction containing mostly microbes, some small eukaryotes (such as dinoflagellates and protists), and a few VLPs, and 2) a small fraction containing mostly VLPs and some small microbes. To obtain these fractions the seawater was processed through a series of filters. The large eukaryotes were removed by filtering the entire sample through 100 \u00b5m Nitex, into a barrel lined with a clean, high-density polyethylene bag. The filtrate was then concentrated to ~500 ml on a 100 kDa tangential flow filter (TFF), which captured the unicellular eukaryotes, microbes and VLPs (i.e., the water was removed). During the filtration, pressures were kept below 0.6 bar (10 psi) to ensure that the viruses were not destroyed. The concentrated sample was then passed through 0.45 \u00b5m Sterivex filters (Millipore, Inc) using a 50 ml syringe. In this step, the large metagenomic fraction consisting of microbial cells was caught on the filter (microbiomes) and the filtrate was the small metagenomic fraction (viromes). All filtrations were performed on the research vessel, and the samples were stored for further processing in the laboratory at SDSU. The Sterivex filters were frozen at &#8722;80\u00b0C. The 0.45 \u00b5m filtrates (i.e., the virome) were extracted with chloroform to kill any residual cells (10% vol:vol; most viruses are resistant to chloroform) and stored at 4\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "150 litres", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-08-21", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-162.334722", 
+                    "isol_growth_condt": "18301735", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "~10", 
+                    "location": "Kingman Atoll", 
+                    "sample_name": "mgs15326", 
+                    "latitude": "6.3856", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Kingman Microbial Metagenome - 8/21/05", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00083", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "188445", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18301735, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "59.1-mgs15437", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "The water for the metagenomes was collected from below the boundary layer (in crevices and against the benthos) to avoid confounding problems with the water column. The sampling was conducted at the same time of day to help minimize diurnal effects. The water was collected from over ~20 m2 of reef using a modified bilge pump connected to low density polyethylene (LDPE) collapsible bags (19 l; Cole-Parmer, Vernon Hills, IL; Figure S1). 1) A large fraction containing mostly microbes, some small eukaryotes (such as dinoflagellates and protists), and a few VLPs, and 2) a small fraction containing mostly VLPs and some small microbes. To obtain these fractions the seawater was processed through a series of filters. The large eukaryotes were removed by filtering the entire sample through 100 \u00b5m Nitex, into a barrel lined with a clean, high-density polyethylene bag. The filtrate was then concentrated to ~500 ml on a 100 kDa tangential flow filter (TFF), which captured the unicellular eukaryotes, microbes and VLPs (i.e., the water was removed). During the filtration, pressures were kept below 0.6 bar (10 psi) to ensure that the viruses were not destroyed. The concentrated sample was then passed through 0.45 \u00b5m Sterivex filters (Millipore, Inc) using a 50 ml syringe. In this step, the large metagenomic fraction consisting of microbial cells was caught on the filter (microbiomes) and the filtrate was the small metagenomic fraction (viromes). All filtrations were performed on the research vessel, and the samples were stored for further processing in the laboratory at SDSU. The Sterivex filters were frozen at &#8722;80\u00b0C. The 0.45 \u00b5m filtrates (i.e., the virome) were extracted with chloroform to kill any residual cells (10% vol:vol; most viruses are resistant to chloroform) and stored at 4\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "150 litres", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-08-05", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-157.4840667", 
+                    "isol_growth_condt": "18301735", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "~10", 
+                    "location": "Christmas (Kiritimati) Atoll", 
+                    "sample_name": "mgs15437", 
+                    "latitude": "1.99231667", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Virome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Christmas (Kiritimati) Viral Metagenome - 8/05/05", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00083", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "283390", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18301735, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "59.1-mgs15548", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "The water for the metagenomes was collected from below the boundary layer (in crevices and against the benthos) to avoid confounding problems with the water column. The sampling was conducted at the same time of day to help minimize diurnal effects. The water was collected from over ~20 m2 of reef using a modified bilge pump connected to low density polyethylene (LDPE) collapsible bags (19 l; Cole-Parmer, Vernon Hills, IL; Figure S1). 1) A large fraction containing mostly microbes, some small eukaryotes (such as dinoflagellates and protists), and a few VLPs, and 2) a small fraction containing mostly VLPs and some small microbes. To obtain these fractions the seawater was processed through a series of filters. The large eukaryotes were removed by filtering the entire sample through 100 \u00b5m Nitex, into a barrel lined with a clean, high-density polyethylene bag. The filtrate was then concentrated to ~500 ml on a 100 kDa tangential flow filter (TFF), which captured the unicellular eukaryotes, microbes and VLPs (i.e., the water was removed). During the filtration, pressures were kept below 0.6 bar (10 psi) to ensure that the viruses were not destroyed. The concentrated sample was then passed through 0.45 \u00b5m Sterivex filters (Millipore, Inc) using a 50 ml syringe. In this step, the large metagenomic fraction consisting of microbial cells was caught on the filter (microbiomes) and the filtrate was the small metagenomic fraction (viromes). All filtrations were performed on the research vessel, and the samples were stored for further processing in the laboratory at SDSU. The Sterivex filters were frozen at &#8722;80\u00b0C. The 0.45 \u00b5m filtrates (i.e., the virome) were extracted with chloroform to kill any residual cells (10% vol:vol; most viruses are resistant to chloroform) and stored at 4\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "150 litres", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-08-05", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "157.4840667", 
+                    "isol_growth_condt": "18301735", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "~10", 
+                    "location": "Christmas (Kiritimati) Atoll", 
+                    "sample_name": "mgs15548", 
+                    "latitude": "1.99231667", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Christmas (Kiritimati) Microbial Metagenome - 8/05/05", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00083", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "227542", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18301735, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "59.1-mgs15659", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "The water for the metagenomes was collected from below the boundary layer (in crevices and against the benthos) to avoid confounding problems with the water column. The sampling was conducted at the same time of day to help minimize diurnal effects. The water was collected from over ~20 m2 of reef using a modified bilge pump connected to low density polyethylene (LDPE) collapsible bags (19 l; Cole-Parmer, Vernon Hills, IL; Figure S1). 1) A large fraction containing mostly microbes, some small eukaryotes (such as dinoflagellates and protists), and a few VLPs, and 2) a small fraction containing mostly VLPs and some small microbes. To obtain these fractions the seawater was processed through a series of filters. The large eukaryotes were removed by filtering the entire sample through 100 \u00b5m Nitex, into a barrel lined with a clean, high-density polyethylene bag. The filtrate was then concentrated to ~500 ml on a 100 kDa tangential flow filter (TFF), which captured the unicellular eukaryotes, microbes and VLPs (i.e., the water was removed). During the filtration, pressures were kept below 0.6 bar (10 psi) to ensure that the viruses were not destroyed. The concentrated sample was then passed through 0.45 \u00b5m Sterivex filters (Millipore, Inc) using a 50 ml syringe. In this step, the large metagenomic fraction consisting of microbial cells was caught on the filter (microbiomes) and the filtrate was the small metagenomic fraction (viromes). All filtrations were performed on the research vessel, and the samples were stored for further processing in the laboratory at SDSU. The Sterivex filters were frozen at &#8722;80\u00b0C. The 0.45 \u00b5m filtrates (i.e., the virome) were extracted with chloroform to kill any residual cells (10% vol:vol; most viruses are resistant to chloroform) and stored at 4\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "150 litres", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-08-11", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-159.34956667", 
+                    "isol_growth_condt": "18301735", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "~10", 
+                    "location": "Fanning (Tabuaeran) Atoll", 
+                    "sample_name": "mgs15659", 
+                    "latitude": "3.82595000", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Virome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Fanning (Tabuaeran) Viral Metagenome - 8/11/05", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00083", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "380335", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18301735, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "59.1-mgs15771", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "The water for the metagenomes was collected from below the boundary layer (in crevices and against the benthos) to avoid confounding problems with the water column. The sampling was conducted at the same time of day to help minimize diurnal effects. The water was collected from over ~20 m2 of reef using a modified bilge pump connected to low density polyethylene (LDPE) collapsible bags (19 l; Cole-Parmer, Vernon Hills, IL; Figure S1). 1) A large fraction containing mostly microbes, some small eukaryotes (such as dinoflagellates and protists), and a few VLPs, and 2) a small fraction containing mostly VLPs and some small microbes. To obtain these fractions the seawater was processed through a series of filters. The large eukaryotes were removed by filtering the entire sample through 100 \u00b5m Nitex, into a barrel lined with a clean, high-density polyethylene bag. The filtrate was then concentrated to ~500 ml on a 100 kDa tangential flow filter (TFF), which captured the unicellular eukaryotes, microbes and VLPs (i.e., the water was removed). During the filtration, pressures were kept below 0.6 bar (10 psi) to ensure that the viruses were not destroyed. The concentrated sample was then passed through 0.45 \u00b5m Sterivex filters (Millipore, Inc) using a 50 ml syringe. In this step, the large metagenomic fraction consisting of microbial cells was caught on the filter (microbiomes) and the filtrate was the small metagenomic fraction (viromes). All filtrations were performed on the research vessel, and the samples were stored for further processing in the laboratory at SDSU. The Sterivex filters were frozen at &#8722;80\u00b0C. The 0.45 \u00b5m filtrates (i.e., the virome) were extracted with chloroform to kill any residual cells (10% vol:vol; most viruses are resistant to chloroform) and stored at 4\u00b0C.", 
+                    "env_package": "water", 
+                    "samp_size": "150 litres", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-08-11", 
+                    "country": "United States of America", 
+                    "samp_mat_process": "filtering", 
+                    "material": "marine habitat", 
+                    "feature": "marine habitat", 
+                    "longitude": "-159.34956667", 
+                    "isol_growth_condt": "18301735", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "~10", 
+                    "location": "Fanning (Tabuaeran) Atoll", 
+                    "sample_name": "mgs15771", 
+                    "latitude": "3.82595000", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Fanning (Tabuaeran) Microbial Metagenome - 8/11/05", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00083", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "290844", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18301735, 18337718", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

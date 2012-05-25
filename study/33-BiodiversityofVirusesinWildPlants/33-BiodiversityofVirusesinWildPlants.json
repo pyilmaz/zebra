@@ -1,0 +1,707 @@
+[
+    [
+        "study", 
+        "33-BiodiversityofVirusesinWildPlants", 
+        {
+            "PI_organization_address": "Ardmore, OK", 
+            "PI_organization_url": "www.noble.org", 
+            "PI_lastname": "Roossinck", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Biodiversity of Viruses in Wild Plants", 
+            "PI_organization_country": "USA", 
+            "project_description": "Environmental samples have been analysed for viruses in metagenomic studies, but these studies have not linked individual viruses to their hosts. We designed a strategy to isolate double-stranded RNA, a hallmark of RNA virus infection, from individual plants and convert this to cDNA with a unique four nucleotide Tag at each end. Using 96 different Tags allowed us to pool samples and still retain the link to the original sample. We then analysed the sequence of pooled samples using massively parallel sequencing with Roche 454 pyrosequencing such that 384 samples could be assessed per picotiter plate. Using this method we have been able to analyse thousands of plants, and we have discovered several thousand new plant viruses, all linked to their specific plant hosts. Here we describe the method in detail, including the results and analysis for eight pools of samples. This technology will be extremely useful in understanding the full scope of plant virus biodiversity.", 
+            "PI_email": "mroossinck@noble.org", 
+            "PI_organization": "The Samuel Roberts Noble Foundation", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": " NSF, The United States Department of Agriculture, Samuel Roberts Noble Foundation, and the Area Conservaci\u00f3n Guanacaste", 
+            "PI_firstname": "Marilyn"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "34.1-mgs17293", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Ten to twenty grams of plant materials were collected in the field. For each sample the plant was photographed in its surroundings and close-up. A GPS reading was taken where possible. In some cases where the canopy was very dense GPS readings were taken a few meters away and the approximate distance and direction to the plant was noted. Samples were transported to the laboratory and stored at 4 \u00b0C until extraction within a few days.  Five grams of plant tissue was flash frozen in liquid nitrogen and pulverized in a mortar and pestle. The resulting powder was transferred immediately to a 50 mL plastic centrifuge tube containing 10 mLs of extraction buffer (0.1 m NaCl; 50 mm Tris pH8; 1 mm EDTA; 1% SDS, and optional ingredients 0.1% 2-mercaptoethanol; 1% dry powder polyvinyl polypyrrolidine) and 10 mLs of TE saturated phenol:chloroform (v:v, 1:1), and shaken vigorously for 10 min. The resulting slurry was centrifuged in a low speed (&#8764;3000 rpm) table-top centrifuge to break the emulsion, and the aqueous phase removed for a second phenol:chloroform extraction. The volume of the final aqueous phase was carefully measured, and absolute ethanol added to a concentration of 16.5%. The resulting mixture was added to a small plastic centrifuge tube (BioRad Econocolumn, catalog # 731-1550) containing about 100 mg of CF-11 Cellulose (Whatman), and mixed thoroughly. The column then was placed into a 12 mL plastic tube (Falcon) and the tube and column placed into a table-top centrifuge and spun at a few hundred rpm for 30 s (the column should be centrifuged at the minimum time and speed required to move the liquid from the column to the tube). The tube was emptied and the column filled with 10 mL of application buffer (0.1 m NaCl; 50 mm Tris pH 8; 0.5 mm EDTA; 16.5% ethanol). The cellulose was resuspended thoroughly and the centrifugation process repeated. After this first wash cycle the samples were washed two to five more times, depending on their viscosity and the ease of liquid removal.  After the final wash, the dsRNA was eluted by mixing the cellulose with 4.5 mL of elution buffer (0.1 m NaCl; 50 mm Tris pH 8; 0.5 mm EDTA), and repeating the centrifugation over a clean 15 mL Corex-type tube. Sodium acetate (0.5 mL of a 3 m solution) was added to the tube, along with 10 mL of ice cold ethanol, and the dsRNA was precipitated at &#8722;20 \u00b0C overnight. The tube was centrifuged at 10 000 g in a swinging bucket rotor. The pellet was dissolved in 500 &#956;L of NAE buffer (0.3 m sodium acetate, 0.1 mm EDTA, pH 8) and transferred to a microcentrifuge tube. One mL of ice cold 95% ethanol was added and the sample was precipitated at &#8722;20 \u00b0C overnight. The final dsRNA pellet was dissolved in a volume of 100 &#956;L of 0.1 mm EDTA pH 8 and stored at &#8722;20 \u00b0C.", 
+                    "material": "plant associated", 
+                    "elevation": "600", 
+                    "biome": "plant associated", 
+                    "country": "Costa Rica", 
+                    "altitude": "600", 
+                    "samp_mat_process": "RNA extraction", 
+                    "feature": "plant associated", 
+                    "longitude": "-85.6167", 
+                    "isol_growth_condt": "20331772", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Area de Conservaci\u00f3n Guanacaste", 
+                    "sample_name": "mgs17293", 
+                    "latitude": "10.8500", 
+                    "samp_size": "10-20 g", 
+                    "continent": "south_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Plant Virus Ecogenomics Area Conservacion Guanacaste, Costa Rica pool02", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454/Roche GS-FLX", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "34.1-mgs17304", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Ten to twenty grams of plant materials were collected in the field. For each sample the plant was photographed in its surroundings and close-up. A GPS reading was taken where possible. In some cases where the canopy was very dense GPS readings were taken a few meters away and the approximate distance and direction to the plant was noted. Samples were transported to the laboratory and stored at 4 \u00b0C until extraction within a few days.  Five grams of plant tissue was flash frozen in liquid nitrogen and pulverized in a mortar and pestle. The resulting powder was transferred immediately to a 50 mL plastic centrifuge tube containing 10 mLs of extraction buffer (0.1 m NaCl; 50 mm Tris pH8; 1 mm EDTA; 1% SDS, and optional ingredients 0.1% 2-mercaptoethanol; 1% dry powder polyvinyl polypyrrolidine) and 10 mLs of TE saturated phenol:chloroform (v:v, 1:1), and shaken vigorously for 10 min. The resulting slurry was centrifuged in a low speed (&#8764;3000 rpm) table-top centrifuge to break the emulsion, and the aqueous phase removed for a second phenol:chloroform extraction. The volume of the final aqueous phase was carefully measured, and absolute ethanol added to a concentration of 16.5%. The resulting mixture was added to a small plastic centrifuge tube (BioRad Econocolumn, catalog # 731-1550) containing about 100 mg of CF-11 Cellulose (Whatman), and mixed thoroughly. The column then was placed into a 12 mL plastic tube (Falcon) and the tube and column placed into a table-top centrifuge and spun at a few hundred rpm for 30 s (the column should be centrifuged at the minimum time and speed required to move the liquid from the column to the tube). The tube was emptied and the column filled with 10 mL of application buffer (0.1 m NaCl; 50 mm Tris pH 8; 0.5 mm EDTA; 16.5% ethanol). The cellulose was resuspended thoroughly and the centrifugation process repeated. After this first wash cycle the samples were washed two to five more times, depending on their viscosity and the ease of liquid removal.", 
+                    "material": "plant associated", 
+                    "elevation": "600", 
+                    "biome": "plant associated", 
+                    "country": "Costa Rica", 
+                    "altitude": "600", 
+                    "samp_mat_process": "RNA extraction", 
+                    "feature": "plant associated", 
+                    "longitude": "-85.6167", 
+                    "isol_growth_condt": "20331772", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Area de Conservaci\u00f3n Guanacaste", 
+                    "sample_name": "mgs17304", 
+                    "latitude": "10.8500", 
+                    "samp_size": "10-20 g", 
+                    "continent": "south_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Plant Virus Ecogenomics Area Conservacion Guanacaste, Costa Rica, pool04", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454/Roche GS-FLX", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "34.1-mgs17315", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Ten to twenty grams of plant materials were collected in the field. For each sample the plant was photographed in its surroundings and close-up. A GPS reading was taken where possible. In some cases where the canopy was very dense GPS readings were taken a few meters away and the approximate distance and direction to the plant was noted. Samples were transported to the laboratory and stored at 4 \u00b0C until extraction within a few days.  Five grams of plant tissue was flash frozen in liquid nitrogen and pulverized in a mortar and pestle. The resulting powder was transferred immediately to a 50 mL plastic centrifuge tube containing 10 mLs of extraction buffer (0.1 m NaCl; 50 mm Tris pH8; 1 mm EDTA; 1% SDS, and optional ingredients 0.1% 2-mercaptoethanol; 1% dry powder polyvinyl polypyrrolidine) and 10 mLs of TE saturated phenol:chloroform (v:v, 1:1), and shaken vigorously for 10 min. The resulting slurry was centrifuged in a low speed (&#8764;3000 rpm) table-top centrifuge to break the emulsion, and the aqueous phase removed for a second phenol:chloroform extraction. The volume of the final aqueous phase was carefully measured, and absolute ethanol added to a concentration of 16.5%. The resulting mixture was added to a small plastic centrifuge tube (BioRad Econocolumn, catalog # 731-1550) containing about 100 mg of CF-11 Cellulose (Whatman), and mixed thoroughly. The column then was placed into a 12 mL plastic tube (Falcon) and the tube and column placed into a table-top centrifuge and spun at a few hundred rpm for 30 s (the column should be centrifuged at the minimum time and speed required to move the liquid from the column to the tube). The tube was emptied and the column filled with 10 mL of application buffer (0.1 m NaCl; 50 mm Tris pH 8; 0.5 mm EDTA; 16.5% ethanol). The cellulose was resuspended thoroughly and the centrifugation process repeated. After this first wash cycle the samples were washed two to five more times, depending on their viscosity and the ease of liquid removal.", 
+                    "material": "plant associated", 
+                    "elevation": "600", 
+                    "biome": "plant associated", 
+                    "country": "Costa Rica", 
+                    "altitude": "600", 
+                    "samp_mat_process": "RNA extraction", 
+                    "feature": "plant associated", 
+                    "longitude": "-85.6167", 
+                    "isol_growth_condt": "20331772", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Area de Conservaci\u00f3n Guanacaste", 
+                    "sample_name": "mgs17315", 
+                    "latitude": "10.8500", 
+                    "samp_size": "10-20 g", 
+                    "continent": "south_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Plant Virus Ecogenomics Area Conservacion Guanacaste, Costa Rica, pool06", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454/Roche GS-FLX", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "34.1-mgs17326", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Ten to twenty grams of plant materials were collected in the field. For each sample the plant was photographed in its surroundings and close-up. A GPS reading was taken where possible. In some cases where the canopy was very dense GPS readings were taken a few meters away and the approximate distance and direction to the plant was noted. Samples were transported to the laboratory and stored at 4 \u00b0C until extraction within a few days.  Five grams of plant tissue was flash frozen in liquid nitrogen and pulverized in a mortar and pestle. The resulting powder was transferred immediately to a 50 mL plastic centrifuge tube containing 10 mLs of extraction buffer (0.1 m NaCl; 50 mm Tris pH8; 1 mm EDTA; 1% SDS, and optional ingredients 0.1% 2-mercaptoethanol; 1% dry powder polyvinyl polypyrrolidine) and 10 mLs of TE saturated phenol:chloroform (v:v, 1:1), and shaken vigorously for 10 min. The resulting slurry was centrifuged in a low speed (&#8764;3000 rpm) table-top centrifuge to break the emulsion, and the aqueous phase removed for a second phenol:chloroform extraction. The volume of the final aqueous phase was carefully measured, and absolute ethanol added to a concentration of 16.5%. The resulting mixture was added to a small plastic centrifuge tube (BioRad Econocolumn, catalog # 731-1550) containing about 100 mg of CF-11 Cellulose (Whatman), and mixed thoroughly. The column then was placed into a 12 mL plastic tube (Falcon) and the tube and column placed into a table-top centrifuge and spun at a few hundred rpm for 30 s (the column should be centrifuged at the minimum time and speed required to move the liquid from the column to the tube). The tube was emptied and the column filled with 10 mL of application buffer (0.1 m NaCl; 50 mm Tris pH 8; 0.5 mm EDTA; 16.5% ethanol). The cellulose was resuspended thoroughly and the centrifugation process repeated. After this first wash cycle the samples were washed two to five more times, depending on their viscosity and the ease of liquid removal.", 
+                    "material": "plant associated", 
+                    "elevation": "600", 
+                    "biome": "plant associated", 
+                    "country": "Costa Rica", 
+                    "altitude": "600", 
+                    "samp_mat_process": "RNA extraction", 
+                    "feature": "plant associated", 
+                    "longitude": "85.6167", 
+                    "isol_growth_condt": "20331772", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Area de Conservaci\u00f3n Guanacaste", 
+                    "sample_name": "mgs17326", 
+                    "latitude": "10.8500", 
+                    "samp_size": "10-20 g", 
+                    "continent": "south_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Plant Virus Ecogenomics Area Conservacion Guanacaste, Costa Rica, pool15", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454/Roche GS-FLX", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "34.1-mgs17337", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Ten to twenty grams of plant materials were collected in the field. For each sample the plant was photographed in its surroundings and close-up. A GPS reading was taken where possible. In some cases where the canopy was very dense GPS readings were taken a few meters away and the approximate distance and direction to the plant was noted. Samples were transported to the laboratory and stored at 4 \u00b0C until extraction within a few days.  Five grams of plant tissue was flash frozen in liquid nitrogen and pulverized in a mortar and pestle. The resulting powder was transferred immediately to a 50 mL plastic centrifuge tube containing 10 mLs of extraction buffer (0.1 m NaCl; 50 mm Tris pH8; 1 mm EDTA; 1% SDS, and optional ingredients 0.1% 2-mercaptoethanol; 1% dry powder polyvinyl polypyrrolidine) and 10 mLs of TE saturated phenol:chloroform (v:v, 1:1), and shaken vigorously for 10 min. The resulting slurry was centrifuged in a low speed (&#8764;3000 rpm) table-top centrifuge to break the emulsion, and the aqueous phase removed for a second phenol:chloroform extraction. The volume of the final aqueous phase was carefully measured, and absolute ethanol added to a concentration of 16.5%. The resulting mixture was added to a small plastic centrifuge tube (BioRad Econocolumn, catalog # 731-1550) containing about 100 mg of CF-11 Cellulose (Whatman), and mixed thoroughly. The column then was placed into a 12 mL plastic tube (Falcon) and the tube and column placed into a table-top centrifuge and spun at a few hundred rpm for 30 s (the column should be centrifuged at the minimum time and speed required to move the liquid from the column to the tube). The tube was emptied and the column filled with 10 mL of application buffer (0.1 m NaCl; 50 mm Tris pH 8; 0.5 mm EDTA; 16.5% ethanol). The cellulose was resuspended thoroughly and the centrifugation process repeated. After this first wash cycle the samples were washed two to five more times, depending on their viscosity and the ease of liquid removal.", 
+                    "material": "plant associated", 
+                    "elevation": "600", 
+                    "biome": "plant associated", 
+                    "country": "Costa Rica", 
+                    "altitude": "600", 
+                    "samp_mat_process": "RNA extraction", 
+                    "feature": "plant associated", 
+                    "longitude": "-85.6167", 
+                    "isol_growth_condt": "20331772", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Area de Conservaci\u00f3n Guanacaste", 
+                    "sample_name": "mgs17337", 
+                    "latitude": "10.8500", 
+                    "samp_size": "10-20 g", 
+                    "continent": "south_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Plant Virus Ecogenomics Area Conservacion Guanacaste, Costa Rica, pool16", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454/Roche GS-FLX", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "34.1-mgs17348", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Ten to twenty grams of plant materials were collected in the field. For each sample the plant was photographed in its surroundings and close-up. A GPS reading was taken where possible. In some cases where the canopy was very dense GPS readings were taken a few meters away and the approximate distance and direction to the plant was noted. Samples were transported to the laboratory and stored at 4 \u00b0C until extraction within a few days.  Five grams of plant tissue was flash frozen in liquid nitrogen and pulverized in a mortar and pestle. The resulting powder was transferred immediately to a 50 mL plastic centrifuge tube containing 10 mLs of extraction buffer (0.1 m NaCl; 50 mm Tris pH8; 1 mm EDTA; 1% SDS, and optional ingredients 0.1% 2-mercaptoethanol; 1% dry powder polyvinyl polypyrrolidine) and 10 mLs of TE saturated phenol:chloroform (v:v, 1:1), and shaken vigorously for 10 min. The resulting slurry was centrifuged in a low speed (&#8764;3000 rpm) table-top centrifuge to break the emulsion, and the aqueous phase removed for a second phenol:chloroform extraction. The volume of the final aqueous phase was carefully measured, and absolute ethanol added to a concentration of 16.5%. The resulting mixture was added to a small plastic centrifuge tube (BioRad Econocolumn, catalog # 731-1550) containing about 100 mg of CF-11 Cellulose (Whatman), and mixed thoroughly. The column then was placed into a 12 mL plastic tube (Falcon) and the tube and column placed into a table-top centrifuge and spun at a few hundred rpm for 30 s (the column should be centrifuged at the minimum time and speed required to move the liquid from the column to the tube). The tube was emptied and the column filled with 10 mL of application buffer (0.1 m NaCl; 50 mm Tris pH 8; 0.5 mm EDTA; 16.5% ethanol). The cellulose was resuspended thoroughly and the centrifugation process repeated. After this first wash cycle the samples were washed two to five more times, depending on their viscosity and the ease of liquid removal.", 
+                    "material": "plant associated", 
+                    "elevation": "600", 
+                    "biome": "plant associated", 
+                    "country": "Costa Rica", 
+                    "altitude": "600", 
+                    "samp_mat_process": "RNA extraction", 
+                    "feature": "plant associated", 
+                    "longitude": "-85.6167", 
+                    "isol_growth_condt": "20331772", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Area de Conservaci\u00f3n Guanacaste", 
+                    "sample_name": "mgs17348", 
+                    "latitude": "10.8500", 
+                    "samp_size": "10-20 g", 
+                    "continent": "south_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Plant Virus Ecogenomics Area Conservacion Guanacaste, Costa Rica, pool11", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454/Roche GS-FLX", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "34.1-mgs17360", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Ten to twenty grams of plant materials were collected in the field. For each sample the plant was photographed in its surroundings and close-up. A GPS reading was taken where possible. In some cases where the canopy was very dense GPS readings were taken a few meters away and the approximate distance and direction to the plant was noted. Samples were transported to the laboratory and stored at 4 \u00b0C until extraction within a few days.  Five grams of plant tissue was flash frozen in liquid nitrogen and pulverized in a mortar and pestle. The resulting powder was transferred immediately to a 50 mL plastic centrifuge tube containing 10 mLs of extraction buffer (0.1 m NaCl; 50 mm Tris pH8; 1 mm EDTA; 1% SDS, and optional ingredients 0.1% 2-mercaptoethanol; 1% dry powder polyvinyl polypyrrolidine) and 10 mLs of TE saturated phenol:chloroform (v:v, 1:1), and shaken vigorously for 10 min. The resulting slurry was centrifuged in a low speed (&#8764;3000 rpm) table-top centrifuge to break the emulsion, and the aqueous phase removed for a second phenol:chloroform extraction. The volume of the final aqueous phase was carefully measured, and absolute ethanol added to a concentration of 16.5%. The resulting mixture was added to a small plastic centrifuge tube (BioRad Econocolumn, catalog # 731-1550) containing about 100 mg of CF-11 Cellulose (Whatman), and mixed thoroughly. The column then was placed into a 12 mL plastic tube (Falcon) and the tube and column placed into a table-top centrifuge and spun at a few hundred rpm for 30 s (the column should be centrifuged at the minimum time and speed required to move the liquid from the column to the tube). The tube was emptied and the column filled with 10 mL of application buffer (0.1 m NaCl; 50 mm Tris pH 8; 0.5 mm EDTA; 16.5% ethanol). The cellulose was resuspended thoroughly and the centrifugation process repeated. After this first wash cycle the samples were washed two to five more times, depending on their viscosity and the ease of liquid removal.", 
+                    "material": "plant associated", 
+                    "elevation": "600", 
+                    "biome": "plant associated", 
+                    "country": "Costa Rica", 
+                    "altitude": "600", 
+                    "samp_mat_process": "RNA extraction", 
+                    "feature": "plant associated", 
+                    "longitude": "-85.6167", 
+                    "isol_growth_condt": "20331772", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Area de Conservaci\u00f3n Guanacaste", 
+                    "sample_name": "mgs17360", 
+                    "latitude": "10.8500", 
+                    "samp_size": "10-20 g", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Plant Virus Ecogenomics Area Conservacion Guanacaste, Costa Rica, pool03", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454/Roche GS-FLX", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "34.1-mgs17371", 
+                {
+                    "collection_timezone": "UTC", 
+                    "samp_collect_device": "Ten to twenty grams of plant materials were collected in the field. For each sample the plant was photographed in its surroundings and close-up. A GPS reading was taken where possible. In some cases where the canopy was very dense GPS readings were taken a few meters away and the approximate distance and direction to the plant was noted. Samples were transported to the laboratory and stored at 4 \u00b0C until extraction within a few days.  Five grams of plant tissue was flash frozen in liquid nitrogen and pulverized in a mortar and pestle. The resulting powder was transferred immediately to a 50 mL plastic centrifuge tube containing 10 mLs of extraction buffer (0.1 m NaCl; 50 mm Tris pH8; 1 mm EDTA; 1% SDS, and optional ingredients 0.1% 2-mercaptoethanol; 1% dry powder polyvinyl polypyrrolidine) and 10 mLs of TE saturated phenol:chloroform (v:v, 1:1), and shaken vigorously for 10 min. The resulting slurry was centrifuged in a low speed (&#8764;3000 rpm) table-top centrifuge to break the emulsion, and the aqueous phase removed for a second phenol:chloroform extraction. The volume of the final aqueous phase was carefully measured, and absolute ethanol added to a concentration of 16.5%. The resulting mixture was added to a small plastic centrifuge tube (BioRad Econocolumn, catalog # 731-1550) containing about 100 mg of CF-11 Cellulose (Whatman), and mixed thoroughly. The column then was placed into a 12 mL plastic tube (Falcon) and the tube and column placed into a table-top centrifuge and spun at a few hundred rpm for 30 s (the column should be centrifuged at the minimum time and speed required to move the liquid from the column to the tube). The tube was emptied and the column filled with 10 mL of application buffer (0.1 m NaCl; 50 mm Tris pH 8; 0.5 mm EDTA; 16.5% ethanol). The cellulose was resuspended thoroughly and the centrifugation process repeated. After this first wash cycle the samples were washed two to five more times, depending on their viscosity and the ease of liquid removal.", 
+                    "material": "plant associated", 
+                    "elevation": "600", 
+                    "biome": "plant associated", 
+                    "country": "Costa Rica", 
+                    "altitude": "600", 
+                    "samp_mat_process": "RNA extraction", 
+                    "feature": "plant associated", 
+                    "longitude": "-85.6167", 
+                    "isol_growth_condt": "20331772", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Area de Conservaci\u00f3n Guanacaste", 
+                    "sample_name": "mgs17371", 
+                    "latitude": "10.8500", 
+                    "samp_size": "10-20 g", 
+                    "continent": "south_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Plant Virus Ecogenomics Area Conservacion Guanacaste, Costa Rica pool01", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "seq_make": {
+                                "definition": "Make of the sequencing machine", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454/Roche GS-FLX", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_mg_sequencing_make"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

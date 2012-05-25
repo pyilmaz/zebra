@@ -1,0 +1,200 @@
+[
+    [
+        "study", 
+        "61-OxygenMinimumZone", 
+        {
+            "PI_organization_address": "San Diego, CA", 
+            "PI_organization_url": "http://bio.sdsu.edu", 
+            "PI_lastname": "Angly", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Oxygen Minimum Zone", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "40797, 40791", 
+            "project_description": "Metagenomes collected at different depths and times in the Oxygen Minimum Zone off the coasts of Chile.\r\n\r\nThe oceanic oxygen minimum zone samples were collected in June 2008 off Iquique, Chile, (20.104o S and 70.404o W). Oxygen minimum zone viral metagenomes were constructed by filtering 40 l of water collected using a CTD rosette lowered to a sampling depth of 90 and 200 m (named OxMinZoneVir200806-90 and OxMinZoneVir200806-200 respectively). Samples were concentrated through a 100 kDa tangential flow filter to retain viral particles. The concentrate was passed through a 0.45 \u00b5m sterivex filter to remove larger cells and treated with chloroform. The viruses were purified using cesium chloride (CsCl) step gradients to remove free DNA and any cellular material. Viral samples were visually checked for microbial contamination using epifluorescence microscopy. Viral DNA was extracted using CTAB/phenol:chloroform extractions and amplified using Genomiphi reactions. These reactions were pooled and purified using silica columns (Qiagen Inc, Valencia, CA). The DNA was precipitated with ethanol and re-suspended in water at a concentration of approximately 300 ng \u00b5l-1. Sequencing was performed using pyrosequencing on Roche Applied Sciences/454 Life Sciences GS-FLX platforms with a practical limit of 250 bp. Duplicate sequences were removed from the obtained dataset.", 
+            "PI_email": "forent.angly@gmail.com", 
+            "PI_organization": "Biology Department, San Diego State University", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "Massachusetts Institute of Technology and the Agouron Institute", 
+            "PI_firstname": "Florent"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "62.1-mgs17560", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "The oceanic oxygen minimum zone samples were collected in June 2008 off Iquique, Chile, (20.104o S and 70.404o W). Oxygen minimum zone viral metagenomes were constructed by filtering 40 l of water collected using a CTD rosette lowered to a sampling depth of 90 and 200 m (OxMinZoneVir200806\u00ad90 and OxMinZoneVir200806\u00ad200 respectively). Samples were concentrated through a 100 kDa tangential flow filter to retain viral particles. The concentrate was passed through a 0.45 &#956;m sterivex filter to remove larger cells and treated with chloroform. The viruses were purified using cesium chloride (CsCl) step gradients to remove free DNA and any cellular material.", 
+                    "material": "marine habitat", 
+                    "samp_size": "40 L", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-06-01", 
+                    "country": "Chile", 
+                    "samp_mat_process": "filtering", 
+                    "feature": "marine habitat", 
+                    "longitude": "-70.404", 
+                    "isol_growth_condt": "20011103", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "200", 
+                    "location": "Iquique, Chile", 
+                    "sample_name": "mgs17560", 
+                    "latitude": "-20.104", 
+                    "continent": "south_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Oxygen Minimum Zone (200 m depth)", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "62.1-mgs17571", 
+                {
+                    "biome": "marine habitat", 
+                    "samp_collect_device": "The oceanic oxygen minimum zone samples were collected in June 2008 off Iquique, Chile, (20.104o S and 70.404o W). Oxygen minimum zone viral metagenomes were constructed by filtering 40 l of water collected using a CTD rosette lowered to a sampling depth of 90 and 200 m (OxMinZoneVir200806\u00ad90 and OxMinZoneVir200806\u00ad200 respectively). Samples were concentrated through a 100 kDa tangential flow filter to retain viral particles. The concentrate was passed through a 0.45 &#956;m sterivex filter to remove larger cells and treated with chloroform. The viruses were purified using cesium chloride (CsCl) step gradients to remove free DNA and any cellular material.", 
+                    "material": "marine habitat", 
+                    "samp_size": "40 L", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2008-08-01", 
+                    "country": "Chile", 
+                    "samp_mat_process": "filtering", 
+                    "feature": "marine habitat", 
+                    "longitude": "-70.404", 
+                    "isol_growth_condt": "20011103", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": "90", 
+                    "location": "Iquique, Chile", 
+                    "sample_name": "mgs17571", 
+                    "latitude": "-20.104", 
+                    "continent": "south_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Oxygen Minimum Zone (90 m depth)", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

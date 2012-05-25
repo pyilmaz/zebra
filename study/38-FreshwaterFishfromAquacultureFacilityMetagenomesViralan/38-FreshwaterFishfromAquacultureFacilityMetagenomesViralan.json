@@ -1,0 +1,1242 @@
+[
+    [
+        "study", 
+        "38-FreshwaterFishfromAquacultureFacilityMetagenomesViralan", 
+        {
+            "PI_organization_address": "San Diego, CA", 
+            "PI_organization_url": "http://www.csrc.sdsu.edu/csrc/", 
+            "PI_lastname": "Rodriguez-Brito", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Freshwater Fish from Aquaculture Facility Metagenomes - Viral an", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "28407", 
+            "project_description": "In this study, we used metagenomics to monitor the viral and microbial communities in a stable, human-controlled aquatic environments over time.The study environment included a freshwater aquaculture system. Populations within the community were monitored at both the coarse-grained level of species and the fine-grained level of strains. On the basis of our results, we propose a model for these stable aquatic environments that is consistent with a Kill-the-Winner cycling of predator and prey populations and in which sensitive microbial strains are killed off by viral predators and are replaced by phage-resistant strains of the same species.", 
+            "PI_email": "beltran.rodriguezbrito@gmail.com", 
+            "PI_organization": "Computational Science Research Center, San Diego State University", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "US National Science Foundation, Gordon and Betty Moore Foundation, ARCS, NSF, ATP/Kent Sea Tech and EMBO", 
+            "PI_firstname": "Beltran"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "39.1-mgs17459", 
+                {
+                    "biome": "freshwater", 
+                    "samp_collect_device": "Freshwater samples (80&#8201;l volume) were collected from The Prebead pond (FW2) which received effluent from 60 nursery ponds. At the time of sampling, hybrid striped bass were being raised in the main ponds.These sampling sites integrate the microbial and viral communities from either the nursery or the production ponds, thus avoiding pond-to-pond variation. Water samples were collected in November 2005, April 2006, and August 2006. Viral and microbial fractions were isolated from each water sample by passage through a 0.2-&#956;m tangential flow filter (TFF, Millipore, Westborough, MA, USA). The filtrate and the retentate were collected in separate tanks. The virus-containing filtrate was concentrated to a final volume of ~500&#8201;ml using a 100-kDa TFF filter. Polyethylene glycol (PEG 8000) was added to a final concentration of 10% (w/v) and the mixture was incubated for 12-18&#8201;h at 4&#8201;\u00b0C. The VLPs were pelleted by centrifuging for 2&#8201;h at 22&#8201;000&#8201;rpm in an SW41Ti swinging bucket rotor (RCF avg=53&#8201;000 \u00d7 g). The VLP pellet was resuspended in filtered (100&#8201;kDa) saltern water to a final volume of ~50&#8201;ml. The virus concentrate was loaded onto a cesium chloride density gradient, centrifuged, and the 1.5&#8201;g&#8201;ml&#8722;1 fraction was collected. At each step, recovery of viral particles was verified by epifluorescence microscopy. The viral DNA was isolated by formamide lysis and cetyltrimethylammonium bromide extraction (Sambrook et al., 1982).", 
+                    "env_package": "water", 
+                    "elevation": "-69.1896", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-05-04", 
+                    "country": "United States of America", 
+                    "altitude": "-69.1896", 
+                    "samp_mat_process": "filtering", 
+                    "material": "freshwater", 
+                    "feature": "freshwater", 
+                    "longitude": "-116.097751", 
+                    "isol_growth_condt": "20147985", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "prebead pond at Kent SeaTech, Salton Sea, CA", 
+                    "sample_name": "mgs17459", 
+                    "latitude": "33.537594", 
+                    "samp_size": "80 L", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "102.2", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Virome", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00135", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Kent State Pre Pond Viral Fraction 05/04/06", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "67988", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18337718, 20147985", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "39.1-mgs17472", 
+                {
+                    "biome": "freshwater", 
+                    "samp_collect_device": "Freshwater samples (80&#8201;l volume) were collected from two sites at the aquaculture facility of Kent SeaTech Corporation (Salton Sea, CA, USA). At the time of sampling, hybrid striped bass were being raised in the main ponds. The Tilapia Channel (FW1) received the effluent from 96 production ponds. These sampling sites integrate the microbial and viral communities from either the nursery or the production ponds, thus avoiding pond-to-pond variation. Water samples were collected in November 2005, April 2006, and August 2006. Viral and microbial fractions were isolated from each water sample by passage through a 0.2-&#956;m tangential flow filter (TFF, Millipore, Westborough, MA, USA). The filtrate and the retentate were collected in separate tanks. The microbial fraction was collected from the 0.2-&#956;m TFF retentate by centrifugation at ~2000 \u00d7 g for 10&#8201;min. Microbial DNA was extracted using the Ultra Clean Soil DNA Kit (Mo Bio Laboratories, CA, USA).", 
+                    "env_package": "water", 
+                    "elevation": "-69.1896", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-11-01", 
+                    "country": "United States of America", 
+                    "altitude": "-69.1896", 
+                    "samp_mat_process": "filtering", 
+                    "material": "freshwater", 
+                    "feature": "freshwater", 
+                    "longitude": "-116.097751", 
+                    "isol_growth_condt": "20147985", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Tilapia Channel (FW1) at Kent SeaTech, Salton Sea, CA", 
+                    "sample_name": "mgs17472", 
+                    "latitude": "33.537594", 
+                    "samp_size": "80 L", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "100.8", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Kent State Tilapia Pond Microbial Fraction 11/05", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00135", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "381076", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18337718, 20147985", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "39.1-mgs17494", 
+                {
+                    "biome": "freshwater", 
+                    "samp_collect_device": "Freshwater samples (80&#8201;l volume) were collected from The Tilapia Channel (FW1) which received the effluent from 96 production ponds. At the time of sampling, hybrid striped bass were being raised in the main ponds.These sampling sites integrate the microbial and viral communities from either the nursery or the production ponds, thus avoiding pond-to-pond variation. Water samples were collected in November 2005, April 2006, and August 2006. Viral and microbial fractions were isolated from each water sample by passage through a 0.2-&#956;m tangential flow filter (TFF, Millipore, Westborough, MA, USA). The filtrate and the retentate were collected in separate tanks. The virus-containing filtrate was concentrated to a final volume of ~500&#8201;ml using a 100-kDa TFF filter. Polyethylene glycol (PEG 8000) was added to a final concentration of 10% (w/v) and the mixture was incubated for 12-18&#8201;h at 4&#8201;\u00b0C. The VLPs were pelleted by centrifuging for 2&#8201;h at 22&#8201;000&#8201;rpm in an SW41Ti swinging bucket rotor (RCF avg=53&#8201;000 \u00d7 g). The VLP pellet was resuspended in filtered (100&#8201;kDa) saltern water to a final volume of ~50&#8201;ml. The virus concentrate was loaded onto a cesium chloride density gradient, centrifuged, and the 1.5&#8201;g&#8201;ml&#8722;1 fraction was collected. At each step, recovery of viral particles was verified by epifluorescence microscopy. The viral DNA was isolated by formamide lysis and cetyltrimethylammonium bromide extraction (Sambrook et al., 1982).", 
+                    "env_package": "water", 
+                    "elevation": "-69.1896", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-11-01", 
+                    "country": "United States of America", 
+                    "altitude": "-69.1896", 
+                    "samp_mat_process": "filtering", 
+                    "material": "freshwater", 
+                    "feature": "freshwater", 
+                    "longitude": "-116.097751", 
+                    "isol_growth_condt": "20147985", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Tilapia Channel (FW1) at Kent SeaTech, Salton Sea, CA", 
+                    "sample_name": "mgs17494", 
+                    "latitude": "33.537594", 
+                    "samp_size": "80 L", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "101.3", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Kent State Tilapia Pond Viral Fraction 11/05", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00135", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "27&#8201;099&#8201;247", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18337718, 20147985", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "39.1-mgs17505", 
+                {
+                    "biome": "freshwater", 
+                    "samp_collect_device": "Freshwater samples (80&#8201;l volume) were collected from two sites at the aquaculture facility of Kent SeaTech Corporation (Salton Sea, CA, USA). At the time of sampling, hybrid striped bass were being raised in the main ponds. The Tilapia Channel (FW1) received the effluent from 96 production ponds. These sampling sites integrate the microbial and viral communities from either the nursery or the production ponds, thus avoiding pond-to-pond variation. Water samples were collected in November 2005, April 2006, and August 2006. Viral and microbial fractions were isolated from each water sample by passage through a 0.2-&#956;m tangential flow filter (TFF, Millipore, Westborough, MA, USA). The filtrate and the retentate were collected in separate tanks. The microbial fraction was collected from the 0.2-&#956;m TFF retentate by centrifugation at ~2000 \u00d7 g for 10&#8201;min. Microbial DNA was extracted using the Ultra Clean Soil DNA Kit (Mo Bio Laboratories, CA, USA).", 
+                    "env_package": "water", 
+                    "elevation": "-69.1896", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-05-04", 
+                    "country": "United States of America", 
+                    "altitude": "-69.1896", 
+                    "samp_mat_process": "filtering", 
+                    "material": "freshwater", 
+                    "feature": "freshwater", 
+                    "longitude": "-116.097751", 
+                    "isol_growth_condt": "20147985", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Tilapia Channel (FW1) at Kent SeaTech, Salton Sea, CA", 
+                    "sample_name": "mgs17505", 
+                    "latitude": "33.537594", 
+                    "samp_size": "80 L", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "100.4", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Kent State Tilapia Pond Microbial Fraction 05/04/06", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00135", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "63&#8201;978", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18337718, 20147985", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "39.1-mgs17516", 
+                {
+                    "biome": "freshwater", 
+                    "samp_collect_device": "Freshwater samples (80&#8201;l volume) were collected from The Tilapia Channel (FW1) which received the effluent from 96 production ponds. At the time of sampling, hybrid striped bass were being raised in the main ponds.These sampling sites integrate the microbial and viral communities from either the nursery or the production ponds, thus avoiding pond-to-pond variation. Water samples were collected in November 2005, April 2006, and August 2006. Viral and microbial fractions were isolated from each water sample by passage through a 0.2-&#956;m tangential flow filter (TFF, Millipore, Westborough, MA, USA). The filtrate and the retentate were collected in separate tanks. The virus-containing filtrate was concentrated to a final volume of ~500&#8201;ml using a 100-kDa TFF filter. Polyethylene glycol (PEG 8000) was added to a final concentration of 10% (w/v) and the mixture was incubated for 12-18&#8201;h at 4&#8201;\u00b0C. The VLPs were pelleted by centrifuging for 2&#8201;h at 22&#8201;000&#8201;rpm in an SW41Ti swinging bucket rotor (RCF avg=53&#8201;000 \u00d7 g). The VLP pellet was resuspended in filtered (100&#8201;kDa) saltern water to a final volume of ~50&#8201;ml. The virus concentrate was loaded onto a cesium chloride density gradient, centrifuged, and the 1.5&#8201;g&#8201;ml&#8722;1 fraction was collected. At each step, recovery of viral particles was verified by epifluorescence microscopy. The viral DNA was isolated by formamide lysis and cetyltrimethylammonium bromide extraction (Sambrook et al., 1982).", 
+                    "env_package": "water", 
+                    "elevation": "-69.1896", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-08-01", 
+                    "country": "United States of America", 
+                    "altitude": "-69.1896", 
+                    "samp_mat_process": "filtering", 
+                    "material": "freshwater", 
+                    "feature": "freshwater", 
+                    "longitude": "-116.097751", 
+                    "isol_growth_condt": "20147985", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Tilapia Channel (FW1) at Kent SeaTech, Salton Sea, CA", 
+                    "sample_name": "mgs17516", 
+                    "latitude": "33.537594", 
+                    "samp_size": "80 L", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "101.5", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Kent State Tilapia Pond Viral Fraction 08/06", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00135", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "67&#8201;612", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18337718, 20147985", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "39.1-mgs17527", 
+                {
+                    "biome": "freshwater", 
+                    "samp_collect_device": "Freshwater samples (80&#8201;l volume) were collected from two sites at the aquaculture facility of Kent SeaTech Corporation (Salton Sea, CA, USA). At the time of sampling, hybrid striped bass were being raised in the main ponds. The Tilapia Channel (FW1) received the effluent from 96 production ponds. These sampling sites integrate the microbial and viral communities from either the nursery or the production ponds, thus avoiding pond-to-pond variation. Water samples were collected in November 2005, April 2006, and August 2006. Viral and microbial fractions were isolated from each water sample by passage through a 0.2-&#956;m tangential flow filter (TFF, Millipore, Westborough, MA, USA). The filtrate and the retentate were collected in separate tanks. The microbial fraction was collected from the 0.2-&#956;m TFF retentate by centrifugation at ~2000 \u00d7 g for 10&#8201;min. Microbial DNA was extracted using the Ultra Clean Soil DNA Kit (Mo Bio Laboratories, CA, USA).", 
+                    "env_package": "water", 
+                    "elevation": "-69.1896", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-08-01", 
+                    "country": "United States of America", 
+                    "altitude": "-69.1896", 
+                    "samp_mat_process": "filtering", 
+                    "material": "freshwater", 
+                    "feature": "freshwater", 
+                    "longitude": "-116.097751", 
+                    "isol_growth_condt": "20147985", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Tilapia Channel (FW1) at Kent SeaTech, Salton Sea, CA", 
+                    "sample_name": "mgs17527", 
+                    "latitude": "33.537594", 
+                    "samp_size": "80 L", 
+                    "continent": "na"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "101.5", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Kent State Tilapia Pond Microbial Fraction 08/2006", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00135", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "67&#8201;612", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18337718, 20147985", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "39.1-mgs17538", 
+                {
+                    "biome": "freshwater", 
+                    "samp_collect_device": "Freshwater samples (80&#8201;l volume) were collected from The Tilapia Channel (FW1) which received the effluent from 96 production ponds. At the time of sampling, hybrid striped bass were being raised in the main ponds.These sampling sites integrate the microbial and viral communities from either the nursery or the production ponds, thus avoiding pond-to-pond variation. Water samples were collected in November 2005, April 2006, and August 2006. Viral and microbial fractions were isolated from each water sample by passage through a 0.2-&#956;m tangential flow filter (TFF, Millipore, Westborough, MA, USA). The filtrate and the retentate were collected in separate tanks. The virus-containing filtrate was concentrated to a final volume of ~500&#8201;ml using a 100-kDa TFF filter. Polyethylene glycol (PEG 8000) was added to a final concentration of 10% (w/v) and the mixture was incubated for 12-18&#8201;h at 4&#8201;\u00b0C. The VLPs were pelleted by centrifuging for 2&#8201;h at 22&#8201;000&#8201;rpm in an SW41Ti swinging bucket rotor (RCF avg=53&#8201;000 \u00d7 g). The VLP pellet was resuspended in filtered (100&#8201;kDa) saltern water to a final volume of ~50&#8201;ml. The virus concentrate was loaded onto a cesium chloride density gradient, centrifuged, and the 1.5&#8201;g&#8201;ml&#8722;1 fraction was collected. At each step, recovery of viral particles was verified by epifluorescence microscopy. The viral DNA was isolated by formamide lysis and cetyltrimethylammonium bromide extraction (Sambrook et al., 1982).", 
+                    "env_package": "water", 
+                    "elevation": "-69.1896", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-05-04", 
+                    "country": "United States of America", 
+                    "altitude": "-69.1896", 
+                    "samp_mat_process": "filtering", 
+                    "material": "freshwater", 
+                    "feature": "freshwater", 
+                    "longitude": "-116.097751", 
+                    "isol_growth_condt": "20147985", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "Tilapia Channel (FW1) at Kent SeaTech, Salton Sea, CA", 
+                    "sample_name": "mgs17538", 
+                    "latitude": "33.537594", 
+                    "samp_size": "80 L", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "100.4", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Kent State Tilapia Pond Viral Fraction 05/04/06", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00135", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "63&#8201;978", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18337718, 20147985", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "39.1-mgs17549", 
+                {
+                    "biome": "freshwater", 
+                    "samp_collect_device": "Freshwater samples (80&#8201;l volume) were collected from The Prebead pond (FW2) which received effluent from 60 nursery ponds. At the time of sampling, hybrid striped bass were being raised in the main ponds. The Tilapia Channel (FW1) received the effluent from 96 production ponds. These sampling sites integrate the microbial and viral communities from either the nursery or the production ponds, thus avoiding pond-to-pond variation. Water samples were collected in November 2005, April 2006, and August 2006. Viral and microbial fractions were isolated from each water sample by passage through a 0.2-&#956;m tangential flow filter (TFF, Millipore, Westborough, MA, USA). The filtrate and the retentate were collected in separate tanks. The microbial fraction was collected from the 0.2-&#956;m TFF retentate by centrifugation at ~2000 \u00d7 g for 10&#8201;min. Microbial DNA was extracted using the Ultra Clean Soil DNA Kit (Mo Bio Laboratories, CA, USA).", 
+                    "env_package": "water", 
+                    "elevation": "-69.1896", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2006-05-04", 
+                    "country": "United States of America", 
+                    "altitude": "-69.1896", 
+                    "samp_mat_process": "filtering", 
+                    "material": "freshwater", 
+                    "feature": "freshwater", 
+                    "longitude": "-116.097751", 
+                    "isol_growth_condt": "20147985", 
+                    "geodetic_system": "wgs_84", 
+                    "location": "prebead pond at Kent SeaTech, Salton Sea, CA", 
+                    "sample_name": "mgs17549", 
+                    "latitude": "33.537594", 
+                    "samp_size": "80 L", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "99.4", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Kent State Pre Pond Microbial Fraction 05/04/06", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00135", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "454", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "44&#8201;094", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "18337718, 20147985", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }, 
+                            "seq_center": {
+                                "definition": "Name of instatute sequencing was done", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "454 Life Sciences, Inc, Branford, CT", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_center", 
+                                    "EXPERIMENT_CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "39.1", 
+                {
+                    "biome": {
+                        "definition": "The environmental biome represents the major classes of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures, leaf types, plant spacing, and other factors like climate. Examples include: desert, taiga, deciduous woodland, or coral reef. EnvO terms listed under environmental biome can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00000428", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "freshwater", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_biome"
+                        ]
+                    }, 
+                    "material": {
+                        "definition": "The environmental material level refers to the matter that was displaced by the sample, prior to the sampling event. Environmental matter terms are generally mass nouns. Examples include: air, soil, or water. EnvO terms listed under environmental matter can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00010483", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "freshwater", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_matter"
+                        ]
+                    }, 
+                    "collection_timezone": {
+                        "definition": "The timezone of sampling.  Use ISO8601 compliant format, ie. UTC-7", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "timezone", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_timezone"
+                        ]
+                    }, 
+                    "collection_date": {
+                        "definition": "The date of sampling. Use ISO8601 compliant format, ie. 2008-01-23", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "date", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_date"
+                        ]
+                    }, 
+                    "country": {
+                        "definition": "The geographical origin of the sample as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (http://bioportal.bioontology.org/visualize/1397)", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_country"
+                        ]
+                    }, 
+                    "env_package": {
+                        "definition": "MIGS/MIMS/MIMARKS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. Use one of: air, host-associated, human-associated, human-skin, human-oral, human-gut, human-vaginal, microbial mat|biofilm, miscellaneous, plant-associated, sediment, soil, wastewater|sludge, water", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "select", 
+                        "unit": ""
+                    }, 
+                    "feature": {
+                        "definition": "Environmental feature level includes geographic environmental features. Examples include: harbor, cliff, or lake. EnvO terms listed under environmental feature can be found from the link: http://bioportal.bioontology.org/visualize/1069/?conceptid=ENVO%3A00002297", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "freshwater", 
+                        "type": "ontology", 
+                        "unit": "", 
+                        "aliases": [
+                            "biome-information_envo_lite", 
+                            "env_feature"
+                        ]
+                    }, 
+                    "longitude": {
+                        "definition": "The geographical origin of the sample as defined by longitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_longitude"
+                        ]
+                    }, 
+                    "location": {
+                        "definition": "The geographical origin of the sample as defined by the specific local region name", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_location", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sample_name": {
+                        "definition": "Unique name or id of the sample", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "text", 
+                        "unit": ""
+                    }, 
+                    "latitude": {
+                        "definition": "The geographical origin of the sample as defined by latitude. The value should be reported in decimal degrees and in WGS84 system", 
+                        "mixs": "1", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "float", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_latitude"
+                        ]
+                    }, 
+                    "collection_time": {
+                        "definition": "The local time of sampling.  Use ISO8601 compliant format, ie. 19:23:10", 
+                        "mixs": "0", 
+                        "required": "1", 
+                        "value": "", 
+                        "type": "time", 
+                        "unit": "", 
+                        "aliases": [
+                            "sample-origin_sampling_time"
+                        ]
+                    }
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {}
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

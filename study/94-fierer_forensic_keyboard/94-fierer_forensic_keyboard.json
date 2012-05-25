@@ -1,0 +1,27 @@
+[
+    [
+        "study", 
+        "94-fierer_forensic_keyboard", 
+        {
+            "project_name": "fierer_forensic_keyboard", 
+            "metadata_complete": "y", 
+            "sample_count": "115", 
+            "pmid": "20231444", 
+            "study_type": "metagenome", 
+            "study_description": "forensic_keyboard", 
+            "center_name": "CCME", 
+            "miens_compliant": "y", 
+            "study_id": "qiime:232", 
+            "sample_collection_id": "1063", 
+            "center_project_name": "Forensic_identification_using_skin_bacterial_communities", 
+            "sff_complete": "y", 
+            "submit_to_insdc": "n", 
+            "study_abstract": "Recent_work_has_demonstrated_that_the_diversity_of_skin-associated_bacterial_communities_is_far_higher_than_previously_recognized,_with_a_high_degree_of_interindividual_variability_in_the_composition_of_bacterial_communities._Given_that_skin_bacterial_communities_are_personalized,_we_hypothesized_that_we_could_use_the_residual_skin_bacteria_left_on_objects_for_forensic_identification,_matching_the_bacteria_on_the_object_to_the_skin-associated_bacteria_of_the_individual_who_touched_the_object._Here_we_describe_a_series_of_studies_de-monstrating_the_validity_of_this_approach._We_show_that_skin-associated_bacteria_can_be_readily_recovered_from_surfaces_(including_single_computer_keys_and_computer_mice)_and_that_the_structure_of_these_communities_can_be_used_to_differentiate_objects_handled_by_different_individuals,_even_if_those_objects_have_been_left_untouched_for_up_to_2_weeks_at_room_temperature._Furthermore,_we_demonstrate_that_we_can_use_a_high-throughput_pyrosequencing-based_ap-proach_to_quantitatively_compare_the_bacterial_communities_on_objects_and_skin_to_match_the_object_to_the_individual_with_a_high_degree_of_certainty._Although_additional_work_is_needed_to_further_establish_the_utility_of_this_approach,_this_series_of_studies_introduces_a_forensics_approach_that_could_eventually_be_used_to_independently_evaluate_results_obtained_using_more_traditional_forensic_practices.", 
+            "study_title": "Forensic_identification_using_skin_bacterial_communities", 
+            "investigation_type": "mimarks-survey", 
+            "id": "qiime:232", 
+            "study_alias": "fierer_forensic_keyboard"
+        }
+    ], 
+    []
+]

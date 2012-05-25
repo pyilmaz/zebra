@@ -1,0 +1,27 @@
+[
+    [
+        "study", 
+        "99-fierer_forensic_hand_mouse", 
+        {
+            "project_name": "fierer_forensic_hand_mouse", 
+            "metadata_complete": "y", 
+            "sample_count": "20", 
+            "pmid": "20231444", 
+            "study_type": "metagenome", 
+            "study_description": "forensic", 
+            "center_name": "CCME", 
+            "miens_compliant": "y", 
+            "study_id": "qiime:393", 
+            "sample_collection_id": "1678", 
+            "center_project_name": "Forensic_identification_using_skin_bacterial_communities_hand_mouse_comparisonForensic_identification_using_skin_bacterial_communities_hand_mouse_comparison_hand_mouse_comparison", 
+            "sff_complete": "y", 
+            "submit_to_insdc": "n", 
+            "study_abstract": "Recent work has demonstrated that the diversity of skin-associated bacterial communities is far higher than previously recognized, with a high degree of interindividual variability in the composition of bacterial communities. Given that skin bacterial communities are personalized, we hypothesized that we could use the residual skin bacteria left on objects for forensic identification, matching the bacteria on the object to the skin-associated bacteria of the individual who touched the object. Here we describe a series of studies de-monstrating the validity of this approach. We show that skin-associated bacteria can be readily recovered from surfaces (including single computer keys and computer mice) and that the structure of these communities can be used to differentiate objects handled by different individuals, even if those objects have been left untouched for up to 2 weeks at room temperature. Furthermore, we demonstrate that we can use a high-throughput pyrosequencing-based ap-proach to quantitatively compare the bacterial communities on objects and skin to match the object to the individual with a high degree of certainty. Although additional work is needed to further establish the utility of this approach, this series of studies introduces a forensics approach that could eventually be used to independently evaluate results obtained using more traditional forensic practices.", 
+            "study_title": "Forensic_identification_using_skin_bacterial_communities_hand_mouse_comparisonForensic_identification_using_skin_bacterial_communities_hand_mouse_comparison_hand_mouse_comparison", 
+            "investigation_type": "mimarks-survey", 
+            "id": "qiime:393", 
+            "study_alias": "fierer_forensic_hand_mouse"
+        }
+    ], 
+    []
+]

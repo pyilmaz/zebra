@@ -1,0 +1,951 @@
+[
+    [
+        "study", 
+        "95-bowers_storm_peak_air", 
+        {
+            "project_name": "bowers_storm_peak_air", 
+            "metadata_complete": "y", 
+            "sample_count": "11", 
+            "pmid": "19502432", 
+            "study_type": "metagenome", 
+            "study_description": "targeted gene survey", 
+            "center_name": "CCME", 
+            "miens_compliant": "y", 
+            "study_id": "qiime:314", 
+            "sample_collection_id": "1177", 
+            "center_project_name": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+            "sff_complete": "y", 
+            "submit_to_insdc": "n", 
+            "study_abstract": "Bacteria and fungi are ubiquitous in the atmosphere. The diversity and abundance of airborne microbes may be strongly influenced by atmospheric conditions or even influence atmospheric conditions themselves by acting as ice nucleators. However, few comprehensive studies have described the diversity and dynamics of airborne bacteria and fungi based on culture-independent techniques. We document atmospheric microbial abundance, community composition, and ice nucleation at a high-elevation site in northwestern Colorado. We used a standard small-subunit rRNA gene Sanger sequencing approach for total microbial community analysis and a bacteria-specific 16S rRNA bar-coded pyrosequencing approach (4,864 sequences total). During the 2-week collection period, total microbial abundances were relatively constant, ranging from 9.6 x 105 to 6.6 x 106 cells m???3 of air, and the diversity and composition of the airborne microbial communities were also relatively static. Bacteria and fungi were nearly equivalent, and members of the proteobacterial groups Burkholderiales and Moraxellaceae (particularly the genus Psychrobacter) were dominant. These taxa were not always the most abundant in freshly fallen snow samples collected at this site. Although there was minimal variability in microbial abundances and composition within the atmosphere, the number of biological ice nuclei increased significantly during periods of high relative humidity. However, these changes in ice nuclei numbers were not associated with changes in the relative abundances of the most commonly studied ice-nucleating bacteria.", 
+            "study_title": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+            "investigation_type": "mimarks-survey", 
+            "id": "qiime:314", 
+            "study_alias": "bowers_storm_peak_air"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "96.1-4.1.CD.N", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "relative_low_humidity": "79", 
+                    "COMMON_NAME": "air", 
+                    "sample_id": "qiime:144480", 
+                    "TAXON_ID": "655179", 
+                    "samp_size": "1", 
+                    "realtive_high_humidity": "101", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "4-1-2008-4-2-2008", 
+                    "observed_weather_conditions": "Cloudy skies, night, free troposphere, snowed 5 cm", 
+                    "altitude": "0.0", 
+                    "feature": "air", 
+                    "wind_speed_average": "24", 
+                    "sample_name": "4.1.CD.N", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "4.1.CD.N", 
+                    "wind_speed_maximum": "32", 
+                    "elevation": "3200.0", 
+                    "biome": "air", 
+                    "material": "air", 
+                    "DESCRIPTION": "air", 
+                    "temp": "-8.4", 
+                    "country": "United States of America", 
+                    "env_package": "air", 
+                    "longitude": "-106.744", 
+                    "depth": "0", 
+                    "collection_time": "21:00-07:30 (10.5 h total)"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "4.1.CD.N", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "96.1-3.24.CL.D", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "relative_low_humidity": "34", 
+                    "COMMON_NAME": "air", 
+                    "sample_id": "qiime:144481", 
+                    "TAXON_ID": "655179", 
+                    "samp_size": "1", 
+                    "realtive_high_humidity": "39", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "3-24-202008", 
+                    "observed_weather_conditions": "Clear skies, day, boundary layer", 
+                    "altitude": "0.0", 
+                    "feature": "air", 
+                    "wind_speed_average": "27", 
+                    "sample_name": "3.24.CL.D", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "3.24.CL.D", 
+                    "wind_speed_maximum": "37", 
+                    "elevation": "3200.0", 
+                    "biome": "air", 
+                    "material": "air", 
+                    "DESCRIPTION": "air", 
+                    "temp": "-2.5", 
+                    "country": "United States of America", 
+                    "env_package": "air", 
+                    "longitude": "-106.744", 
+                    "depth": "0", 
+                    "collection_time": "10:30-16:00 (5.5 h total)"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "3.24.CL.D", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "96.1-4.6.CD.N", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "relative_low_humidity": "92", 
+                    "COMMON_NAME": "air", 
+                    "sample_id": "qiime:144482", 
+                    "TAXON_ID": "655179", 
+                    "samp_size": "1", 
+                    "realtive_high_humidity": "99", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "4-6-2008-4-7-2008", 
+                    "observed_weather_conditions": "In cloud, night, free troposphere", 
+                    "altitude": "0.0", 
+                    "feature": "air", 
+                    "wind_speed_average": "25", 
+                    "sample_name": "4.6.CD.N", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "4.6.CD.N", 
+                    "wind_speed_maximum": "32", 
+                    "elevation": "3200.0", 
+                    "biome": "air", 
+                    "material": "air", 
+                    "DESCRIPTION": "air", 
+                    "temp": "-13.0", 
+                    "country": "United States of America", 
+                    "env_package": "air", 
+                    "longitude": "-106.744", 
+                    "depth": "0", 
+                    "collection_time": "21:00-08:00 (11 h total)"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "4.6.CD.N", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "96.1-4.3.CL.N", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "relative_low_humidity": "64", 
+                    "COMMON_NAME": "air", 
+                    "sample_id": "qiime:144483", 
+                    "TAXON_ID": "655179", 
+                    "samp_size": "1", 
+                    "realtive_high_humidity": "99", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "4-3-2008-4-4-2008", 
+                    "observed_weather_conditions": "Clear skies, night, free troposphere", 
+                    "altitude": "0.0", 
+                    "feature": "air", 
+                    "wind_speed_average": "20", 
+                    "sample_name": "4.3.CL.N", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "4.3.CL.N", 
+                    "wind_speed_maximum": "24", 
+                    "elevation": "3200.0", 
+                    "biome": "air", 
+                    "material": "air", 
+                    "DESCRIPTION": "air", 
+                    "temp": "-12.0", 
+                    "country": "United States of America", 
+                    "env_package": "air", 
+                    "longitude": "-106.744", 
+                    "depth": "0", 
+                    "collection_time": "20:15-08:30 (12.25 h total)"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "4.3.CL.N", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "96.1-4.2.CD.N", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "relative_low_humidity": "98", 
+                    "COMMON_NAME": "air", 
+                    "sample_id": "qiime:144484", 
+                    "TAXON_ID": "655179", 
+                    "samp_size": "1", 
+                    "realtive_high_humidity": "102", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "4-2-2008-4-3-2008", 
+                    "observed_weather_conditions": "Cloudy skies, night, free troposphere, snowed 5 cm", 
+                    "altitude": "0.0", 
+                    "feature": "air", 
+                    "wind_speed_average": "19", 
+                    "sample_name": "4.2.CD.N", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "4.2.CD.N", 
+                    "wind_speed_maximum": "23", 
+                    "elevation": "3200.0", 
+                    "biome": "air", 
+                    "material": "air", 
+                    "DESCRIPTION": "air", 
+                    "temp": "-8.5", 
+                    "country": "United States of America", 
+                    "env_package": "air", 
+                    "longitude": "-106.744", 
+                    "depth": "0", 
+                    "collection_time": "23:00-06:30 (7.5 h total)"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "4.2.CD.N", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "96.1-4.3.SN", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "TAXON_ID": "655179", 
+                    "sample_id": "qiime:144485", 
+                    "COMMON_NAME": "snow", 
+                    "samp_size": "1", 
+                    "biome": "snow field", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "4-3-202008", 
+                    "observed_weather_conditions": "Collected after exposed to ~2 h of sunlight", 
+                    "altitude": "0.0", 
+                    "feature": "snow field", 
+                    "sample_name": "4.3.SN", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "4.3.SN", 
+                    "elevation": "3200.0", 
+                    "material": "snow field", 
+                    "DESCRIPTION": "snow", 
+                    "country": "United States of America", 
+                    "env_package": "plant-associated", 
+                    "longitude": "-106.744", 
+                    "depth": "0"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "4.3.SN", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "96.1-4.5.CD.D", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "relative_low_humidity": "51", 
+                    "COMMON_NAME": "air", 
+                    "sample_id": "qiime:144486", 
+                    "TAXON_ID": "655179", 
+                    "samp_size": "1", 
+                    "realtive_high_humidity": "102", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "4-5-202008", 
+                    "observed_weather_conditions": "Cloudy skies, day, boundary layer", 
+                    "altitude": "0.0", 
+                    "feature": "air", 
+                    "wind_speed_average": "21", 
+                    "sample_name": "4.5.CD.D", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "4.5.CD.D", 
+                    "wind_speed_maximum": "29", 
+                    "elevation": "3200.0", 
+                    "biome": "air", 
+                    "material": "air", 
+                    "DESCRIPTION": "air", 
+                    "temp": "-4.8", 
+                    "country": "United States of America", 
+                    "env_package": "air", 
+                    "longitude": "-106.744", 
+                    "depth": "0", 
+                    "collection_time": "10:20-17:20 (7 h total)"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "4.5.CD.D", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "96.1-3.23.CL.N", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "relative_low_humidity": "40", 
+                    "COMMON_NAME": "air", 
+                    "sample_id": "qiime:144487", 
+                    "TAXON_ID": "655179", 
+                    "samp_size": "1", 
+                    "realtive_high_humidity": "57", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "3-23-2008-3-24-2008", 
+                    "observed_weather_conditions": "Clear skies, night, free troposphere", 
+                    "altitude": "0.0", 
+                    "feature": "air", 
+                    "wind_speed_average": "29", 
+                    "sample_name": "3.23.CL.N", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "3.23.CL.N", 
+                    "wind_speed_maximum": "36", 
+                    "elevation": "3200.0", 
+                    "biome": "air", 
+                    "material": "air", 
+                    "DESCRIPTION": "air", 
+                    "temp": "-7.0", 
+                    "country": "United States of America", 
+                    "env_package": "air", 
+                    "longitude": "-106.744", 
+                    "depth": "0", 
+                    "collection_time": "22:30-06:30 (8.5 h total)"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "3.23.CL.N", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "96.1-4.4.CL.N", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "relative_low_humidity": "39", 
+                    "COMMON_NAME": "air", 
+                    "sample_id": "qiime:144488", 
+                    "TAXON_ID": "655179", 
+                    "samp_size": "1", 
+                    "realtive_high_humidity": "51", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "4-4-2008-4-5-2008", 
+                    "observed_weather_conditions": "Clear skies, night, free troposphere", 
+                    "altitude": "0.0", 
+                    "feature": "air", 
+                    "wind_speed_average": "27", 
+                    "sample_name": "4.4.CL.N", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "4.4.CL.N", 
+                    "wind_speed_maximum": "36", 
+                    "elevation": "3200.0", 
+                    "biome": "air", 
+                    "material": "air", 
+                    "DESCRIPTION": "air", 
+                    "temp": "-5.0", 
+                    "country": "United States of America", 
+                    "env_package": "air", 
+                    "longitude": "-106.744", 
+                    "depth": "0", 
+                    "collection_time": "20:50-08:50 (12 h total)"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "4.4.CL.N", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "96.1-4.3.CD.D", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "relative_low_humidity": "95", 
+                    "COMMON_NAME": "air", 
+                    "sample_id": "qiime:144478", 
+                    "TAXON_ID": "655179", 
+                    "samp_size": "1", 
+                    "realtive_high_humidity": "101", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "4-3-202008", 
+                    "observed_weather_conditions": "In cloud, day, boundary layer, snowed 5 cm", 
+                    "altitude": "0.0", 
+                    "feature": "air", 
+                    "wind_speed_average": "23", 
+                    "sample_name": "4.3.CD.D", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "4.3.CD.D", 
+                    "wind_speed_maximum": "31", 
+                    "elevation": "3200.0", 
+                    "biome": "air", 
+                    "material": "air", 
+                    "DESCRIPTION": "air", 
+                    "temp": "-8.7", 
+                    "country": "United States of America", 
+                    "env_package": "air", 
+                    "longitude": "-106.744", 
+                    "depth": "0", 
+                    "collection_time": "07:00-13:00 (6.0 h total)"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "4.3.CD.D", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "96.1-4.7.SN", 
+                {
+                    "TITLE": "Characterization_of_airborne_microbial_communities_at_a_high_elevation_site_and_their_potential_to_act_as_atmospheric_ice_nuclei", 
+                    "TAXON_ID": "655179", 
+                    "sample_id": "qiime:144479", 
+                    "COMMON_NAME": "snow", 
+                    "samp_size": "1", 
+                    "biome": "snow field", 
+                    "assigned_from_geo": "n", 
+                    "collection_date": "4-7-202008", 
+                    "observed_weather_conditions": "Collected while still in a cloud", 
+                    "altitude": "0.0", 
+                    "feature": "snow field", 
+                    "sample_name": "4.7.SN", 
+                    "latitude": "40.455", 
+                    "public": "n", 
+                    "ANONYMIZED_NAME": "4.7.SN", 
+                    "elevation": "3200.0", 
+                    "material": "snow field", 
+                    "DESCRIPTION": "snow", 
+                    "country": "United States of America", 
+                    "env_package": "plant-associated", 
+                    "longitude": "-106.744", 
+                    "depth": "0"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "4.7.SN", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

@@ -1,0 +1,27 @@
+[
+    [
+        "study", 
+        "111-turnbaugh_hmice_generation_two", 
+        {
+            "project_name": "turnbaugh_hmice_generation_two", 
+            "metadata_complete": "y", 
+            "sample_count": "91", 
+            "pmid": "20368178", 
+            "study_type": "metagenome", 
+            "study_description": "The Effect of Diet on the Human Gut Microbiome", 
+            "center_name": "CGS-GL", 
+            "miens_compliant": "y", 
+            "study_id": "qiime:457", 
+            "sample_collection_id": "3374", 
+            "center_project_name": "Humanized mouse gut microbiome", 
+            "sff_complete": "y", 
+            "submit_to_insdc": "n", 
+            "study_abstract": "Diet and nutritional status are among the most important modifiable determinants of human health. The nutritional value of food is influenced in part by a person''s gut microbial community (microbiota) and its component genes (microbiome). Unraveling the interrelations among diet, the structure and operations of the gut microbiota, and nutrient and energy harvest is confounded by variations in human environmental exposures, microbial ecology, and genotype. To help overcome these problems, we created a well-defined, representative animal model of the human gut ecosystem by transplanting fresh or frozen adult human fecal microbial communities into germ-free C57BL/6J mice. Culture-independent metagenomic analysis of the temporal, spatial, and intergenerational patterns of bacterial colonization showed that these humanized mice were stably and heritably colonized and reproduced much of the bacterial diversity of the donor''s microbiota. Switching from a low-fat, plant polysaccharide???rich diet to a high-fat, high-sugar ", 
+            "study_title": "Temporal and spatial analyses of the human gut microbiome after transplantation into germ-free mouse recipients reveal stable and hereditable colonization, with rapid and reproducible effects of recipient dietary shifts, overruling legacy effects and affecting community composition, gene content, and gene expression.", 
+            "investigation_type": "mimarks-survey", 
+            "id": "qiime:457", 
+            "study_alias": "turnbaugh_hmice_generation_two"
+        }
+    ], 
+    []
+]

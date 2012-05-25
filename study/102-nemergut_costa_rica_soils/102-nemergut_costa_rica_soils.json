@@ -1,0 +1,2133 @@
+[
+    [
+        "study", 
+        "102-nemergut_costa_rica_soils", 
+        {
+            "project_name": "nemergut_costa_rica_soils", 
+            "metadata_complete": "y", 
+            "sample_count": "27", 
+            "study_type": "metagenome", 
+            "study_description": "Targeted 16S rRNA gene Survey", 
+            "center_name": "CCME", 
+            "miens_compliant": "y", 
+            "study_id": "qiime:397", 
+            "sample_collection_id": "1778", 
+            "center_project_name": "NULL", 
+            "sff_complete": "y", 
+            "submit_to_insdc": "n", 
+            "study_abstract": "Little is known about the organisms responsible for decomposition in terrestrial ecosystems, or how variations in their relative abundance may influence soil carbon (C) cycling. Here, we altered organic matter in situ by manipulating both litter and throughfall inputs to tropical rainforest soils, and then used QPCR and error-corrected bar coded pyrosequencing to investigate how the resulting changes in biogeochemical properties affected microbial community structure. The plot-scale manipulations drove significant changes in microbial community composition: Acidobacteria were present in greater relative abundance in litter removal plots than in double litter plots, while Alphaproteobacteria were found in higher relative abundance in double litter and throughfall reduction plots than in control or litter removal plots. In addition, the bacterial:archaeal ratio was higher in double litter than no litter plots. The relative abundances of Actinobacteria, Alphaproteobacteria and Gammaproteobacteria were positively correlated with microbial biomass C and nitrogen (N), and soil N and C pools, while acidobacterial relative abundance was negatively correlated with these same factors. Bacterial:archaeal ratios were positively correlated with soil moisture, total soil C and N, extractable ammonium pools, and soil C:N ratios. Additionally, bacterial:archaeal ratios were positively related to the relative abundance of Actinobateria, Gammaproteobacteria, and Actinobacteria, and negatively correlated to the relative abundance of Nitrospira and Acidobacteria. Together, our results support the copiotrophic/oligotrophic model of soil heterotrophic microbes suggested by Fierer et al. (2007). Our work also provides new insight into the role of Archaea, and suggests that the majority of Archaea in this tropical rainforest soil may be autotrophic nitrifiers which have a selective advantage when soil C:N ratios are low.", 
+            "study_title": "Plot-scale manipulations of organic matter inputs to soils correlate with shifts in microbial community composition in a lowland tropical rainforest", 
+            "investigation_type": "mimarks-survey", 
+            "id": "qiime:397", 
+            "study_alias": "nemergut_costa_rica_soils"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "103.1-37", 
+                {
+                    "sample_id": "qiime:144403", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  50% rainfall exclusion plot, sampled 6_08, rep 1", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "37", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample16"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "37", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-34", 
+                {
+                    "sample_id": "qiime:144404", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, litter removal plot, sampled 10_08, rep 1", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "34", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample13"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "34", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-26", 
+                {
+                    "sample_id": "qiime:144405", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, control, sampled 6_08, rep 2", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "26", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample05"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "26", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-46", 
+                {
+                    "sample_id": "qiime:144406", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  2X litter plot, sampled 10_08, rep 1", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "46", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample25"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "46", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-40", 
+                {
+                    "sample_id": "qiime:144407", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  50% rainfall exclusion plot, sampled 10_08, rep 1", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "40", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample19"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "40", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-39", 
+                {
+                    "sample_id": "qiime:144408", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  50% rainfall exclusion plot, sampled 6_08, rep 3", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "39", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample18"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "39", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-48", 
+                {
+                    "sample_id": "qiime:144409", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  2X litter plot, sampled 10_08, rep 3", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "48", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample27"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "48", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-38", 
+                {
+                    "sample_id": "qiime:144410", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  50% rainfall exclusion plot, sampled 6_08, rep 2", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "38", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample17"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "38", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-33", 
+                {
+                    "sample_id": "qiime:144411", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, litter removal plot, sampled 6_08, rep 3", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "33", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample12"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "33", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-32", 
+                {
+                    "sample_id": "qiime:144412", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, litter removal plot, sampled 6_08, rep 2", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "32", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample11"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "32", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-47", 
+                {
+                    "sample_id": "qiime:144413", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  2X litter plot, sampled 10_08, rep 2", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "47", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample26"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "47", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-24", 
+                {
+                    "sample_id": "qiime:144414", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, control, sampled 4_08, rep 3", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Apr", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "24", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample03"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "24", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-35", 
+                {
+                    "sample_id": "qiime:144415", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, litter removal plot, sampled 10_08, rep 2", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "35", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample14"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "35", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-44", 
+                {
+                    "sample_id": "qiime:144416", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  2X litter plot, sampled 6_08, rep 2", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "44", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample23"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "44", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-25", 
+                {
+                    "sample_id": "qiime:144417", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, control, sampled 6_08, rep 1", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "25", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample04"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "25", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-41", 
+                {
+                    "sample_id": "qiime:144418", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  50% rainfall exclusion plot, sampled 10_08, rep 2", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "41", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample20"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "41", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-45", 
+                {
+                    "sample_id": "qiime:144419", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  2X litter plot, sampled 6_08, rep 3", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "45", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample24"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "45", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-23", 
+                {
+                    "sample_id": "qiime:144420", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, control, sampled 4_08, rep 2", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Apr", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "23", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample02"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "23", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-43", 
+                {
+                    "sample_id": "qiime:144421", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  2X litter plot, sampled 6_08, rep 1", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "43", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample22"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "43", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-29", 
+                {
+                    "sample_id": "qiime:144422", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, control, sampled 10_08, rep 2", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "29", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample08"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "29", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-42", 
+                {
+                    "sample_id": "qiime:144423", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil,  50% rainfall exclusion plot, sampled 10_08, rep 3", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "42", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample21"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "42", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-36", 
+                {
+                    "sample_id": "qiime:144424", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, litter removal plot, sampled 10_08, rep 3", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "36", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample15"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "36", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-27", 
+                {
+                    "sample_id": "qiime:144425", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, control, sampled 6_08, rep 3", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "27", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample06"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "27", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-31", 
+                {
+                    "sample_id": "qiime:144426", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, litter removal plot, sampled 6_08, rep 1", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Jun", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "31", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample10"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "31", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-30", 
+                {
+                    "sample_id": "qiime:144427", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, control, sampled 10_08, rep 3", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "30", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample09"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "30", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-22", 
+                {
+                    "sample_id": "qiime:144428", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, control, sampled 4_08, rep 1", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Apr", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "22", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample01"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "22", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "103.1-28", 
+                {
+                    "sample_id": "qiime:144429", 
+                    "biome": "Tropical humid forests", 
+                    "samp_collect_device": "push core", 
+                    "material": "soil", 
+                    "elevation": "100.0", 
+                    "DESCRIPTION": "Costa Rican soil, control, sampled 10_08, rep 1", 
+                    "TITLE": "CR soil metagenome", 
+                    "collection_date": "8-Oct", 
+                    "country": "Costa Rica", 
+                    "COMMON_NAME": "soil metagenome", 
+                    "env_package": "soil", 
+                    "feature": "watershed", 
+                    "longitude": "-83.616667", 
+                    "samp_size": "50 g", 
+                    "latitude": "8.71667", 
+                    "depth": "10", 
+                    "sample_name": "28", 
+                    "TAXON_ID": "410658", 
+                    "assigned_from_geo": "n", 
+                    "public": "y", 
+                    "ANONYMIZED_NAME": "sample07"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "28", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

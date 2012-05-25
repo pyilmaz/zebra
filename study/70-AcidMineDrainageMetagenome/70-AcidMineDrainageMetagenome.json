@@ -1,0 +1,261 @@
+[
+    [
+        "study", 
+        "70-AcidMineDrainageMetagenome", 
+        {
+            "PI_organization_address": "Berkeley, CA ", 
+            "PI_organization_url": "http://espm.berkeley.edu", 
+            "PI_lastname": "Banfield", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Acid Mine Drainage Metagenome", 
+            "PI_organization_country": "USA", 
+            "ncbi_id": "13696", 
+            "project_description": "Samples of biofilms associated acid mine drainage were collected from the Richmond Mine, Iron Mountain, CA, from the 5-way (CG) and Ultra Back A (UBA) sites. Iron Mountain is located at 40 deg 40' 38.42'' N and 122 deg 31' 19.90'' W (elevation ~ 3,100 ft)..\r\n5-Way (CG) Acid Mine Drainage Biofilm Metagenome\r\nThe Richmond mine at Iron Mountain, California, is an acid mine drainage (AMD) superfund site. AMD is a worldwide environmental problem that arises largely from microbial activity. Acid solutions form when rocks rich in sulfide minerals are oxidized upon exposure to air and water (acid rock drainage), but the rates of sulfide oxidation are typically slow and the sulfuric acid is rapidly neutralized by interaction with surrounding silicate minerals (hydrolysis reactions). Perhaps one of the most intriguing aspects of the AMD problem is that the majority of the AMD formed is due directly to microbial activity. This project is a genome-based approach that enables culture-independent understanding of microbial activity relevant to geochemical processes that occur in AMD systems. The biofilm sequencing project was designed to explore the distribution and diversity of metabolic pathways in these communities (e.g., nitrogen fixation, sulfur oxidation, iron oxidation), in order to understand the mechanisms by which the microbes tolerate the environmental extremes, and to evaluate how these tolerance mechanisms impact the geochemistry of the environment . This community sample was collected from a low-complexity microbial biofilm growing hundreds of feet underground within a pyrite (FeS2) ore body. This represents a self-contained biogeochemical system characterized by tight coupling between microbial iron oxidation and acidification due to pyrite dissolution. Samples of pink biofilm and associated acid mine drainage were collected from the Richmond Mine, Iron Mountain CA from the 5-way (CG) site in March 2002. Iron Mountain is located at 40 deg 40' 38.42'' N and 122 deg 31' 19.90'' W (Elevation ~ 3,100 ft). The 5-way biofilm was growing at pH 0.83 on the surface of 42 deg C AMD solution. Random shotgun sequencing of this biofilm resulted in the first reconstruction of multiple genomes directly from an environmental sample.", 
+            "PI_email": "jbanfield@berkeley.edu", 
+            "PI_organization": "University of California - Berkeley", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "NSF, DOE Joint Genome Institute", 
+            "PI_firstname": "Jillian"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "71.1-mgs10214", 
+                {
+                    "biome": "mine drainage ; microbial mat", 
+                    "samp_collect_device": "Pink biofilm from the UBA location was collected from the drainage of the ~2 mile high slope of the Richmond Mine. Isolated by the plate overlay method.", 
+                    "material": "mine drainage ; microbial mat", 
+                    "elevation": "3100", 
+                    "temperature": "41", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2005-06-01", 
+                    "country": "United States of America", 
+                    "altitude": "3100", 
+                    "env_package": "built environment", 
+                    "feature": "mine drainage ; microbial mat", 
+                    "longitude": "-122.522", 
+                    "isol_growth_condt": "19429552", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": ".05", 
+                    "location": "Richmond Mine, Iron Mountain, CA", 
+                    "sample_name": "mgs10214", 
+                    "latitude": "40.68", 
+                    "samp_size": "several hundred grams of suspension", 
+                    "ph": "1.1", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "3000", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "UBA Acid Mine Drainage Biofilm", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00001", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "sanger", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "7 scaffolds", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "19429552, 19698104, 17344860", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "71.1-mgs17470", 
+                {
+                    "biome": "mine drainage", 
+                    "samp_collect_device": "Samples of pink biofilm and associated acid mine drainage were collected from the Richmond Mine, Iron Mountain CA from the 5-way (CG) site in March 2002.", 
+                    "material": "mine drainage", 
+                    "elevation": "3100", 
+                    "temperature": "42", 
+                    "collection_timezone": "UTC", 
+                    "collection_date": "2002-03-01", 
+                    "country": "United States of America", 
+                    "altitude": "3100", 
+                    "samp_mat_process": "DNA extraction", 
+                    "feature": "mine drainage", 
+                    "longitude": "-122.522", 
+                    "isol_growth_condt": "15879173", 
+                    "geodetic_system": "wgs_84", 
+                    "depth": ".05", 
+                    "location": "Richmond Mine, Iron Mountain, CA", 
+                    "sample_name": "mgs17470", 
+                    "latitude": "40.68", 
+                    "samp_size": "several hundred grams of suspension", 
+                    "ph": ".83", 
+                    "continent": "north_america"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "130000000", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "5-Way (CG) Acid Mine Drainage Biofilm", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00001", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "sanger", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "19698104, 18651792, 17603112, 15879173, 15845853, 14961025", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

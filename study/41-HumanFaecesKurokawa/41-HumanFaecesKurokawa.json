@@ -1,0 +1,1632 @@
+[
+    [
+        "study", 
+        "41-HumanFaecesKurokawa", 
+        {
+            "PI_organization_address": "Tokyo, Japan", 
+            "PI_organization_url": "http://www.cb.k.u-tokyo.ac.jp", 
+            "PI_lastname": "hattori", 
+            "firstname": " - ", 
+            "lastname": " - ", 
+            "project_name": "Human Faeces - Kurokawa", 
+            "PI_organization_country": "Japan", 
+            "ncbi_id": "28117", 
+            "project_description": "\r\n\t\r\nProject data\r\nNumerous microbes inhabit the human intestine, many of which are uncharacterized or uncultivable. They form a complex microbial community that deeply affects human physiology. To identify the genomic features common to all human gut microbiomes as well as those variable among them, we performed a large-scale comparative metagenomic analysis of fecal samples from 13 healthy individuals of various ages, including unweaned infants. All the subjects were healthy Japanese individuals. All subjects or their parents were informed of the purpose and protocol of this study. None of the subjects were given dietary restrictions except for antibiotics, probiotics, fermented foods (fermented beans, yogurt, etc.), and well-known functional foods for at least 4 weeks prior to sampling. None had a history of gastrointestinal disorder at the time of sampling, and none had unusual eating behaviors.", 
+            "PI_email": "hattori@k.u-tokyo.ac.jp", 
+            "PI_organization": "\t The University of Tokyo and the University of Miyazaki", 
+            "organization": " - ", 
+            "organization_address": " - ", 
+            "organization_country": " - ", 
+            "organization_url": " - ", 
+            "email": " - ", 
+            "project_funding": "Grants-in-Aid for Scientific Research on Priority Areas .Comprehensive Genomics. (M.H.) and .Applied Genomics. (T.H. and T.K.) from the Ministry of Education, Science, and Technology of Japan, and a Grant-in-Aid from the Institute for Bioinformatics Research and Development, the Japan Science and Technology Agency (BIRD-JST) (K.K.)", 
+            "PI_firstname": "Masahira"
+        }
+    ], 
+    [
+        [
+            [
+                "sample", 
+                "42.1-mgs13549", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs13549", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "2289.8", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - F2-W", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "6778", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs13660", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs13660", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "3701.6", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - In-B", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1721", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs13771", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs13771", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "3375.1", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - In-M", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "4794", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs13882", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs13882", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "2296.0", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - F2 - X", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "5032", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs13993", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs13993", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "2809.0", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - In-A", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "2809.0", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs14104", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs14104", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "1980.4", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - F1-T", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "7389", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs14215", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17922755", 
+                    "sample_name": "mgs14215", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "2044.2", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - F2-Y", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "9159", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs14326", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs14326", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "2159.1", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - In-D", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "7613", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs14437", 
+                {
+                    "isol_growth_condt": "17916580", 
+                    "longitude_direction": "E", 
+                    "continent": "asia", 
+                    "biome": "animal-associated habitat", 
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "latitude_value": "35.7134", 
+                    "samplingtime_minute": "mm", 
+                    "feature": "animal-associated habitat", 
+                    "geodetic_system": "wgs_84", 
+                    "sample_name": "mgs14437", 
+                    "latitude": "35.7134", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "longitude_value": "139.7623", 
+                    "material": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "collection_timezone": "UTC", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "longitude": "139.7623", 
+                    "samplingtime_second": "ss", 
+                    "collection_date": "2007-01-01", 
+                    "latitude_direction": "N", 
+                    "samplingtime_hour": "hh"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - In-R", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "mimarks-survey", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs14548", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs14548", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "2008.7", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - F2-V", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "7919", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs14660", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs14660", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "2779.4", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - F1-U", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "4854", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs14771", 
+                {
+                    "biome": "animal-associated habitat", 
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00c2\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00c2\u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00c2\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00c2\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00c2\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00c2\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs14771", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "2153.6 ; Basepairs", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - F1-S", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "7545", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ], 
+        [
+            [
+                "sample", 
+                "42.1-mgs14882", 
+                {
+                    "samp_collect_device": "The collected fecal samples were immediately placed under anaerobic conditions using the Anaero-Pack system (Mitsubishi Gas Chemical Co.), and transported at 4\u00b0C to the laboratory within 24 h. Three grams of wet fecal sample were suspended vigorously in phosphate-buffered saline (8 mM Na2HPO4, 137 mM NaCl, 2.7 mM KCl, and 1.5 mM KH2PO4). The suspension was filtered through a 100 \u00b5m mesh nylon filter (Falcon). The bacterial cells in the filtrates were collected by centrifugation at 5000 x g for 10 min at 4\u00b0C, suspended in 10 ml of Tris-EDTA containing 10 mM Tris-HCl and 1 mM EDTA (pH 8), and then used for DNA isolation. The lysis of bacterial cells was carried out under almost the same conditions as those described in the literature.26Go In brief, 1.5 mg of lysozyme was added to 10 ml of cell suspension. After incubation at 37\u00b0C for 1 h with gentle mixing, 2 mg of proteinase K were added and the mixture was incubated at 55\u00b0C for 5 min. Subsequently, 1.2 ml of 10% (wt/vol) sodium dodecyl sulfate was added to the cell suspension, which was further incubated at 55\u00b0C for 1 h with gentle mixing. High-molecular-weight DNA was isolated and purified by phenol/chloroform extraction, RNase A treatment, ethanol, and finally polyethyleneglycol precipitation.", 
+                    "biome": "animal-associated habitat", 
+                    "samp_mat_process": "filtering", 
+                    "material": "animal-associated habitat", 
+                    "samp_size": "3 grams of wet fecal matter", 
+                    "geodetic_system": "wgs_84", 
+                    "collection_date": "2007-01-01", 
+                    "country": "Japan", 
+                    "env_package": "human-gut", 
+                    "feature": "animal-associated habitat", 
+                    "longitude": "139.7623", 
+                    "isol_growth_condt": "17916580", 
+                    "sample_name": "mgs14882", 
+                    "latitude": "35.7134", 
+                    "collection_timezone": "UTC", 
+                    "continent": "asia"
+                }
+            ], 
+            [
+                "experiment", 
+                [
+                    [
+                        "library", 
+                        {
+                            "lib_size_mean": {
+                                "definition": "Mean size of library clones", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "2301.1", 
+                                "type": "float", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_size_mean"
+                                ]
+                            }, 
+                            "lib_type": {
+                                "definition": "Type of library used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "small insert shotgun", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_library_type"
+                                ]
+                            }, 
+                            "gold_id": {
+                                "definition": "External GOLD ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "Gm00100", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_gold_id"
+                                ]
+                            }, 
+                            "seq_meth": {
+                                "definition": "Sequencing method used. Use one of: Sanger, pyrosequencing, ABI-solid, 454, Illumina, assembeled, other", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "other", 
+                                "type": "select", 
+                                "unit": "", 
+                                "aliases": [
+                                    "sequencing_sequencing_method", 
+                                    "sequencing_meth"
+                                ]
+                            }, 
+                            "metagenome_name": {
+                                "definition": "Unique name for the sequences from this library", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "Human Faecal Sample - Kurokawa - In-E", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "project-description_metagenome_name"
+                                ]
+                            }, 
+                            "454_regions": {
+                                "definition": "Number of regions used. For 454 only", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "4819", 
+                                "type": "int", 
+                                "unit": "", 
+                                "aliases": [
+                                    "library-construction---metagenome--_mg_454_number_regions"
+                                ]
+                            }, 
+                            "investigation_type": {
+                                "definition": "Library construction type. This field is either metagenome for whole genome shotgun sequencing or mimarks-survey for amplicon/16S rRNA sequencing", 
+                                "mixs": "1", 
+                                "required": "1", 
+                                "value": "metagenome", 
+                                "type": "select", 
+                                "unit": ""
+                            }, 
+                            "pubmed_id": {
+                                "definition": "External Pubmed ID", 
+                                "mixs": "0", 
+                                "required": "0", 
+                                "value": "17916580", 
+                                "type": "text", 
+                                "unit": "", 
+                                "aliases": [
+                                    "external-ids_pubmed_id"
+                                ]
+                            }, 
+                            "sample_name": {
+                                "definition": "Unique name or id of the sample the library is derived from", 
+                                "mixs": "0", 
+                                "required": "1", 
+                                "value": "", 
+                                "type": "text", 
+                                "unit": ""
+                            }
+                        }
+                    ]
+                ]
+            ]
+        ]
+    ]
+]
